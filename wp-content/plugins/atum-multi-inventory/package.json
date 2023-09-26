@@ -1,0 +1,41 @@
+{
+	"name": "atum-multi-inventory",
+	"version": "1.5.4",
+	"author": "Be Rebel Studio - https://berebel.io",
+	"homepage": "https://www.stockmanagementlabs.com/addons/atum-multi-inventory",
+	"private": true,
+	"repository": {
+		"type": "git"
+	},
+	"license": "Copyrighted",
+	"engines": {
+		"node": "14"
+	},
+	"devDependencies": {
+		"@types/es6-shim": "^0.31.40",
+		"@types/jquery": "^2.0.46",
+		"autoprefixer": "^10.2.5",
+		"eslint": "^7.22.0",
+		"eslint-webpack-plugin": "^2.5.3",
+		"gulp": "^4.0.2",
+		"gulp-autoprefixer": "^7.0.1",
+		"gulp-composer": "^0.4.5",
+		"gulp-filter": "^6.0.0",
+		"gulp-if": "^3.0.0",
+		"gulp-livereload": "^4.0.2",
+		"gulp-notify": "^3.2.0",
+		"gulp-plumber": "^1.2.1",
+		"gulp-sass": "^4.1.0",
+		"gulp-sourcemaps": "^3.0.0",
+		"gulp-wrap": "^0.15.0",
+		"sweetalert2": "^10.15.6",
+		"ts-loader": "^8.0.18",
+		"typescript": "^4.2.3",
+		"webpack": "^4.46.0",
+		"webpack-stream": "^6.1.2"
+	},
+	"dependencies": {
+		"featherlight": "1.7.13",
+		"js-cookie": "^2.2.1"
+	}
+}

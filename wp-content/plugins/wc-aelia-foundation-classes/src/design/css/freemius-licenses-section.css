@@ -1,0 +1,73 @@
+/* CSS Styles for Admin pages */
+.aelia-freemius-plugin-manager.license {
+	background: white;
+	padding: 10px 8px 4px;
+	margin-bottom: 25px;
+	border: 1px solid #c3c4c7;
+}
+
+.aelia-freemius-plugin-manager.license .license_expiration_section,
+.aelia-freemius-plugin-manager.license .license_key_section {
+	background-color: #efefef;
+}
+
+.aelia-freemius-plugin-manager.license .license_key_section,
+.aelia-freemius-plugin-manager.license .license_status_section,
+.aelia-freemius-plugin-manager.license .license_expiration_section {
+	padding: 8px 0;
+}
+
+.aelia-freemius-plugin-manager.license .plugin_name .title {
+	font-size: large;
+	padding-bottom: 10px;
+	display: block;
+}
+
+.aelia-freemius-plugin-manager.license .license_key_wrapper,
+.aelia-freemius-plugin-manager.license .actions {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.aelia-freemius-plugin-manager.license .actions {
+	padding: 10px 0;
+}
+
+.aelia-freemius-plugin-manager.license .label {
+	font-weight: bold;
+	margin-right: 4px;
+	padding-left: 8px;
+	width: 15em;
+	display: inline-block;
+	font-size: 13px;
+}
+
+.aelia-freemius-plugin-manager.license .license_error_message .error_message {
+	color: red;
+}
+
+.aelia-freemius-plugin-manager.license .label:first-child {
+	margin-left: 0;
+}
+
+.aelia-freemius-plugin-manager.license a,
+.aelia-freemius-plugin-manager.license span {
+	font-size: 14px;
+}
+
+.aelia-freemius-plugin-manager.license.active .license_status {
+	font-weight: bold;
+}
+
+.aelia-freemius-plugin-manager.license.active .license_status {
+	color: green;
+}
+
+.aelia-freemius-plugin-manager.license.inactive .license_status {
+	color: darkgray;
+}
+
+.aelia-freemius-plugin-manager.license .actions .action {
+	font-weight: bold;
+	margin-right: 20px;
+}

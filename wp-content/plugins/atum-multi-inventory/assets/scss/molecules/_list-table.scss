@@ -1,0 +1,171 @@
+//
+// ATUM List table customizations
+//--------------------------------
+
+.atum-list-table {
+	
+	.column-groups {
+		th.multi-inventory {
+			background-color: rgba( $green-light, .2 );
+		}
+	}
+	
+	.item-heads {
+		th {
+			&.column-mi_inventory_date {
+				text-align: center;
+			}
+			
+			&.column-calc_mi_status {
+				.column-text {
+					display: none;
+					
+				}
+			}
+		}
+	}
+	
+	tbody {
+		
+		td {
+			&.calc_mi_status {
+				
+				i {
+					font-size: 20px;
+					color: var(--gray-500);
+				}
+				
+				.multi-inventory {
+					cursor: pointer;
+					display: block;
+					
+					i {
+						color: var(--success);
+					}
+					
+					.count {
+						position: absolute;
+						top: 5px;
+						font-size: 10px;
+						font-weight: 500;
+						color: var(--success);
+					}
+					
+					&:hover  {
+						i {
+							&:before {
+								content: $atmi-wc-expand;
+							}
+						}
+					}
+					
+				}
+				
+			}
+			
+			&.calc_mi_regions {
+				a.show-inventory-regions {
+					&:not(.not-empty) {
+						color: var(--atum-text-color-var1);
+					}
+				}
+			}
+		}
+		
+		tr {
+			td {
+				&.calc_mi_status {
+					.multi-inventory-children {
+						i {
+							color: var(--atum-table-link-text);
+						}
+					}
+				}
+			}
+			
+			&.expanded {
+				td {
+					&.calc_mi_status {
+						.multi-inventory {
+							font-size: 20px;
+							color: var(--success);
+							
+							&:before {
+								content: $atmi-arrow-up-circle;
+								@include atum-icon-font-family;
+							}
+							
+							i {
+								display: none;
+							}
+							
+							.count {
+								padding-left: 3px;
+							}
+							
+						}
+						
+						.multi-inventory-children {
+							i {
+								color: var(--atum-table-icon-active);
+							}
+						}
+					}
+				}
+			}
+			
+			&.mi-row {
+				background-color: rgba( $green-light, .2 ) !important;
+				
+				&.active-row {
+					background-color: var(--atum-row-active) !important;
+				}
+				
+				.check-column {
+					input[type=checkbox] {
+						margin-left: 46px;
+					}
+				}
+				
+				td {
+					
+					&.has-row-actions {
+						color: var(--blue);
+					}
+					
+					&.column-title {
+						.atmi-arrow-child {
+							color: var(--success);
+						}
+						
+						i {
+							font-size: 17px;
+							color: var(--success);
+						}
+						
+						img {
+							display: inline-block;
+							vertical-align: middle;
+							max-width: 17px;
+						}
+					}
+				}
+				
+				&.extra-indent {
+					
+					.check-column {
+						input[type=checkbox] {
+							margin-left: 30px;
+						}
+					}
+					
+					.atmi-arrow-child {
+						margin-left: 13px;
+					}
+				}
+				
+			}
+		}
+	}
+	
+}

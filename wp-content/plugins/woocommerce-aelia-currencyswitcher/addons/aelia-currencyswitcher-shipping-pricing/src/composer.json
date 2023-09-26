@@ -1,0 +1,9 @@
+{
+	"require-dev": {
+		"mockery/mockery": "^1.3"
+  },
+	"autoload" : {
+		"classmap": ["lib/classes/"],
+		"exclude-from-classmap": ["lib/classes/**/shipping_method_template.php"]
+	}
+}

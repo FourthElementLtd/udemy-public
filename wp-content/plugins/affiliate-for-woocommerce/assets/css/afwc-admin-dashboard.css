@@ -1,0 +1,103 @@
+/* phpcs:ignoreFile */
+/* Loader CSS */
+.afwc-loader-container {
+	height: 100%;
+	width: 100%;
+	background-color: #fff;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 9999999;
+	opacity: 0.4;
+}
+.afwc-loader {
+	display: inline-block;
+	width: 128px;
+	height: 82px;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+}
+.afwc-loader div {
+	animation: fw-loader 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+	transform-origin: 32px 32px;
+}
+.afwc-loader div:after {
+	content: " ";
+	display: block;
+	position: absolute;
+	width: 8px;
+	height: 8px;
+	border-radius: 50%;
+	background: #7974b0;
+	margin: -3px 0 0 -3px;
+}
+.afwc-loader div:nth-child(1) {
+	animation-delay: -0.036s;
+}
+.afwc-loader div:nth-child(1):after {
+	top: 50px;
+	left: 50px;
+}
+.afwc-loader div:nth-child(2) {
+	animation-delay: -0.072s;
+}
+.afwc-loader div:nth-child(2):after {
+	top: 54px;
+	left: 45px;
+}
+.afwc-loader div:nth-child(3) {
+	animation-delay: -0.108s;
+}
+.afwc-loader div:nth-child(3):after {
+	top: 57px;
+	left: 39px;
+}
+.afwc-loader div:nth-child(4) {
+	animation-delay: -0.144s;
+}
+.afwc-loader div:nth-child(4):after {
+	top: 58px;
+	left: 32px;
+}
+.afwc-loader div:nth-child(5) {
+	animation-delay: -0.18s;
+}
+.afwc-loader div:nth-child(5):after {
+	top: 57px;
+	left: 25px;
+}
+.afwc-loader div:nth-child(6) {
+	animation-delay: -0.216s;
+}
+.afwc-loader div:nth-child(6):after {
+	top: 54px;
+	left: 19px;
+}
+.afwc-loader div:nth-child(7) {
+	animation-delay: -0.252s;
+}
+.afwc-loader div:nth-child(7):after {
+	top: 50px;
+	left: 14px;
+}
+.afwc-loader div:nth-child(8) {
+	animation-delay: -0.288s;
+}
+.afwc-loader div:nth-child(8):after {
+	top: 45px;
+	left: 10px;
+}
+@keyframes fw-loader {
+	0% {
+		transform: rotate(0deg);
+	}
+	100% {
+		transform: rotate(360deg);
+	}
+}
+.afwc-loader-text{
+	top: 65%;
+	left: 47%;
+	position: fixed;
+}

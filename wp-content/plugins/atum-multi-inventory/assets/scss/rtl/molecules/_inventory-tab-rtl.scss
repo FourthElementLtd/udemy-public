@@ -1,0 +1,29 @@
+//
+// Inventory tab RTL
+//---------------
+
+.multi-inventory-fields {
+	
+	.main-controls {
+		
+		.bulk-actions {
+			
+			button {
+				margin-left: 0px;
+				margin-right: 10px;
+			}
+		}
+	}
+	
+	.inventory-group {
+		
+		.inventory-info {
+			
+			.controls-bar{
+				left: 0;
+				right: auto;
+			}
+		}
+	}
+	
+}

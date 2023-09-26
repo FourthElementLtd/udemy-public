@@ -1,0 +1,42 @@
+//
+// Regions Modal component
+//--------------------------
+
+.regions-modal {
+	
+	.atum-loading {
+		top: 5px !important;
+	}
+	
+	.inventory-regions {
+		position: relative;
+		min-height: 52px;
+		margin-top: 25px;
+		
+		> ul {
+			font-size: 15px;
+			line-height: 1.3;
+			white-space: nowrap;
+			padding: 0 10px;
+			border: 1px solid var(--info);
+			border-radius: 6px;
+			text-align: left;
+			
+			li {
+				padding: 12px 6px;
+				
+				&:before {
+					content: $atmi-earth;
+					@include atum-icon-font-family;
+					margin-right: 7px;
+					vertical-align: middle;
+				}
+				
+				&:not(:first-child) {
+					border-top: 1px solid var(--gray-200);
+				}
+			}
+		}
+	}
+	
+}

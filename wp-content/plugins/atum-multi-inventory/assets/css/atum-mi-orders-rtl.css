@@ -1,0 +1,10 @@
+/** 
+ * ATUM Multi-Inventory CSS 
+ * @version 1.5.6 
+ * @author Be Rebel 
+ *
+ * Author URI: https://berebel.io 
+ * License : ©2021 Stock Management Labs 
+ */ 
+
+div#woocommerce-order-items .order-item-mi-panel .order-item-inventory .inventory-header .inventory-name,div#atum_order_items .order-item-mi-panel .order-item-inventory .inventory-header .inventory-name{text-align:right;padding-left:auto;padding-right:0 !important}div#woocommerce-order-items .order-item-mi-panel .order-item-inventory .inventory-info .inventory-field,div#atum_order_items .order-item-mi-panel .order-item-inventory .inventory-info .inventory-field{display:-webkit-box;display:-ms-flexbox;display:flex}div#woocommerce-order-items .order-item-mi-panel .order-item-inventory .inventory-info h6,div#atum_order_items .order-item-mi-panel .order-item-inventory .inventory-info h6{text-align:right}

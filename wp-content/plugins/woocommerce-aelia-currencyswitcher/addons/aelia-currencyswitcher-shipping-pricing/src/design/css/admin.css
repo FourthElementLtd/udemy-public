@@ -1,0 +1,57 @@
+/* CSS Styles for Admin pages */
+
+#wc_aelia_cs_shippingpricing_form .buttons {
+	margin-top: 2em;
+}
+
+#wc_aelia_cs_shippingpricing_form label,
+#wc_aelia_cs_shippingpricing_form .label {
+	font-weight: bold;
+}
+
+#wc_aelia_cs_shippingpricing_form label li,
+#wc_aelia_cs_shippingpricing_form label p {
+	font-weight: normal;
+}
+
+#wc_aelia_cs_shippingpricing_form #section-general_section th {
+	width: 30%;
+}
+
+/*** Styles for shipping method settings page ***/
+.aelia.shipping_method_settings .currency_selector {
+	padding-bottom: 10px;
+	border-bottom: 1px dashed gray;
+}
+
+.aelia.shipping_method_settings .currency_selector .title {
+	font-weight: bold;
+	font-size: 120%;
+}
+
+.aelia.shipping_method_settings .currency_selector .selectors {
+	margin-top: 10px;
+	font-size: 110%;
+}
+
+.aelia.shipping_method_settings .currency_selector .selectors .label {
+	margin-right: 0.5em;
+}
+
+.aelia.shipping_method_settings .currency_selector .selectors .currency_link {
+	margin-right: 0.5em;
+	cursor: pointer;
+}
+
+.wc-modal-shipping-method-settings  .aelia.shipping_method_settings .form-table tr td input[type=checkbox] {
+	width: 16px;
+	height: 16px;
+}
+
+/** Styles for shipping zone methods page **/
+.aelia.shipping_zone_methods .currency_selector {
+	background: white;
+	border: 1px solid #e5e5e5;
+	padding: 10px;
+	margin-bottom: 10px;
+}

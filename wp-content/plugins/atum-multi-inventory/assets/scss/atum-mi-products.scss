@@ -1,0 +1,28 @@
+//
+// Atum Multi-Inventory
+//---------------------
+
+// Scoped global variables.
+$atum-assets-path: "../../../atum-stock-manager-for-woocommerce/assets/";
+
+// Common imports.
+@import "../../../atum-stock-manager-for-woocommerce/assets/scss/common/functions";
+@import "../../../atum-stock-manager-for-woocommerce/assets/scss/common/variables";
+@import "../../../atum-stock-manager-for-woocommerce/assets/scss/common/mixins";
+@import "../../../atum-stock-manager-for-woocommerce/assets/scss/common/breakpoints";
+@import "../../../atum-stock-manager-for-woocommerce/assets/scss/common/transitions";
+
+// Atoms.
+@import "../../../atum-stock-manager-for-woocommerce/assets/scss/atoms/tooltip";
+@import "../../../atum-stock-manager-for-woocommerce/assets/scss/atoms/select2";
+@import "../../../atum-stock-manager-for-woocommerce/assets/scss/atoms/atum-icons";
+@import "../../../atum-stock-manager-for-woocommerce/assets/scss/atoms/drag-item";
+
+// Molecules.
+@import "../../../atum-stock-manager-for-woocommerce/assets/scss/molecules/alert";
+@import "../../../atum-stock-manager-for-woocommerce/assets/scss/molecules/popovers";
+@import "../../../atum-stock-manager-for-woocommerce/assets/scss/molecules/dropdown";
+@import "../../../atum-stock-manager-for-woocommerce/assets/scss/molecules/sweet-alert";
+@import "../../../atum-stock-manager-for-woocommerce/assets/scss/molecules/bootstrap-datetimepicker";
+@import "../../../atum-stock-manager-for-woocommerce/assets/scss/molecules/edit-popovers";
+@import "molecules/inventory-tab";

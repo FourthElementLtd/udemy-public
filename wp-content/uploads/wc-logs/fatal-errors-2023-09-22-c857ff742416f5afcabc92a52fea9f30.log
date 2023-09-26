@@ -1,0 +1,18 @@
+2023-09-22T13:50:32+00:00 CRITICAL Uncaught TypeError: fclose(): Argument #1 ($stream) must be of type resource, bool given in C:\wamp64\www\udemy\wp-content\plugins\backupwordpress\vendor\symfony\process\Pipes\WindowsPipes.php:71
+Stack trace:
+#0 C:\wamp64\www\udemy\wp-content\plugins\backupwordpress\vendor\symfony\process\Pipes\WindowsPipes.php(71): fclose(false)
+#1 C:\wamp64\www\udemy\wp-content\plugins\backupwordpress\vendor\symfony\process\Pipes\WindowsPipes.php(194): Symfony\Component\Process\Pipes\WindowsPipes->__construct(false, NULL)
+#2 C:\wamp64\www\udemy\wp-content\plugins\backupwordpress\vendor\symfony\process\Process.php(1231): Symfony\Component\Process\Pipes\WindowsPipes::create(Object(Symfony\Component\Process\Process), NULL)
+#3 C:\wamp64\www\udemy\wp-content\plugins\backupwordpress\vendor\symfony\process\Process.php(258): Symfony\Component\Process\Process->getDescriptors()
+#4 C:\wamp64\www\udemy\wp-content\plugins\backupwordpress\vendor\symfony\process\Process.php(196): Symfony\Component\Process\Process->start(NULL)
+#5 C:\wamp64\www\udemy\wp-content\plugins\backupwordpress\classes\backup\class-backup-utilities.php(57): Symfony\Component\Process\Process->run()
+#6 C:\wamp64\www\udemy\wp-content\plugins\backupwordpress\classes\backup\class-backup-engine-database-mysqldump.php(73): HM\BackUpWordPress\Backup_Utilities::get_executable_path(Array)
+#7 C:\wamp64\www\udemy\wp-content\plugins\backupwordpress\classes\class-requirement.php(129): HM\BackUpWordPress\Mysqldump_Database_Backup_Engine->get_mysqldump_executable_path()
+#8 C:\wamp64\www\udemy\wp-content\plugins\backupwordpress\functions\interface.php(222): HM\BackUpWordPress\Requirement_Mysqldump_Command_Path::test()
+#9 C:\wamp64\www\udemy\wp-includes\class-wp-hook.php(310): HM\BackUpWordPress\set_server_config_notices('')
+#10 C:\wamp64\www\udemy\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#11 C:\wamp64\www\udemy\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#12 C:\wamp64\www\udemy\wp-admin\admin-ajax.php(45): do_action('admin_init')
+#13 {main}
+  thrown in C:\wamp64\www\udemy\wp-content\plugins\backupwordpress\vendor\symfony\process\Pipes\WindowsPipes.php on line 71
+

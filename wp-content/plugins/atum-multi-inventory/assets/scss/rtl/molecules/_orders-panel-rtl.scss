@@ -1,0 +1,34 @@
+//
+// MI functionality and Panel within orders
+//-----------------------------------------
+
+div {
+	&#woocommerce-order-items, &#atum_order_items {
+		
+		.order-item-mi-panel {
+			
+			.order-item-inventory {
+				
+				.inventory-header{
+					
+					.inventory-name {
+						text-align: right;
+						padding-left: auto;
+						padding-right: 0 !important;
+					}
+				}
+				
+				.inventory-info {
+					
+					.inventory-field {
+						display: flex;
+					}
+					
+					h6 {
+						text-align: right;
+					}
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,123 @@
+//
+// Atum Multi-Inventory Selectable
+//--------------------------------
+
+@import "../../../atum-stock-manager-for-woocommerce/assets/scss/common/functions";
+@import "../../../atum-stock-manager-for-woocommerce/assets/scss/common/variables";
+
+$atum-font-path: '../../../atum-stock-manager-for-woocommerce/assets/fonts/';
+
+@font-face {
+	font-family: '#{$atum-icon-font}';
+	src:  url('#{$atum-font-path}#{$atum-icon-font}.eot?rx8gye');
+	src:  url('#{$atum-font-path}#{$atum-icon-font}.eot?rx8gye#iefix') format('embedded-opentype'),
+	url('#{$atum-font-path}#{$atum-icon-font}.ttf?rx8gye') format('truetype'),
+	url('#{$atum-font-path}#{$atum-icon-font}.woff?rx8gye') format('woff'),
+	url('#{$atum-font-path}#{$atum-icon-font}.svg?rx8gye##{$atum-icon-font}') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="atmi-"], [class*=" atmi-"], .atum-icon {
+	// use !important to prevent issues with browser extensions that change fonts
+	font-family: '#{$atum-icon-font}' !important;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	
+	// Better Font Rendering
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.atmi-multi-inventory {
+	color: $success;
+	font-size: 16px;
+	margin: 2px 2px 1px 2px;
+	
+	&:before {
+		content: $atmi-multi-inventory;
+	}
+}
+
+.atum-select-mi {
+	margin-top: 10px;
+	margin-bottom: 15px;
+	
+	label {
+		display: block;
+		font-weight: 600;
+	}
+	
+	// List mode.
+	&-list {
+		display: flex;
+		flex-wrap: wrap;
+		margin-bottom: 30px;
+		
+		&__title {
+			font-size: 18px;
+			font-weight: 500;
+		}
+		
+		&__item {
+			width: 100%;
+			margin-bottom: 15px;
+			padding-top: 15px;
+			padding-bottom: 15px;
+			border-top: 1px solid #EBEBEB;
+			
+			&:last-child {
+				border-bottom: 1px solid #EBEBEB;
+			}
+			
+			&__header {
+				font-size: 1.3em;
+				font-weight: 500;
+			}
+			
+			.atmi-arrow-child {
+				display: inline-block;
+				margin-right: 2px;
+				font-size: 14px;
+				opacity: .6;
+			}
+			
+			&__price {
+				margin: 10px 0;
+				font-size: 18px;
+				font-weight: 500;
+			}
+			
+			&__price, .stock, .quantity {
+				padding-left: 43px;
+			}
+			
+		}
+		
+	}
+}
+
+// Cart MI items.
+.atum-mi-cart-item {
+	
+	.product-name, .product-price, .product-subtotal {
+		font-size: 14px;
+	}
+	
+	.atmi-arrow-child {
+		margin-right: 4px;
+		margin-left: 5px;
+		font-size: 12px;
+		vertical-align: 2px;
+		color: #ced4da;
+		
+		&:before {
+			content: $atmi-arrow-child;
+		}
+	}
+	
+}

@@ -1,0 +1,12 @@
+//
+// Atum Multi-Inventory for List Tables
+//-------------------------------------
+
+@import "../../../atum-stock-manager-for-woocommerce/assets/scss/common/functions";
+@import "../../../atum-stock-manager-for-woocommerce/assets/scss/common/variables";
+@import "../../../atum-stock-manager-for-woocommerce/assets/scss/common/mixins";
+@import "../../../atum-stock-manager-for-woocommerce/assets/scss/common/breakpoints";
+
+@import "molecules/add-inventory-modal";
+@import "molecules/regions-modal";
+@import "molecules/list-table";

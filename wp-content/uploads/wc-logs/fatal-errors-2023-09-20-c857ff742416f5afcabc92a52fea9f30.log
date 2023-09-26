@@ -1,0 +1,15 @@
+2023-09-20T13:50:24+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Error as array in C:\wamp64\www\udemy\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\Utils\BlockTemplateMigrationUtils.php:159
+Stack trace:
+#0 C:\wamp64\www\udemy\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\Utils\BlockTemplateMigrationUtils.php(60): Automattic\WooCommerce\Blocks\Utils\BlockTemplateMigrationUtils::create_custom_template(Object(WP_Block_Template), '<!-- wp:group {...')
+#1 C:\wamp64\www\udemy\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\BlockTemplatesController.php(778): Automattic\WooCommerce\Blocks\Utils\BlockTemplateMigrationUtils::migrate_page('cart', Object(WP_Post))
+#2 C:\wamp64\www\udemy\wp-includes\class-wp-hook.php(310): Automattic\WooCommerce\Blocks\BlockTemplatesController->maybe_migrate_content('')
+#3 C:\wamp64\www\udemy\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#4 C:\wamp64\www\udemy\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#5 C:\wamp64\www\udemy\wp-settings.php(632): do_action('init')
+#6 C:\wamp64\www\udemy\wp-config.php(96): require_once('C:\\wamp64\\www\\u...')
+#7 C:\wamp64\www\udemy\wp-load.php(50): require_once('C:\\wamp64\\www\\u...')
+#8 C:\wamp64\www\udemy\wp-admin\admin.php(34): require_once('C:\\wamp64\\www\\u...')
+#9 C:\wamp64\www\udemy\wp-admin\index.php(10): require_once('C:\\wamp64\\www\\u...')
+#10 {main}
+  thrown in C:\wamp64\www\udemy\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\Utils\BlockTemplateMigrationUtils.php on line 159
+

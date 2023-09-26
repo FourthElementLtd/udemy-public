@@ -1,0 +1,257 @@
+.widefat .column-sage_security {
+	width: 110px;
+}
+
+.widefat .column-sage_security span.sagepay-ok {
+	background: #73a724;
+}
+
+.widefat .column-sage_security span.sagepay-fail {
+	background: #a00;
+}
+
+.widefat .column-sage_security span.sagepay-check {
+	background: #ffba00;
+}
+
+.status-wc-fraud-screen {
+	background-color: #FF6666 !important;
+}
+
+.widefat .column-sage_security span {
+	color: #FFFFFF;
+
+	width: 30px; 
+	height: 30px; 
+	-moz-border-radius: 15px; 
+	-webkit-border-radius: 15px; 
+	border-radius: 15px;
+
+	margin: 0 2px 0 0;
+	padding: 0 4px;
+}
+
+.widefat .column-order_status mark.fraud-screen {
+	display:block;
+	text-indent:-9999px;
+	position:relative;
+	height:1em;
+	width:1em;
+	background:none;
+	font-size:1.4em;
+	margin:0 auto
+}
+
+.widefat .column-order_status mark.fraud-screen:after {
+	font-family:'WooCommerce';
+	speak:none;
+	font-weight:normal;
+	font-variant:normal;
+	text-transform:none;
+	line-height:1;
+	-webkit-font-smoothing:antialiased;
+	margin:0;
+	text-indent:0;
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+	text-align:center;
+	content:"\e602";
+	color:#990033
+}
+
+.widefat .column-order_status mark.authorised {
+	display:block;
+	text-indent:-9999px;
+	position:relative;
+	height:1em;
+	width:1em;
+	background:none;
+	font-size:1.4em;
+	margin:0 auto
+}
+
+.widefat .column-order_status mark.authorised:after {
+	font-family:'WooCommerce';
+	speak:none;
+	font-weight:normal;
+	font-variant:normal;
+	text-transform:none;
+	line-height:1;
+	-webkit-font-smoothing:antialiased;
+	margin:0;
+	text-indent:0;
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+	text-align:center;
+	content:"\e011";
+	color:#ffcc00
+}
+
+#opayo-direct::before {
+	font-family: FontAwesome;
+	display: inline-block;
+	font-weight: 400;
+	line-height: 100%;
+	content: "\f05a";
+	position: absolute;
+	bottom: -.18em;
+	right: -.18em;
+	font-size: 4.5em;
+	width: auto;
+	color: #d6eebd;
+	-webkit-transform: rotate(-20deg);
+	-moz-transform: rotate(-20deg);
+	-ms-transform: rotate(-20deg);
+	-o-transform: rotate(-20deg);
+	transform: rotate(-20deg);
+	zoom: 1;
+}
+
+#opayo-direct {
+	margin: 0 0 1.758em;
+	padding: 20px;
+	background: #ecf6fa;
+	border: 1px solid #bcdeed;
+	color: #424242;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	-moz-background-clip: padding;
+	-webkit-background-clip: padding-box;
+
+	border-color: #c9e8a9;
+	background: #eff8e6;
+	position: relative;
+	overflow: hidden;
+}
+
+#opayo-direct p {
+	line-height: 200%;
+}
+
+.opayo_reporting_group_error p {
+	color: #FFFFFF !important;
+	background-color: #FF6666 !important;
+	padding: 5px 0px 5px 2px !important;
+}
+
+.opayo_reporting_list, .opayo_reporting_thirdman {
+	font-size: 90%;
+	border-collapse:collapse;
+}
+
+.opayo_reporting_list th, .opayo_reporting_list td, .opayo_reporting_thirdman th, .opayo_reporting_thirdman td {
+	padding: 5px 0px 5px 2px !important;
+}
+
+.opayo_reporting_list th {
+	text-align: left;
+	vertical-align: top;
+	width:50%;
+}
+
+.opayo_reporting_list td {
+	text-align: left;
+	vertical-align: top;
+	width:50%;
+}
+
+.opayo_reporting_thirdman th {
+	text-align: left;
+	vertical-align: top;
+	width:75%;
+}
+
+.opayo_reporting_thirdman td {
+	text-align: left;
+	vertical-align: top;
+	width:25%;
+}
+
+.opayo_reporting_item_success {
+	color: #FFFFFF !important;
+	background-color: #73a724 !important;
+}
+
+.opayo_reporting_item_check {
+	color: #FFFFFF !important;
+	background-color: #ffba00 !important;
+}
+
+.opayo_reporting_item_fail {
+	color: #FFFFFF !important;
+	background-color: #FF6666 !important;
+}
+
+#opayo_reporting_setup::before {
+	font-family: FontAwesome;
+	display: inline-block;
+	font-weight: 600;
+	line-height: 100%;
+	content: "\f023";
+	position: absolute;
+	bottom: -.18em;
+	right: -.18em;
+	font-size: 15em;
+	width: auto;
+	color: #d6eebd;
+	-webkit-transform: rotate(-20deg);
+	-moz-transform: rotate(-20deg);
+	-ms-transform: rotate(-20deg);
+	-o-transform: rotate(-20deg);
+	transform: rotate(-20deg);
+	zoom: 1;
+}
+
+#opayo_reporting_setup {
+	margin: 0 0 1.758em;
+	padding: 20px;
+	background: #ecf6fa;
+	border: 1px solid #bcdeed;
+	color: #424242;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	-moz-background-clip: padding;
+	-webkit-background-clip: padding-box;
+
+	border-color: #c9e8a9;
+	background: #eff8e6;
+	position: relative;
+	overflow: hidden;
+}
+
+#opayo_reporting_setup p {
+	font-size: 1.2em;
+}
+
+#fa-link::before {
+	font-family: FontAwesome;
+	display: inline-block;
+	font-weight: 400;
+	line-height: 100%;
+	content: "\f0c1";
+	font-size: 1.5em;	
+}
+
+#fa-guide::before {
+	font-family: FontAwesome;
+	display: inline-block;
+	font-weight: 400;
+	line-height: 100%;
+	content: "\f03a";
+	font-size: 1.5em;	
+}
+
+#fa-cogs::before {
+	font-family: FontAwesome;
+	display: inline-block;
+	font-weight: 400;
+	line-height: 100%;
+	content: "\f085";
+	font-size: 1.5em;
+}

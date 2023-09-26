@@ -1,0 +1,390 @@
+//
+// MI Management Popup
+//--------------------
+
+// Sweet Alert 2 customizations
+.swal2-container {
+	z-index: 8675308; // 1 below tiptip_holder
+}
+
+.swal2-container {
+	
+	&.mi-management, &.bom-mi-management {
+		
+		.swal2-modal {
+			width: auto !important;
+			max-width: 98%;
+			padding-bottom: 0 !important;
+		}
+		
+		.swal2-header, .swal2-title {
+			align-items: flex-start;
+		}
+		
+		.swal2-title {
+			font-size: 18px;
+			color: $dark;
+			margin-bottom: 5px;
+		}
+		
+		.swal2-content {
+			font-weight: normal;
+		}
+		
+		.swal2-actions {
+			justify-content: flex-end;
+			padding-right: 0;
+		}
+		
+		.swal2-spacer {
+			display: none !important;
+		}
+		
+		.swal2-confirm {
+			position: relative;
+			bottom: 38px;
+			margin: 0;
+		}
+		
+		.after-item-inventory {
+			position: absolute;
+			bottom: 17px;
+			justify-content: space-between;
+		}
+		
+	}
+	
+}
+
+.order-item-mi-management {
+	text-align: left;
+	
+	.note {
+		font-size: 12px;
+		color: $gray-500;
+		margin-bottom: $grid-gutter-width;
+	}
+	
+	.table-legend {
+		font-size: 16px;
+		margin-bottom: 10px;
+		display: flex;
+		flex-wrap: wrap;
+		
+		.alert {
+			width: 100%;
+		}
+		
+		.product-name {
+			color: $blue-dark;
+			flex-grow: 1;
+		}
+		
+	}
+	
+	table {
+		border-collapse: separate;
+		border-spacing: 0 4px;
+		border: none;
+		box-shadow: none;
+		
+		thead {
+			tr {
+				background-color: $gray-500;
+			}
+		}
+		
+		tr {
+			background-color: $gray-200;
+			
+			td, th {
+				padding: 4px 10px;
+				
+				&:first-child {
+					padding-right: 0;
+				}
+				
+				&.numeric {
+					text-align: right;
+					
+					input {
+						float: right;
+					}
+				}
+			}
+			
+			th {
+				color: $white;
+				font-size: 12px;
+				border: none;
+			}
+			
+			td {
+				font-size: 15px;
+				color: $gray-600;
+				vertical-align: middle;
+				
+				input {
+					
+					&[type=number] {
+						width: 70px;
+						text-align: right;
+						box-shadow: none;
+						border-color: $gray-600;
+						color: $gray-600;
+						
+						&.edited {
+							border-color: $danger;
+						}
+						
+					}
+					
+					&:focus {
+						border-color: $wp-input-focus;
+						box-shadow: 0 0 0 1px $wp-input-focus;
+						outline: 2px solid transparent;
+					}
+					
+				}
+				
+				.expired {
+					color: $danger;
+					vertical-align: middle;
+				}
+				
+				> span.tips {
+					white-space: nowrap;
+					overflow: hidden;
+					text-overflow: ellipsis;
+					display: inline-block;
+					vertical-align: middle;
+				}
+				
+				&.name {
+					> span.tips {
+						max-width: 145px;
+					}
+				}
+				
+				&.regions {
+					> span.tips {
+						max-width: 185px;
+					}
+				}
+				
+			}
+			
+			&.invalid {
+				background-color: $gray-400;
+				
+				td {
+					span {
+						color: $gray-600;
+						text-decoration: line-through !important;
+					}
+				}
+			}
+			
+			&.active:not(.invalid) {
+				background-color: $green-light;
+				
+				td, th {
+					color: $success;
+				}
+				
+				input[type=checkbox] {
+					box-shadow: none;
+				}
+				
+				.stock-used {
+					padding-right: 6px;
+					
+					.stock-used-value {
+						display: none;
+					}
+					
+					input {
+						display: block !important;
+					}
+				}
+			}
+			
+		}
+		
+	}
+	
+	input[type=checkbox] {
+		border-color: $gray-600;
+		width: 15px;
+		height: 15px;
+		border-radius: 3px;
+		background-color: $white;
+		margin-left: 0;
+		box-shadow: none;
+	}
+	
+	.stock-messages {
+		display: none;
+	}
+	
+	.alert {
+		font-size: 13px;
+		margin-top: 5px;
+		
+		strong {
+			padding-left: 2px;
+			padding-right: 2px;
+		}
+		
+		&:before {
+			@include atum-icon-font-family;
+			margin-right: 5px;
+			font-size: 15px;
+			vertical-align: -2px;
+		}
+		
+		&.alert-success {
+			&:before {
+				content: $atmi-checkmark-circle;
+			}
+		}
+		
+		&.alert-warning {
+			&:before {
+				content: $atmi-warning;
+			}
+		}
+		
+		&.alert-danger {
+			&:before {
+				content: $atmi-cross-circle;
+			}
+		}
+	}
+}
+
+// PL compatibility.
+.bom-item-mi-management {
+	
+	.order-item-qty {
+		margin-bottom: $grid-gutter-width/2;
+		color: $blue-dark;
+		font-size: 13px;
+		float: right;
+		
+		input {
+			max-width: 67px;
+			text-align: right;
+		}
+	}
+	
+	.bom-mi-items {
+		clear: both;
+		max-height: 481px;
+		overflow: auto;
+	}
+	
+	.bom-item-mi {
+		&:not(:last-child) {
+			margin-bottom: $grid-gutter-width/2;
+		}
+	}
+	
+	.table-legend {
+		margin-bottom: 6px;
+		
+		.alert {
+			padding: 0.55rem 0.75rem;
+		}
+		
+		.product-name {
+			color: $gray-600;
+			font-size: 11px;
+			
+			> div {
+				margin-top: 3px;
+			}
+			
+			.level-icon {
+				display: inline-block;
+				transform: rotate(90deg);
+				color: $gray-500;
+				font-size: 15px;
+			}
+			
+			strong {
+				color: $blue-dark;
+				font-size: 15px;
+			}
+		}
+		
+		.toggle-item {
+			font-size: 16px;
+			vertical-align: -1px;
+			margin-left: 3px;
+			cursor: pointer;
+			transition: color .2s ease-in-out;
+			
+			&:hover {
+				color: $primary;
+			}
+			
+			&.collapsed {
+				&:before {
+					content: $atmi-arrow-down-circle;
+				}
+			}
+		}
+	}
+	
+	table {
+		td {
+			&.stock-used {
+				cursor: pointer;
+				
+				input[type=number] {
+					width: 67px;
+				}
+			}
+			
+			&.name {
+				line-height: 31px;
+			}
+		}
+	}
+	
+	.bom-totals {
+		text-align: right;
+		background-color: $light;
+		border-radius: 2px;
+		padding: 10px;
+		font-size: 14px;
+		font-weight: bold;
+		
+		.bom-total-added {
+			margin-bottom: 3px;
+		}
+		
+		.bom-total-added, .bom-total-required {
+			> span {
+				font-size: 16px;
+				display: inline-block;
+				border-radius: 5px;
+				margin-left: 5px;
+				background-color: $gray-500;
+				color: $white;
+				padding: 3px 10px;
+				vertical-align: middle;
+				
+				&.valid {
+					background-color: $success;
+				}
+				
+				&.invalid {
+					background-color: $danger;
+				}
+			}
+		}
+	}
+	
+}

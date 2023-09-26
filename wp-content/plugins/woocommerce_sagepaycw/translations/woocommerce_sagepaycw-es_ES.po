@@ -1,0 +1,1528 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=utf-8\n"
+
+msgid "This transaction is already closed for further refunds."
+msgstr "Esta operación se ha cerrado por más créditos."
+
+msgid "Amount to refund"
+msgstr "Cantidad a reenbolsar"
+
+msgid "You can specify the order status for new orders that have an uncertain authorisation status."
+msgstr "Se puede especificar el estado del pedido de los nuevos pedidos que tienen un estado de autorización incierto."
+
+msgid "No address or no post code was provided"
+msgstr "No se proporcionó ninguna dirección o código postal"
+
+msgid "Account Holder Name"
+msgstr "Titular de la cuenta Nombre"
+
+msgid "The transaction registration could not be completed. Details: !details"
+msgstr "El registro de transacción no se pudo completar. Detalles: !details"
+
+msgid "On"
+msgstr "On"
+
+msgid "Deny"
+msgstr "Negar"
+
+msgid "The given hmac key is empty."
+msgstr "The given hmac key is empty."
+
+msgid "Refunded Amount"
+msgstr "Importe reembolsado"
+
+msgid "The transaction registration could not be completed, due to a missing parameter or an invalid parameter. Details: !details"
+msgstr "El registro de transacción no se pudo completar debido a un parámetro que falta o un parámetro no válido. Details: !details"
+
+msgid "The provided signature does not match with the one calculated."
+msgstr "The provided signature does not match with the one calculated."
+
+msgid "American Express"
+msgstr "American Express"
+
+msgid "Live Mode"
+msgstr "Modo live"
+
+msgid "Please select the Bank Identifier Code (BIC) of your bank."
+msgstr "Por favor, seleccione el código de identificación bancaria (BIC) de su banco."
+
+msgid "Refund Amount"
+msgstr "Refund Amount"
+
+msgid "The configuration values for Opayo can be set under:"
+msgstr "Los valores de configuración de Opayo se pueden establecer en:"
+
+msgid "Don't change order status"
+msgstr "No cambie el estado del pedido"
+
+msgid "You have to enter sales tax number of your company."
+msgstr "You have to enter sales tax number of your company."
+
+msgid "The payment method !paymentMethod does not support recurring payment."
+msgstr "La forma de pago !paymentMethod no admite pagos recurrentes."
+
+msgid "Refund"
+msgstr "Reembolsar"
+
+msgid "The capture item with SKU '@sku' is not present in the original order."
+msgstr "The capture item with SKU '@sku' is not present in the original order."
+
+msgid "Missing Permissions."
+msgstr "Missing Permissions."
+
+msgid "The HMAC key as defined in the live backoffice of Opayo. You may need generate the HMAC key. Please take a look at the manual how to do this."
+msgstr "The HMAC key as defined in the live backoffice of Opayo. You may need generate the HMAC key. Please take a look at the manual how to do this."
+
+msgid "The card does not participate in the 3D scheme."
+msgstr "La tarjeta no participe en el sistema 3D."
+
+msgid "The card brand selection is automatically done depending on the entered card number. If no Javascript is active in the browser, a drop down is shown. In case JavaScript a the brand logos can be shown. Should the brand selection using images?"
+msgstr "The card brand selection is automatically done depending on the entered card number. If no Javascript is active in the browser, a drop down is shown. In case JavaScript a the brand logos can be shown. Should the brand selection using images?"
+
+msgid "Quantity"
+msgstr "Quantity"
+
+msgid "A captured transaction cannot be cancelled."
+msgstr "Una transacción contabilizada no puede ser cancelada"
+
+msgid "Order #"
+msgstr "Order #"
+
+msgid "You have to enter sales tax number of you company."
+msgstr "Usted tiene que ingresar el número de impuesto sobre las ventas de su empresa."
+
+msgid "You have to activate JavaScript in your browser to complete the payment."
+msgstr "Debes activar JavaScript en su navegador para completar el pago."
+
+msgid "Create account"
+msgstr "Create account"
+
+msgid "Card Expiry"
+msgstr "Tarjeta de caducidad"
+
+msgid "Set the sort order to show the external checkouts."
+msgstr "Set the sort order to show the external checkouts."
+
+msgid "When a mail / telephone order (MoTo) is made, should the authorization process check the CVC?"
+msgstr "Cuando se hace un pedido de correo electrónico / teléfono (MoTo), debe comprobar el proceso de autorización de la CVC?"
+
+msgid "Unconfirmed"
+msgstr "No confirmado"
+
+msgid "Check to activate the external checkout."
+msgstr "Check to activate the external checkout."
+
+msgid "Authorized Status"
+msgstr "Estado de Autorización"
+
+msgid "The validation of the payment can be carried out at various points during the order process. The validation can be controlled with this option."
+msgstr "La validación del pago se puede realizar en diferentes momentos durante el proceso de pedido. La validación puede ser controlado con esa opción."
+
+msgid "Captured Amount"
+msgstr "Importe reembolsado"
+
+msgid "Alias"
+msgstr "Alias"
+
+msgid "The amount of !amount is captured."
+msgstr "La cantidad de cada  !amount es capturado."
+
+msgid "You can specify the order status when an order is cancelled."
+msgstr "Se puede especificar el estado de pedido cuando un pedido se cancela."
+
+msgid "Please enter here the commercial number of your company."
+msgstr "Por favor introduzca el número comercial de su empresa."
+
+msgid "Opayo Authorisation Code"
+msgstr "Opayo Authorisation Code"
+
+msgid "Transaction Updates"
+msgstr "Transaction Updates"
+
+msgid "Please enter here the name of the account owner."
+msgstr "Por favor, introduzca el nombre del titular de la cuenta bancaria"
+
+msgid "Username"
+msgstr "Nombre de usuario"
+
+msgid "The whole transaction is cancelled."
+msgstr "Toda la operación fue cancelada."
+
+msgid "Login / Register"
+msgstr "Login / Register"
+
+msgid "yes"
+msgstr "yes"
+
+msgid "Amount to capture"
+msgstr "Importe a contabilizar"
+
+msgid "Basket"
+msgstr "Cesta"
+
+msgid "The site id (PBX_RANG) as defined in the backoffice of Opayo."
+msgstr "The site id (PBX_RANG) as defined in the backoffice of Opayo."
+
+msgid "Date"
+msgstr "Fecha"
+
+msgid "ReD recommends to reject the transaction."
+msgstr "ReD recomienda rechazar la transacción."
+
+msgid "Payment Method"
+msgstr "Forma de pago"
+
+msgid "Please enter your IBAN number."
+msgstr "Por favor, introduzca su número de IBAN."
+
+msgid "Subscriptions: Add Manual Renewal"
+msgstr "Subscriptions: Añadir renovación manual"
+
+msgid "Shipping Option"
+msgstr "Shipping Option"
+
+msgid "A cancelled transaction cannot be cancelled again."
+msgstr "Una transacción cancelada no puede ser cancelada otra vez"
+
+msgid "You can specify the order status for orders that are captured either directly after the order or manually in the backend."
+msgstr "Se puede especificar el estado de pedido para los pedidos que se capturan de forma directa después del pedido o de forma manual en el backend."
+
+msgid "Confirmed"
+msgstr "Confirmado"
+
+msgid "Figure !number:"
+msgstr "Figure !number:"
+
+msgid "The authorization was not successful"
+msgstr "The authorization was not successful"
+
+msgid "The next update execution date indicates when the next cron is run to update the transaction state."
+msgstr "The next update execution date indicates when the next cron is run to update the transaction state."
+
+msgid "A authorized transaction cannot be authorized again."
+msgstr "Una transacción autorisada no puede ser autorisada otra vez"
+
+msgid "Could not find an adapter for the authoriztion method !methodName."
+msgstr "No se pudo encontrar un adaptador para el método de autorización !methodName."
+
+msgid "A captured transaction cannot be marked as failed."
+msgstr "Una transacción contabilizada no puede ser marcado como fallada"
+
+msgid "The calcuatlated and the sent signature do not match."
+msgstr "El cálculo y la firma enviado no coinciden."
+
+msgid "Refund added with refund id !refundId and authorization code !authorizationCode."
+msgstr "Reembolso añadió con id reembolso !refundId y código de autorización !authorizationCode"
+
+msgid "The brand with key '!key' was not found in the card information map."
+msgstr "La marca con la tecla !key' no se encontró en el mapa información de la tarjeta."
+
+msgid "Gift Aid"
+msgstr "Gift Aid"
+
+msgid "No transaction ID provided."
+msgstr "No transaction ID provided."
+
+msgid "During the checkout the CV2 code is checked. The selected outcomes are treated as uncertain transactions."
+msgstr "En base a los criterios seleccionados, los pedidos serán marcados como incierto. Puede seleccionar varias reglas, el orden será marcado como incierta en cuanto una de las condiciones anteriores se cumple."
+
+msgid "Please enter here the bank code of your bank."
+msgstr "Por favor, introduzca su código bancario."
+
+msgid "During the checkout the address and post code are checked against the linked data with the credit card. The selected outcomes are threaded as uncertain transactions."
+msgstr "En base a los criterios seleccionados, los pedidos serán marcados como incierto. Puede seleccionar varias reglas, el orden será marcado como incierta en cuanto una de las condiciones anteriores se cumple."
+
+msgid "CV2 code was not checked"
+msgstr "CV2 código no se comprobó"
+
+msgid "MasterCard"
+msgstr "MasterCard"
+
+msgid "Other Discount"
+msgstr "Otro discount"
+
+msgid "Should results from The 3rd Man fraud screening be polled and saved on the transaction?"
+msgstr "En caso de resultados de la investigación de fraude de 3rd Man esclavos interrogados y se guardan en la transacción?"
+
+msgid "You have to enter the a card number."
+msgstr "Usted tiene que introducir el número de una tarjeta."
+
+msgid "Add manual renewal"
+msgstr "Añadir renovación manual"
+
+msgid "Not matched"
+msgstr "No coincide"
+
+msgid "Use authenticate authorization"
+msgstr "Utilice la autorización de autenticación"
+
+msgid "Month"
+msgstr "Mes"
+
+msgid "Bank Location"
+msgstr "Banco Ubicación"
+
+msgid "The given identifier is empty."
+msgstr "The given identifier is empty."
+
+msgid "Please enter here the card holder name on the card."
+msgstr "Por favor indique el titular de la tarjeta a su tarjeta de crédito."
+
+msgid "If the status is 'Pending' it is unclear whether the transaction will be cancelled successfully."
+msgstr "If the status is 'Pending' it is unclear whether the transaction will be cancelled successfully."
+
+msgid "Add your Server IP to the section Valid IP in the Opayo backend."
+msgstr "Add your Server IP to the section Valid IP in the Opayo backend."
+
+msgid "Image Brand Selection"
+msgstr "Image Brand Selection"
+
+msgid "The given password is empty."
+msgstr "The given password is empty."
+
+msgid "A cancelled transaction cannot be marked as failed."
+msgstr "Una transacción cancelada no puede ser marcado como fallada"
+
+msgid "Live Rang (PBX_RANG)"
+msgstr "Live Rang (PBX_RANG)"
+
+msgid "Shipping Method"
+msgstr "Shipping Method"
+
+msgid "Email"
+msgstr "Email"
+
+msgid "Tax Donation"
+msgstr "Donación de Impuestos"
+
+msgid "Not a valid shipping method"
+msgstr "Not a valid shipping method"
+
+msgid "The capture will automatically close the transaction for further captures."
+msgstr "La contabilisación cerrará automáticamente la transacción de nuevas contabilisaciones."
+
+msgid "You have to enter a card number."
+msgstr "Debe inserir un número de tarjeta"
+
+msgid "By setting the capturing the reservation can be captured directly after the order or later manually over the backend of the store."
+msgstr "By setting the capturing the reservation can be captured directly after the order or later manually over the backend of the store."
+
+msgid "Break Out"
+msgstr "Break Out"
+
+msgid "Maximal Refundable Amount"
+msgstr "Cantidad máxima reembolsable"
+
+msgid "Cancel ID"
+msgstr "Cancel ID"
+
+msgid "Validation"
+msgstr "Validación"
+
+msgid "Failed"
+msgstr "Fallado"
+
+msgid "This transaction is already closed for further captures."
+msgstr "Esta transacción ya está cerrada para otras contabilizaciones"
+
+msgid "Here you can insert an order prefix. The prefix allows you to change the order number that is transmitted to Authorize.net. The prefix must contain the tag {id}. It will then be replaced by the order number (e.g. name_{id})."
+msgstr "Here you can insert an order prefix. The prefix allows you to change the order number that is transmitted to Authorize.net. The prefix must contain the tag {id}. It will then be replaced by the order number (e.g. name_{id})."
+
+msgid "customweb ltd"
+msgstr "customweb ltd"
+
+msgid "Current File:"
+msgstr "Current File:"
+
+msgid "Deferred Authorization Type"
+msgstr "Método de autorización deferred"
+
+msgid "JCB"
+msgstr "JCB"
+
+msgid "Activate the payment method and test."
+msgstr "Activate the payment method and test."
+
+msgid "Capture"
+msgstr "Contabilizar"
+
+msgid "SEPA Mandate ID"
+msgstr "SEPA Mandate ID"
+
+msgid "Description of the order"
+msgstr "Descripción del pedido"
+
+msgid "Awaiting confirmation"
+msgstr "Awaiting confirmation"
+
+msgid "Your browser does not allow the execution of JavaScript. Please activate JavaScript in your browser and reload this page."
+msgstr "Su navegador no permite la ejecución de JavaScript. Por favor, active JavaScript en su navegador y vuelva a cargar esta página."
+
+msgid "The total refund amount (!totalRefundedAmount) cannot be greater than the captured amount (!capturedAmount)."
+msgstr "La cantidad del reembolso total de (!totalRefundedAmount) no puede ser mayor que la cantidad capturada (!capturedAmount)."
+
+msgid "Order Review"
+msgstr "Order Review"
+
+msgid "Please enter here the sales tax number of your company."
+msgstr "Por favor, introduzca aquí el número de impuesto sobre las ventas de su empresa."
+
+msgid "Fraud Result"
+msgstr "Resultado Fraud"
+
+msgid "No CV2 code was provided"
+msgstr "No se ha introducido el código CV2"
+
+msgid "Bank account number"
+msgstr "Número de cuenta bancaria"
+
+msgid "You have to enter commercial number of you company."
+msgstr "Usted tiene que ingresar el número comercial de su empresa."
+
+msgid "A captured transaction cannot be authorized."
+msgstr "Una transacción contabilizada no puede ser autorizada"
+
+msgid "Shipping #%d"
+msgstr "Shipping #%d"
+
+msgid "Capture Amount"
+msgstr "Capture Amount"
+
+msgid "Success"
+msgstr "Exito"
+
+msgid "Pending"
+msgstr "Pendiente"
+
+msgid "PayPal may provide seller protection. In case PayPal grants no seller protection (address is not confirmed and the payer could not be verified), what should happend with the transaction?"
+msgstr "PayPal puede ofrecer protección del vendedor (Seller Protection). ¿En caso de que PayPal no concede protección del vendedor (dirección no se confirma y el deudor no pudo ser verificada), qué se debe hacer con la transacción??"
+
+msgid "Refund ID"
+msgstr "ID Reembolso"
+
+msgid "You have to enter the account holder name."
+msgstr "Entrar en el nombre del titular de la cuenta."
+
+msgid "Message"
+msgstr "Notificación"
+
+msgid "The capture item with SKU '@sku' has a higher amount (@amountItem) as the original item (@amountOriginal)."
+msgstr "The capture item with SKU '@sku' has a higher amount (@amountItem) as the original item (@amountOriginal)."
+
+msgid "You have to enter the card holder."
+msgstr "Tiene que entrar el titular de la tarjeta"
+
+msgid "Maximal Order Total"
+msgstr "Cantidad máxima del pedido"
+
+msgid "Could not find template file at default location '!location'."
+msgstr "No se pudo encontrar el archivo de plantilla en la ubicación predeterminada '!location'."
+
+msgid "Select the date of your birth."
+msgstr "Seleccione la fecha de su nacimiento."
+
+msgid "Unverified"
+msgstr "No verificado"
+
+msgid "The cancellation could not be conducted. Error code: !error."
+msgstr "The cancellation could not be conducted. Error code: !error."
+
+msgid "The authorization method '!method' is not supported."
+msgstr "El método de autorización '!method' no es compatible."
+
+msgid "Capture ID"
+msgstr "Capture ID"
+
+msgid "Transaction Uncertain"
+msgstr "Transacción es incierto"
+
+msgid "Deactivate"
+msgstr "Deactivate"
+
+msgid "Payment ID"
+msgstr "ID de pago"
+
+msgid "Capture amount"
+msgstr "Cantidad de captura"
+
+msgid "Place Order"
+msgstr "Place Order"
+
+msgid "Social Security Number"
+msgstr "Número de Seguro Social"
+
+msgid "Error processing payment"
+msgstr "Error processing payment"
+
+msgid "The layout does not contain the tag '!layout_tag'."
+msgstr "La disposición no contiene la etiqueta '!layout_tag'."
+
+msgid "Please select the expiry month on your card."
+msgstr "Por favor seleccione el mes de la fecha de vencimiento de su tarjeta de crédito."
+
+msgid "The brand with external name '!key' was not present in the map."
+msgstr "La marca con la tecla '!key' no se encontró en el mapa información de la tarjeta."
+
+msgid "The transaction failed with error code !code."
+msgstr "The transaction failed with error code !code."
+
+msgid "A failed authorization cannot be authorized."
+msgstr "Una autorización fallada no puede ser autorizada"
+
+msgid "Set here the minimal order total for which this payment method is available. If it is set to zero, it is always available."
+msgstr "Esta forma de pago es disponible sólo si la suma del pedido es mayor que el importe definido aquí. Si se establece en cero, siempre está disponible."
+
+msgid "Select the date on which your card expires."
+msgstr "Selecciona la fecha de vencimiento de la tarjeta"
+
+msgid "Matched"
+msgstr "Coincide"
+
+msgid "Authorization Failed"
+msgstr "Autorisación fallada"
+
+msgid "Shipping &amp; Handling"
+msgstr "Shipping &amp; Handling"
+
+msgid "Dear customer we have received your billing and shipping information. In order to finish your order please create an account below or checkout as guest."
+msgstr "Dear customer we have received your billing and shipping information. In order to finish your order please create an account below or checkout as guest."
+
+msgid "You can not submit both forms at once"
+msgstr "You can not submit both forms at once"
+
+msgid "PayPal Seller Protection"
+msgstr "PayPal Seller Protection"
+
+msgid "Day"
+msgstr "Día"
+
+msgid "Diners Club"
+msgstr "Diners Club"
+
+msgid "Test Transaction"
+msgstr "Test Transaction"
+
+msgid "Yes"
+msgstr "Sí"
+
+msgid "If the status is 'Pending' it is unclear whether the transaction will be refunded successfully."
+msgstr "Si el estado es pendiente' no está claro si la transacción será devuelto con éxito."
+
+msgid "You have to enter the CVC code from your card."
+msgstr "Debe introducir el CVC su tarjeta."
+
+msgid "Live HMAC Key"
+msgstr "Live HMAC Key"
+
+msgid "Yes, I want to donate the tax to a charity."
+msgstr "Sí, quiero donar el impuesto a una organización benéfica."
+
+msgid "Mail Order / Telephone Order (MoTo)"
+msgstr "Mail order / Telephone order (MoTo)"
+
+msgid "Basic"
+msgstr "Basic"
+
+msgid "Not provided"
+msgstr "No proporcionado"
+
+msgid "Please enter the location of your bank."
+msgstr "Por favor, introduzca la ubicación de su banco."
+
+msgid "Only authorized transaction can be refunded."
+msgstr "Sólo las transacciones autorizadas pueden ser reembolsadas."
+
+msgid "Laser"
+msgstr "Laser"
+
+msgid "Capturing"
+msgstr "Captura"
+
+msgid "The address or the PayPal account could not be verified."
+msgstr "La dirección o la cuenta PayPal no pudieron verificarse."
+
+msgid "3D Secure Authentication"
+msgstr "3D Secure Authentication"
+
+msgid "Pay with %s over the interface of Opayo."
+msgstr "Pay with %s over the interface of Opayo."
+
+msgid "Define a maximal order total for this checkout to be available."
+msgstr "Define a maximal order total for this checkout to be available."
+
+msgid "You have to enter the location of your bank."
+msgstr "Tienes que entrar en la ubicación de su banco."
+
+msgid "The rang (PBX_RANG) as defined in the live backoffice of Opayo. It must be nummeric value with length two. In the backoffice it may be displayed as a three char value. You must truncate the first digit."
+msgstr "The rang (PBX_RANG) as defined in the live backoffice of Opayo. It must be nummeric value with length two. In the backoffice it may be displayed as a three char value. You must truncate the first digit."
+
+msgid "You can switch between the different environments, by selecting the corresponding operation mode."
+msgstr "Se puede cambiar entre modo de prueba y modo live, seleccionando el modo de operación correspondiente."
+
+msgid "Submitting order information..."
+msgstr "Submitting order information..."
+
+msgid "Company Commercial Number"
+msgstr "Compañía Número Comercial"
+
+msgid "Uncertain Status"
+msgstr "Estado incierto"
+
+msgid "Live Password"
+msgstr "Live Password"
+
+msgid "You have to enter the year of the card expiry."
+msgstr "Tienes que entrar en el año de la caducidad de la tarjeta."
+
+msgid "Opayo Vender Name"
+msgstr "Opayo Nombre del proveedor"
+
+msgid "The given site number is empty."
+msgstr "The given site number is empty."
+
+msgid "3D Secure sucess"
+msgstr "3D Secure con éxito"
+
+msgid "Please select a shipping method."
+msgstr "Please select a shipping method."
+
+msgid "Short Installation Instructions:"
+msgstr "Short Installation Instructions:"
+
+msgid "The refund item with SKU '@sku' is not present in the original order."
+msgstr "The refund item with SKU '@sku' is not present in the original order."
+
+msgid "Bank code number"
+msgstr "Código bancario"
+
+msgid "Opayo supports two types of deferred authorization. The deferred authorization allows only one capture per transaction, but it guarantees the payment, because a reservation is added on the customer's card. In case of authenticate you can do multiple captures per transaction, but there is no reservation of the amount on the card."
+msgstr "Opayo admite dos tipos de 'deferred'. 'Deferred' sólo permite una contabilización por transacción, pero garantiza el pago, porque se añade una reserva en la tarjeta del cliente. En el caso de 'Authenticate', usted puede hacer varias contabilizaciones por transacción, pero no hay ninguna reserva en la tarjeta."
+
+msgid "Opayo Transaction ID"
+msgstr "Opayo ID de transacción"
+
+msgid "Refund status"
+msgstr "Estado de su reembolso"
+
+msgid "MoTo CVC Check"
+msgstr "MoTo CVC Check"
+
+msgid "Please click button below to authenticate your card."
+msgstr "Por favor, haga clic en el botón de abajo para autenticar la tarjeta."
+
+msgid "Should the amount be captured automatically after the order (direct) or should the amount only be reserved (deferred)?"
+msgstr "Si la cantidad se capturará automáticamente después del pedido (directa) o debería sólo la cantidad reservada (diferido)?"
+
+msgid "Not checked"
+msgstr "No controlado"
+
+msgid "Redirection"
+msgstr "Redirección"
+
+msgid "Only authorized transaction can be cancelled."
+msgstr "Sólo las transacciones autorizadas se pueden cancelar."
+
+msgid "IP Address"
+msgstr "IP Address"
+
+msgid "Minimal Order Total"
+msgstr "Cantidad mínima del pedido"
+
+msgid "Continue"
+msgstr "Continuar"
+
+msgid "Transaction Cancelled"
+msgstr "Transacción cancelada"
+
+msgid "Cancel status"
+msgstr "Cancelar Estado"
+
+msgid "Direct E-Banking"
+msgstr "Direct E-Banking"
+
+msgid "Only captured transaction can be refunded."
+msgstr "Sólo las transacciones contabilizadas pueden ser reembolsadas"
+
+msgid "This controls the title which the user sees during checkout."
+msgstr "Controla el título que el usuario ve durante la comprobación."
+
+msgid "Please enter here the number on your card."
+msgstr "Por favor, introduzca su número de tarjeta"
+
+msgid "The signature could not be verified."
+msgstr "The signature could not be verified."
+
+msgid "Save Shipping Method"
+msgstr "Save Shipping Method"
+
+msgid "Please select a shipping method"
+msgstr "Please select a shipping method"
+
+msgid "Card Expiration"
+msgstr "Fecha de vencimiento de la tarjeta"
+
+msgid "Couldn't obtain IP address."
+msgstr "Couldn't obtain IP address."
+
+msgid "Cart has been modified after displaying order review"
+msgstr "Cart has been modified after displaying order review"
+
+msgid "If you have any issues with the module please feel free to contact us. See our <a href='https://www.sellxed.com/en/support' target='_blank'>support page</a> for more information."
+msgstr "If you have any issues with the module please feel free to contact us. See our <a href='https://www.sellxed.com/en/support' target='_blank'>support page</a> for more information."
+
+msgid "Less Details"
+msgstr "Menos detalles"
+
+msgid "Live Identifier (PBX_IDENTIFIANT)"
+msgstr "Live Identifier (PBX_IDENTIFIANT)"
+
+msgid "Could not load layout from URL !url. Reason: !reason"
+msgstr "No se pudo cargar el diseño de URL !url. Motivo: !reason"
+
+msgid "Maximal Capturable Amount"
+msgstr "Importe máximo a contabilizar"
+
+msgid "Error Message:"
+msgstr "Notificación de error:"
+
+msgid "Reset"
+msgstr "Reset"
+
+msgid "This password is used for recurring payments and for the alias manager as well as for the server authorization. This is the password of the Opayo account."
+msgstr "This password is used for recurring payments and for the alias manager as well as for the server authorization. This is the password of the Opayo account."
+
+msgid "Card Number"
+msgstr "Número de tarjeta"
+
+msgid "IBAN number"
+msgstr "número IBAN"
+
+msgid "Error with the length of the validation date."
+msgstr "Error with the length of the validation date."
+
+msgid "No shipping method available for your region"
+msgstr "No shipping method available for your region"
+
+msgid "Shipping"
+msgstr "Shipping"
+
+msgid "The customer does not finish the payment with in the timeout."
+msgstr "The customer does not finish the payment with in the timeout."
+
+msgid "The payment method !paymentMethodName does not support the currency '!currency'."
+msgstr "La forma de pago! PaymentMethodName no soporta la moneda '!currency'."
+
+msgid "The payment could not be processed. However, it seems that the payment was successful nevertheless. Your order was created and can be seen on the order confirmation page. Please contact us to find out more about the status of the order."
+msgstr "El pago no podría ser procesado. Sin embargo, parece que el pago fue exitoso, sin embargo. Su pedido fue creado y puede verse en la página de confirmación de pedido. Póngase en contacto con nosotros para obtener más información sobre el estado del pedido."
+
+msgid "Card Holder Name"
+msgstr "Titular de tarjeta"
+
+msgid "Setup"
+msgstr "Setup"
+
+msgid "The amount could not be verified."
+msgstr "The amount could not be verified."
+
+msgid "Issue Number"
+msgstr "Número de emisión"
+
+msgid "Bank Name"
+msgstr "Nombre del banco"
+
+msgid "Close transaction for further refunds."
+msgstr "Cerrar la transacción para otras contabilizaciónes."
+
+msgid "You have to enter either the CVC code or the issue number of your card."
+msgstr "Usted tiene que ingresar ya sea el código CVC o el número de expedición de la tarjeta."
+
+msgid "3D Secure"
+msgstr "3D Secure con éxito"
+
+msgid "Sales Tax Number"
+msgstr "Número de Impuesto a las Ventas"
+
+msgid "Credit Card Brands"
+msgstr "Marcas de Tarjeta de Crédito"
+
+msgid "Enabled"
+msgstr "Activado"
+
+msgid "The brand of the credit card is detected by the card number if hidden authorization is used. If the payment page is used, the user has to select the brand. The allowed credit card brands can be restricted by this setting."
+msgstr "The brand of the credit card is detected by the card number if hidden authorization is used. If the payment page is used, the user has to select the brand. The allowed credit card brands can be restricted by this setting."
+
+msgid "The refund item with SKU '@sku' has a higher amount (@amountItem) as the original item (@amountOriginal)."
+msgstr "The refund item with SKU '@sku' has a higher amount (@amountItem) as the original item (@amountOriginal)."
+
+msgid "VISA Electron"
+msgstr "VISA Electron"
+
+msgid "Action failed with '!message'"
+msgstr "Error en la acción con !message'"
+
+msgid "Action"
+msgstr "Acción"
+
+msgid "Register"
+msgstr "Register"
+
+msgid "A cancelled transaction cannot be captured."
+msgstr "Una transacción cancelada no puede ser contabilizada"
+
+msgid "This status is set, when the payment was successfull and it is authorized."
+msgstr "Este estado se define, cuando el pago se ha realizado correctamente y que esté autorizado."
+
+msgid "Authorization Method"
+msgstr "Método de autorización"
+
+msgid "Failed to fetch transaction details: @error"
+msgstr "Imposible obtener detalles de la transacción: @error"
+
+msgid "You have to enter the name of the account owner."
+msgstr "Debe introducir el titular de la cuenta bancaria"
+
+msgid "Inactive"
+msgstr "Inactivo"
+
+msgid "Cancelled Status"
+msgstr "Estado de cancelación"
+
+msgid "Wrong authorization type."
+msgstr "Wrong authorization type."
+
+msgid "Previous Actions"
+msgstr "Acciones previas"
+
+msgid "Is Authorized"
+msgstr "Está aurorizado"
+
+msgid "An unknown error has occurred while trying to obtain The 3rd Man results."
+msgstr "Se ha producido un error desconocido al intentar obtener el resultados de 3rd Man."
+
+msgid "Create a recurring payment, with an existing alias is not supported"
+msgstr "Create a recurring payment, with an existing alias is not supported"
+
+msgid "Which status should be set when a transaction is labelled as paid? For payments by invoice a payment the labelling might occur with a delay; in this case this status helps keep apart paid from unpaid invoices."
+msgstr "¿Qué estado quiere establecer cuando una transaccion ha marcado como pagado? en el caso de los pagos por factura, el pago estará marcado con un retraso. Esta opción le permite distinguir entre los pagos pagados y pagos non pagados."
+
+msgid "No authorization method found for payment method !method."
+msgstr "Ningún método de autorización encontrado para el pago al !method."
+
+msgid "You have to enter the CV2 code from the back of your credti card."
+msgstr "Usted tiene que introducir el código CV2 de la parte posterior de su tarjeta de crédito."
+
+msgid "The given CVC code has the wrong length."
+msgstr "El código CVC dado tiene una longitud incorrecta."
+
+msgid "Here you can insert a transaction prefix. The prefix allows you to change the transaction number that is transmitted to Opayo. The prefix must contain the tag {id}. It will then be replaced by the order number (e.g. name_{id})."
+msgstr "El prefijo le permite cambiar el número de transacción que se transmite a Opayo El prefijo debe contener la etiqueta {id}. A continuación, se sustituye por el número de orden (por ejemplo nombre_{id})."
+
+msgid "The alias transaction could not be conductet with error code: !code, and reason: !reason:"
+msgstr "The alias transaction could not be conductet with error code: !code, and reason: !reason:"
+
+msgid "Please select the month of your birth."
+msgstr "Por favor seleccione el mes de su nacimiento."
+
+msgid "Costs"
+msgstr "Costs"
+
+msgid "The customer is now in the payment process of Opayo."
+msgstr "El cliente se encuentra ahora en el proceso de pago de Opayo."
+
+msgid "Payment Information"
+msgstr "Información de pago"
+
+msgid "You have to enter your IBAN Number."
+msgstr "Tiene que introducir su número de IBAN."
+
+msgid "The address or post code are not checked"
+msgstr "La dirección o código postal no ha sido verificada."
+
+msgid "You have not set a transaction description."
+msgstr "No se ha establecido una descripción de la transacción."
+
+msgid "You have to enter the account holder name on the card."
+msgstr "Usted tiene que introducir el nombre del titular de la tarjeta."
+
+msgid "Title"
+msgstr "Título"
+
+msgid "CV2 Check Result"
+msgstr "CV2 resultado de verificación"
+
+msgid "No order ID provided."
+msgstr "No order ID provided."
+
+msgid "You have to enter the name of your bank."
+msgstr "Usted tiene que introducir el nombre de su banco."
+
+msgid "Customer sucessfully returned from the SagePayCw payment page."
+msgstr "Customer sucessfully returned from the SagePayCw payment page."
+
+msgid "The 3rd Man"
+msgstr "The 3rd Man"
+
+msgid "Close transaction for further captures."
+msgstr "Cerrar la transacción para otras contabilizaciónes."
+
+msgid "Please enter the name of your bank."
+msgstr "Por favor escriba el nombre de su banco."
+
+msgid "Invalid transaction ID provided."
+msgstr "Invalid transaction ID provided."
+
+msgid "Next Update Execution Date"
+msgstr "Next Update Execution Date"
+
+msgid "VISA"
+msgstr "VISA"
+
+msgid "Please select the the year of your birth."
+msgstr "Por favor, seleccione el año de tu nacimiento."
+
+msgid "The amount of !amount is authorized."
+msgstr "La cantidad de cada !amount está autorizado."
+
+msgid "Total amount computed over all lineitems (%f) does not match cart total (%f)"
+msgstr "Total amount computed over all lineitems (%f) does not match cart total (%f)"
+
+msgid "Multiple Shipping Methods"
+msgstr "Multiple Shipping Methods"
+
+msgid "Address Check Result"
+msgstr "Resultado de la verificación de la dirección"
+
+msgid "PayPal Payer Status"
+msgstr "PayPal Payer Status"
+
+msgid "Test Mode"
+msgstr "Modo de prueba"
+
+msgid "Failed to update transaction: @error"
+msgstr "Error al actualizar la transacción: @error"
+
+msgid "Which status should be set if the payment has been successfully authorised?"
+msgstr "¿Qué estado quiere establecer cuando el pago ha sido autorizado con éxito?"
+
+msgid "You have to enter the month of the card expiry."
+msgstr "Tiene que entrar en el mes de la caducidad de la tarjeta."
+
+msgid "During the authorization"
+msgstr "Durante la autorización"
+
+msgid "This message is returned by Opayo for this transaction."
+msgstr "Este mensaje es devuelto por Opayo para esta transacción."
+
+msgid "Could not find a brand for the given card number."
+msgstr "No se pudo encontrar una marca para el número de la tarjeta dada."
+
+msgid "Refund Transaction"
+msgstr "Reembolsar transacción"
+
+msgid "The description of goods purchased is displayed on the Opayo Server payment page as the customer enters their card details."
+msgstr "La descripción del pedido aparece en la Opayo servidor página de pago donde el cliente introduce los datos de su tarjeta."
+
+msgid "Time Out"
+msgstr "Time Out"
+
+msgid "Paid Status"
+msgstr "Estado pagado"
+
+msgid "The capturing could not be conducted. Error code: !error."
+msgstr "The capturing could not be conducted. Error code: !error."
+
+msgid "Only authorized transaction can be captured."
+msgstr "Sólo las transacciones autorizadas pueden ser contabilizadas"
+
+msgid "Maestro"
+msgstr "Maestro"
+
+msgid "Status Message"
+msgstr "Mensaje de estado"
+
+msgid "Refunds"
+msgstr "Reembolsos"
+
+msgid "If the test mode is selected the test account is used. Otherwise the configured account is used."
+msgstr "If the test mode is selected the test account is used. Otherwise the configured account is used."
+
+msgid "Set here the maximal order total for which this payment method is available. If it is set to zero, it is always available."
+msgstr "Esta forma de pago es disponible sólo si la suma del pedido es menor que el importe definido aquí. Si se establece en cero, siempre está disponible."
+
+msgid "The SEPA mandate schema does not contain the tag '!tag'. This tag is required."
+msgstr "El esquema de mandato SEPA no contiene la etiqueta '!tag'. Se requiere esta etiqueta."
+
+msgid "The address or post code do not match"
+msgstr "La dirección o código postal no coincide"
+
+msgid "The capture amount (!captureAmount) cannot be greater than the authorized amount (!authorizedAmount)."
+msgstr "La cantidad de captura (!captureAmount) no puede ser mayor que el monto autorizado (!authorizedAmount)."
+
+msgid "Free"
+msgstr "Free"
+
+msgid "Save"
+msgstr "Save"
+
+msgid "Deferred"
+msgstr "Diferido"
+
+msgid "If the status is 'Pending' it is unclear whether the transaction will be captured successfully."
+msgstr "If the status is 'Pending' it is unclear whether the transaction will be captured successfully."
+
+msgid "Capture Transaction"
+msgstr "Contabilizar transacción"
+
+msgid "Please enter this IP in the Opayo Backend > Settings > Valid IPs"
+msgstr "Please enter this IP in the Opayo Backend > Settings > Valid IPs"
+
+msgid "Brand Name"
+msgstr "Brand Name"
+
+msgid "Please enter here the account holder name."
+msgstr "Escriba aquí el nombre del titular."
+
+msgid "Disabled"
+msgstr "Desactivado"
+
+msgid "Currency"
+msgstr "Moneda"
+
+msgid "Transaction Captured"
+msgstr "Transacción contabilizada"
+
+msgid "External Checkout"
+msgstr "External Checkout"
+
+msgid "PayPal Address Status"
+msgstr "PayPal Estado de la Dirección"
+
+msgid "Operation Mode"
+msgstr "Modo de funcionamiento"
+
+msgid "Please enter your issue number, if there is no CVC code on your card."
+msgstr "Por favor, introduzca su número de emisión, si no existe un código CVC de su tarjeta."
+
+msgid "About"
+msgstr "About"
+
+msgid "Captures"
+msgstr "Contabilizaciónes"
+
+msgid "Direct Debits"
+msgstr "Direct Debits"
+
+msgid "You have to enter bank code of your bank."
+msgstr "Debe introducir el código bancario"
+
+msgid "Author"
+msgstr "Author"
+
+msgid "Could not load payment module."
+msgstr "Could not load payment module."
+
+msgid "Successfully add a manual renewal payment."
+msgstr "Successfully add a manual renewal payment."
+
+msgid "Billing Address"
+msgstr "Billing Address"
+
+msgid "Deferred (authorization)"
+msgstr "Deferred (authorization)"
+
+msgid "The refunding could not be conducted. Error code: !error."
+msgstr "The refunding could not be conducted. Error code: !error."
+
+msgid "The given rang is empty. It must be a nummeric value with length of two."
+msgstr "The given rang is empty. It must be a nummeric value with length of two."
+
+msgid "'Accept' means ReD recommends that the transaction can be accepted. 'Deny' means ReD recommends that the transaction shoulb be rejected. 'Not checked' means ReD did not perform any fraud checking for this particular transaction."
+msgstr "'Aceptar' significa ReD recomienda que la transacción pueda ser aceptada. 'Deny' significa Roja recomienda que la transacción debe ser rechazada. 'No comprobado' rojo significa que no realiza ninguna comprobación de fraude para esta transacción en particular."
+
+msgid "During the checkout the basket can be sent to Opayo. It can be sent as XML, Basic."
+msgstr "During the checkout the basket can be sent to Opayo. It can be sent as XML, Basic."
+
+msgid "Please enter here your social security number."
+msgstr "Por favor, introduzca aquí su número de seguro social."
+
+msgid "Live Site ID (PBX_SITE)"
+msgstr "Live Site ID (PBX_SITE)"
+
+msgid "Select Brand"
+msgstr "Seleccione una marca"
+
+msgid "3rd Man: Action"
+msgstr "3rd Man: Action"
+
+msgid "A cancelled transaction cannot be refunded."
+msgstr "Una transacción cancelada no puede ser reembolsada"
+
+msgid "Token expired"
+msgstr "Token expired"
+
+msgid "You have to enter the IBAN."
+msgstr "Entrar en el IBAN."
+
+msgid "Post Code Check Result"
+msgstr "Código postal resultado de verificación"
+
+msgid "Accept"
+msgstr "Aceptar"
+
+msgid "Missing payment method."
+msgstr "Missing payment method."
+
+msgid "Please select the day of your birth."
+msgstr "Por favor seleccione el día de su nacimiento."
+
+msgid "I confirm my payment"
+msgstr "Confirmo mi pago"
+
+msgid "Please select"
+msgstr "Por favor seleccione"
+
+msgid "The 3D secure authentication failed."
+msgstr "La autenticación segura 3D ha fallado."
+
+msgid "PayPal Payer ID"
+msgstr "PayPal Payer ID"
+
+msgid "Authorization Amount"
+msgstr "Importe de autorisación"
+
+msgid "Active"
+msgstr "Activo"
+
+msgid "Used to authenticate your site. This should contain the Opayo Vendor Name supplied by Opayo when your account was created."
+msgstr "Entra el nombre del proveedor Opayo, suministrado por Opayo al crear de la cuenta."
+
+msgid "Password"
+msgstr "Contraseña"
+
+msgid "Which status should be set if a problem with the authorisation has occurred? In these cases you must manually verify if the customer has been charged with the amount."
+msgstr "¿Qué estado quiere establecer cuando se produjo un problema al autorizar? Pedidos en este estado tienen que estar comprobado manualmente si el importe fue contabilizado."
+
+msgid "Directly after order (sale)"
+msgstr "Directly after order (sale)"
+
+msgid "SagePayCw Interval"
+msgstr "Intervalo de ___ModuleCamel___"
+
+msgid "Enter the date on which your card expires."
+msgstr "Introduzca la fecha en la que expira su tarjeta."
+
+msgid "Use normal deferred authorization"
+msgstr "Utilizar autorización deferred normal"
+
+msgid "3D Secure Check"
+msgstr "3D Secure Check"
+
+msgid "CVC Code"
+msgstr "CVC código"
+
+msgid "Confirm email"
+msgstr "Confirm email"
+
+msgid "Transaction Paid"
+msgstr "Transacción pagado"
+
+msgid "Please select the expiry year on your card."
+msgstr "Por favor introduzca la fecha de caducidad de la tarjeta."
+
+msgid "Rounding Adjustment"
+msgstr "Rounding Adjustment"
+
+msgid "Tried to update 3rd man result, but no result present right now."
+msgstr "Trató de actualizar el resultado de 3rd Man, aunque el resultado no está disponible en estos momentos."
+
+msgid "Could not convert object of type '!type' to string."
+msgstr "No se pudo convertir el objeto de tipo '!type' a string."
+
+msgid "Change payment method"
+msgstr "Cambiar el método de pago"
+
+msgid "Opayo Transactions"
+msgstr "Transacciones Opayo"
+
+msgid "Please enter here the account number of your bank account."
+msgstr "Introduce el número de cuenta de tu cuenta bancaria."
+
+msgid "Your Payment"
+msgstr "Su pago"
+
+msgid "The given card number has an invalid length."
+msgstr "El número de tarjeta dada tiene una longitud no válida."
+
+msgid "CV2 not matched"
+msgstr "CV2 no coincide"
+
+msgid "Cart Subtotal"
+msgstr "Cart Subtotal"
+
+msgid "Processing..."
+msgstr "Processing..."
+
+msgid "XML"
+msgstr "XML"
+
+msgid "Discount"
+msgstr "Discount"
+
+msgid "Login"
+msgstr "Login"
+
+msgid "Define a minimal order total for this checkout to be available."
+msgstr "Define a minimal order total for this checkout to be available."
+
+msgid "Description"
+msgstr "Descripción"
+
+msgid "You have to enter your social security number."
+msgstr "Tiene que introducir su número de seguro social."
+
+msgid "Use Default"
+msgstr "Use Default"
+
+msgid "You have to enter your bank account number."
+msgstr "Debe introducir el número de cuenta de tu cuenta bancaria."
+
+msgid "You have to enter the BIC."
+msgstr "Entrar en el BIC."
+
+msgid "Transaction Number"
+msgstr "Número de transacción"
+
+msgid "Capture status"
+msgstr "El estado de captura"
+
+msgid "No fraud check was done."
+msgstr "No se realizó ningún control de fraude"
+
+msgid "Off"
+msgstr "Off"
+
+msgid "Debit MasterCard"
+msgstr "Debit MasterCard"
+
+msgid "A cancelled transaction cannot be authorized."
+msgstr "Una transacción cancelada no puede ser autorizada"
+
+msgid "The transaction is only executed in the test system. The goods should not be delivered."
+msgstr "The transaction is only executed in the test system. The goods should not be delivered."
+
+msgid "Product"
+msgstr "Product"
+
+msgid "This controls the description which the user sees during checkout."
+msgstr "Controla la descripción que el usuario ve durante la comprobación."
+
+msgid "3rd Man: Score"
+msgstr "3rd Man: Score"
+
+msgid "Subscription Payment Failed with error:"
+msgstr "El pago de la subscription ha fallado con el error:"
+
+msgid "Mark the transaction as uncertain"
+msgstr "Marque la transacción como incierta"
+
+msgid "Order Prefix"
+msgstr "Order Prefix"
+
+msgid "Release Date"
+msgstr "Release Date"
+
+msgid "Version"
+msgstr "Version"
+
+msgid "Select the authorization method to use for processing this payment method."
+msgstr "Selecciona el método de autorización para este método de pago."
+
+msgid "Select card"
+msgstr "Seleccione la información de pago guardada."
+
+msgid "Token System (Alias Manager)"
+msgstr "Token System (Alias Manager)"
+
+msgid "No"
+msgstr "No"
+
+msgid "A manual renewal debits the customer directly for this subscription. This by pass any time restriction of the automatic subscription plugin."
+msgstr "Una renovación manual de carga a la cliente directamente para esta suscripción. Con esta opción se omite el mecanismo automático del plugin de suscripción."
+
+msgid "Only an authorized transaction can be marked as finally declined."
+msgstr "Only an authorized transaction can be marked as finally declined."
+
+msgid "The token system allows the customer to select from a credit card previously stored. The credit card data is stored by Opayo."
+msgstr "El sistema de fichas permite al cliente seleccionar de una tarjeta de crédito guardada con anterioridad. Los datos de la tarjeta de crédito se almacenan por Opayo."
+
+msgid "We experienced a problem with your sellxed payment extension. For more information, please visit the information page of the plugin."
+msgstr "Hemos experimentado un problema con su extensión de pago de sellXed. Para obtener más información, visite la página de información del plugin."
+
+msgid "This is a brief instruction of the main and most important installation steps, which need to be performed when installing the Opayo module. For detailed instructions regarding additional and optional settings, please refer to the enclosed instructions in the zip."
+msgstr "This is a brief instruction of the main and most important installation steps, which need to be performed when installing the Opayo module. For detailed instructions regarding additional and optional settings, please refer to the enclosed instructions in the zip."
+
+msgid "Subtotal"
+msgstr "Subtotal"
+
+msgid "Payment"
+msgstr "Payment"
+
+msgid "Only an uncertain transaction can be marked as finally declined."
+msgstr "Only an uncertain transaction can be marked as finally declined."
+
+msgid "A transaction may be uncertain, when the payment is not guaranteed. For example in case the credit card does not participate in the 3D procedure."
+msgstr "Una transacción puede ser incierto, cuando no se garantiza el pago. Por ejemplo en el caso de la tarjeta de crédito no participa en el procedimiento de 3D​​."
+
+msgid "No more details available."
+msgstr "No more details available."
+
+msgid "The specific result of the checks on the cardholder's CV2."
+msgstr "El resultado concreto de los controles de CV2 del titular."
+
+msgid "A transaction of type 'deferred' can have only one capture, but there are multiple captures. This transaction is corrupted."
+msgstr "Una transacción de tipo 'deferred' puede tener sólo ser capturado una vez, pero hay varias capturas. Esta transacción está dañado."
+
+msgid "Transaction Authorized"
+msgstr "Transacción autorizada"
+
+msgid "Support"
+msgstr "Support"
+
+msgid "Dear customer, it appears to us that your payment was successful, but we are still waiting for confirmation. You can wait on this page and we will redirect you after we received the confirmation. Or you can close this window and we will send out an order confirmation email."
+msgstr "Dear customer, it appears to us that your payment was successful, but we are still waiting for confirmation. You can wait on this page and we will redirect you after we received the confirmation. Or you can close this window and we will send out an order confirmation email."
+
+msgid "IBAN"
+msgstr "IBAN"
+
+msgid "More Details"
+msgstr "Más detalles"
+
+msgid "Amount"
+msgstr "Importe"
+
+msgid "Accept the transaction"
+msgstr "Acepte la transacción"
+
+msgid "Card Type"
+msgstr "Tipo de tarjeta"
+
+msgid "Bad signature format."
+msgstr "Bad signature format."
+
+msgid "Please check the entered CVC number."
+msgstr "Por favor, compruebe el número de CVC introducido."
+
+msgid "The given rang is invalid. It must be a nummeric value with length of two."
+msgstr "The given rang is invalid. It must be a nummeric value with length of two."
+
+msgid "A refund was added over !amount."
+msgstr "Un reembolso se añadió durante  !amount."
+
+msgid "Cancel Transaction"
+msgstr "Cancelar transacción"
+
+msgid "The identifier as defined in the backoffice of Opayo."
+msgstr "The identifier as defined in the backoffice of Opayo."
+
+msgid "BIC"
+msgstr "BIC"
+
+msgid "Authorize Transaction ID: !transactionId"
+msgstr "Autorizar ID de la transacción: !transactionId"
+
+msgid "The username used for administrative requests."
+msgstr "El nombre de usuario utilizado para las peticiones administrativas."
+
+msgid "Continue to your the order confirmation"
+msgstr "Continuar a la confirmación del pedido"
+
+msgid "Successful"
+msgstr "Con éxito"
+
+msgid "The specific result of the checks on the cardholder's address from the AVS/CV2 checks."
+msgstr "El resultado concreto de los controles de la dirección del titular de la tarjeta de los controles AVS/CV2."
+
+msgid "The password used for administrative requests."
+msgstr "La contraseña utilizada para las peticiones administrativas."
+
+msgid "Transaction ID Prefix"
+msgstr "Prefijo de ID de transacción"
+
+msgid "Order Total"
+msgstr "Order Total"
+
+msgid "The order is not fully completed. Please contact the store owner."
+msgstr "The order is not fully completed. Please contact the store owner."
+
+msgid "By enabling the gife aid option the customer can ticke a box during the checkout process to indicate she or he wish to donate the tax.This option requires that the your Opayo account has enabled the gift aid option."
+msgstr "Al activar esta opción el cliente puede marcar una casilla durante el proceso de pago para indicar si desea donar el impuesto. Esta opción requiere que la opción está habilitada en su cuenta de Opayo."
+
+msgid "Opayo Settings"
+msgstr "Configuración Opayo"
+
+msgid "The controller class '@controller' does not provide any method with annotation 'Customweb_Payment_Endpoint_Annotation_ExtractionMethod' and valid output."
+msgstr "The controller class '@controller' does not provide any method with annotation 'Customweb_Payment_Endpoint_Annotation_ExtractionMethod' and valid output."
+
+msgid "Cancel the transaction (the customer is forced to choose another payment method)"
+msgstr "Cancelar la transacción (el cliente se ve obligado a elegir otro método de pago)"
+
+msgid "Refund Transaction ID: !transactionId"
+msgstr "Reembolso ID de transacción: !transactionId"
+
+msgid "Shipping Address"
+msgstr "Shipping Address"
+
+msgid "Do not send basket"
+msgstr "Do not send basket"
+
+msgid "When the store is not available (network outage, server failure or any other outage), when the feedback of Opayo is sent, then the transaction state is not updated. Hence no order confirmation e-mail is sent and the order is not in the paid state. By activating the transaction update, such transactions can be authorized later over direct link. To use this feature the update service must be activated and the API username and the API password must be set."
+msgstr "When the store is not available (network outage, server failure or any other outage), when the feedback of Opayo is sent, then the transaction state is not updated. Hence no order confirmation e-mail is sent and the order is not in the paid state. By activating the transaction update, such transactions can be authorized later over direct link. To use this feature the update service must be activated and the API username and the API password must be set."
+
+msgid "Fraud Check Result"
+msgstr "Resultado del control del fraude"
+
+msgid "You can choose a previous used card:"
+msgstr "Usted puede elegir entre una tarjeta utilizada anteriormente:"
+
+msgid "Account owner name."
+msgstr "Nombre del titular"
+
+msgid "Free Shipping"
+msgstr "Free Shipping"
+
+msgid "The given card number has an invalid check sum."
+msgstr "El número de tarjeta dada tiene una suma de comprobación no válida."
+
+msgid "Please enter here the account holder name on the card."
+msgstr "Por favor introduzca el nombre titular de la cuenta de la tarjeta."
+
+msgid "You have to enter the card holder name on the card."
+msgstr "Debe introducir el titular de la tarjeta."
+
+msgid "Year"
+msgstr "Año"
+
+msgid "In case hidden authorization is used, the brand of the credit card is detected by the card number and the card number is validated accordingly. This setting enables the restriction of the allowed brands."
+msgstr "En caso de que se utiliza la autorización oculta, la marca de la tarjeta de crédito es detectado por el número de tarjeta y el número de tarjeta es validada en consecuencia. Esta configuración permite la restricción de las marcas permitidas."
+
+msgid "Could not create user."
+msgstr "Could not create user."
+
+msgid "Invalid Email/Username"
+msgstr "Invalid Email/Username"
+
+msgid "Status"
+msgstr "Estado"
+
+msgid "Please enter here the Bank Identifier Code (BIC)."
+msgstr "Por favor introduzca el Código de identificación bancaria (BIC)."
+
+msgid "During the authorization of the payment a 3D secure check may be done. The selected outcomes are treated as uncertain transactions."
+msgstr "En base a los criterios seleccionados, los pedidos serán marcados como incierto. Puede seleccionar varias reglas, el orden será marcado como incierta en cuanto una de las condiciones anteriores se cumple."
+
+msgid "Yes, use images for the brand selection."
+msgstr "Yes, use images for the brand selection."
+
+msgid "Email / Username"
+msgstr "Email / Username"
+
+msgid "The payment method !paymentMethodName is not available in your country ('!country')."
+msgstr "La forma de pago! PaymentMethodName no está disponible en tu país ('!country')."
+
+msgid "Date of Birth"
+msgstr "Fecha de nacimiento"
+
+msgid "The 3D secure check was disabled for the transaction."
+msgstr "La comprobación de seguridad 3D fue desactivado por la transacción."
+
+msgid "Only on captured transaction the flag customer refusing to pay can be set."
+msgstr "Only on captured transaction the flag customer refusing to pay can be set."
+
+msgid "A authorized transaction cannot be marked as failed."
+msgstr "Una transacción autorizada no puede ser marcado como fallada"
+
+msgid "Please check the entered credit card number."
+msgstr "Por favor, compruebe el número de la tarjeta de crédito introducida."
+
+msgid "Captured Status"
+msgstr "Estado de Captura"
+
+msgid "The password field was empty"
+msgstr "The password field was empty"
+
+msgid "No, use the dropdown."
+msgstr "No, use the dropdown."
+
+msgid "During the checkout the basket can be sent to Opayo. Should the basket be sent?"
+msgstr "Durante el checkout la cesta puede ser enviada a Opayo. Pues los artículos pedidos se mostrarán en la cuenta de Opayo ."
+
+msgid "Could not find the payment method !paymentMethodName."
+msgstr "No se pudo encontrar la forma de pago !paymentMethodName."
+
+msgid "This setting can be used to activate resp. deactivate the 3D secure check. Please check with PayBox if you are allowed to deactivate the 3D secure check. This setting has only an effect when you use the payment page."
+msgstr "This setting can be used to activate resp. deactivate the 3D secure check. Please check with PayBox if you are allowed to deactivate the 3D secure check. This setting has only an effect when you use the payment page."
+
+msgid "The specific result of the checks on the cardholder's postcode from the AVS/CV2 checks."
+msgstr "El resultado concreto de los controles de código postal del titular de los cheques AVS/CV2."
+
+msgid "Please enter here the CVC code from your card. You find the code on the back of the card."
+msgstr "Por favor, introduzca la CVC su tarjeta. Usted puede encontrar esto en la parte de atrás de su tarjeta de crédito."
+
+msgid "Please enter here the International Bank Account Number (IBAN)."
+msgstr "Por favor introduzca el Número de Cuenta Bancaria Internacional (IBAN)."
+
+msgid "Activate"
+msgstr "Activate"
+
+msgid "Payment Notification"
+msgstr "Notificación de pago:"
+
+msgid "During the authorization of the payment a fraud check may be done by ReD. The selected outcomes are treated as uncertain transactions."
+msgstr "En base a los criterios seleccionados, los pedidos serán marcados como incierto. Puede seleccionar varias reglas, el orden será marcado como incierta en cuanto una de las condiciones anteriores se cumple."
+
+msgid "Directly after order"
+msgstr "Directamente después del pedido"
+
+msgid "no"
+msgstr "no"
+
+msgid "The email address field was empty"
+msgstr "The email address field was empty"
+
+msgid "The tax of this transaction is donated to a charity."
+msgstr "El fiscal de esta transacción es donado a una organización benéfica."
+
+msgid "Verified"
+msgstr "Verificado"
+
+msgid "Enter the Opayo Vendor Name."
+msgstr "Enter the Opayo Vendor Name."
+
+msgid "Refund amount"
+msgstr "La cantidad del reembolso"
+
+msgid "Enable/Disable"
+msgstr "Activar / desactivar"
+
+msgid "The expected format is '!format' where the 'MM' means the month number and 'YY' the year number."
+msgstr "El formato esperado es '!format' donde el 'MM' significa el número del mes y 'YY' el número de años."
+
+msgid "The transaction registration could not be completed, due to a malformed request. Details: !details"
+msgstr "El registro de transacción no se pudo completar debido a una solicitud con formato incorrecto. Detalles: !details"
+
+msgid "If it is not applicable leave the field empty."
+msgstr "Si no es aplicable deje el campo vacío."
+
+msgid "Enable %s"
+msgstr "Activar %s"
+
+msgid "After selection of payment method"
+msgstr "Después de elegir la forma de pago"
+
+msgid "Account creation"
+msgstr "Account creation"
+
+msgid "3D Secure failed"
+msgstr "3D Secure fallado"
+

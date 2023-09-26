@@ -1,0 +1,23 @@
+//
+// Atum Multi-Inventory UI for orders
+//-----------------------------------
+
+// Scoped global variables
+$atum-assets-path: "../../../atum-stock-manager-for-woocommerce/assets/";
+
+@import "../../../atum-stock-manager-for-woocommerce/assets/scss/common/functions";
+@import "../../../atum-stock-manager-for-woocommerce/assets/scss/common/variables";
+@import "../../../atum-stock-manager-for-woocommerce/assets/scss/common/mixins";
+@import "../../../atum-stock-manager-for-woocommerce/assets/scss/common/breakpoints";
+@import "../../../atum-stock-manager-for-woocommerce/assets/scss/common/transitions";
+@import "../../../atum-stock-manager-for-woocommerce/assets/scss/common/utilities";
+@import "../../../atum-stock-manager-for-woocommerce/assets/scss/common/root";
+
+@import "../../../atum-stock-manager-for-woocommerce/assets/scss/atoms/tooltip";
+@import "../../../atum-stock-manager-for-woocommerce/assets/scss/atoms/atum-icons";
+@import "../../../atum-stock-manager-for-woocommerce/assets/scss/atoms/buttons";
+
+@import "../../../atum-stock-manager-for-woocommerce/assets/scss/molecules/alert";
+@import "../../../atum-stock-manager-for-woocommerce/assets/scss/molecules/sweet-alert";
+@import "molecules/orders-panel";
+@import "molecules/mi-management-popup";

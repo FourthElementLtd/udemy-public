@@ -1,0 +1,25 @@
+[25-May-2022 12:16:26 UTC] 8
+[25-May-2022 12:16:26 UTC] PHP Warning:  error_log() expects parameter 1 to be string, array given in /home/fourtcom/test_fourthelement/wp-content/plugins/fourth-element-scripts/includes/update-return-record.php on line 416
+[25-May-2022 12:16:26 UTC] UPDATE wp_fe_returns SET skus = 'a:1:{s:9:"swdwbb05s";a:7:{s:7:"skuname";s:14:"bikini bottoms";s:10:"reasoncode";s:1:"2";s:12:"refundneeded";s:3:"Yes";s:12:"exchangesize";s:11:"Select Size";s:11:"reasonfault";N;s:10:"itemstatus";s:16:"Request Received";s:9:"emailsent";s:12:"notcompleted";}}' WHERE id = 152
+[25-May-2022 12:29:09 UTC] 8
+[25-May-2022 12:29:09 UTC] PHP Warning:  error_log() expects parameter 1 to be string, array given in /home/fourtcom/test_fourthelement/wp-content/plugins/fourth-element-scripts/includes/update-return-record.php on line 416
+[25-May-2022 12:29:09 UTC] SKU:SWDWBB05S
+[25-May-2022 12:29:09 UTC] UPDATE wp_fe_returns SET skus = 'a:1:{s:9:"swdwbb05s";a:7:{s:7:"skuname";s:14:"bikini bottoms";s:10:"reasoncode";s:1:"2";s:12:"refundneeded";s:3:"Yes";s:12:"exchangesize";s:11:"Select Size";s:11:"reasonfault";N;s:10:"itemstatus";s:16:"Request Received";s:9:"emailsent";s:12:"notcompleted";}}' WHERE id = 152
+[25-May-2022 12:29:34 UTC] 8
+[25-May-2022 12:29:34 UTC] PHP Warning:  error_log() expects parameter 1 to be string, array given in /home/fourtcom/test_fourthelement/wp-content/plugins/fourth-element-scripts/includes/update-return-record.php on line 416
+[25-May-2022 12:29:34 UTC] SKU A:SWDWBB05S
+[25-May-2022 12:29:34 UTC] SKU B:SWDWBB05S
+[25-May-2022 12:29:34 UTC] UPDATE wp_fe_returns SET skus = 'a:1:{s:9:"swdwbb05s";a:7:{s:7:"skuname";s:14:"bikini bottoms";s:10:"reasoncode";s:1:"2";s:12:"refundneeded";s:3:"Yes";s:12:"exchangesize";s:11:"Select Size";s:11:"reasonfault";N;s:10:"itemstatus";s:16:"Request Received";s:9:"emailsent";s:12:"notcompleted";}}' WHERE id = 152
+[25-May-2022 12:30:16 UTC] 8
+[25-May-2022 12:30:16 UTC] PHP Warning:  error_log() expects parameter 1 to be string, array given in /home/fourtcom/test_fourthelement/wp-content/plugins/fourth-element-scripts/includes/update-return-record.php on line 416
+[25-May-2022 12:30:16 UTC] SKU A:SWDWBB05S
+[25-May-2022 12:30:16 UTC] KEYswdwbb05s
+[25-May-2022 12:30:16 UTC] SKU B:SWDWBB05S
+[25-May-2022 12:30:16 UTC] UPDATE wp_fe_returns SET skus = 'a:1:{s:9:"swdwbb05s";a:7:{s:7:"skuname";s:14:"bikini bottoms";s:10:"reasoncode";s:1:"2";s:12:"refundneeded";s:3:"Yes";s:12:"exchangesize";s:11:"Select Size";s:11:"reasonfault";N;s:10:"itemstatus";s:16:"Request Received";s:9:"emailsent";s:12:"notcompleted";}}' WHERE id = 152
+[25-May-2022 12:32:04 UTC] 8
+[25-May-2022 12:32:04 UTC] PHP Warning:  error_log() expects parameter 1 to be string, array given in /home/fourtcom/test_fourthelement/wp-content/plugins/fourth-element-scripts/includes/update-return-record.php on line 416
+[25-May-2022 12:32:04 UTC] SKU A:SWDWBB05S
+[25-May-2022 12:32:04 UTC] KEYswdwbb05s
+[25-May-2022 12:32:04 UTC] SKU B:SWDWBB05S
+[25-May-2022 12:32:04 UTC] emailsentnotcompleted
+[25-May-2022 12:32:04 UTC] UPDATE wp_fe_returns SET skus = 'a:1:{s:9:"swdwbb05s";a:7:{s:7:"skuname";s:14:"bikini bottoms";s:10:"reasoncode";s:1:"2";s:12:"refundneeded";s:3:"Yes";s:12:"exchangesize";s:11:"Select Size";s:11:"reasonfault";N;s:10:"itemstatus";s:16:"Request Received";s:9:"emailsent";s:9:"completed";}}' WHERE id = 152

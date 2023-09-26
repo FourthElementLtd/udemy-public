@@ -1,0 +1,230 @@
+.sagepaycw-preview-fields{
+	margin-top: 5px;
+}
+
+.sagepaycw-control-group {
+	margin-bottom: 5px;
+}
+
+.sagepaycw-control-label {
+	display: inline-block;
+	padding-top: 6px;
+	padding-bottom: 3px;
+	width: 100%;
+	font-weight: bold;
+}
+
+.sagepaycw-help-block{
+	font-size: 14px;
+	padding-top: 3px;
+	padding-bottom: 6px;
+	font-size: 0.9em;
+	
+}
+
+.sagepaycw-control-label .sagepaycw-required {
+	color: #990000;
+	font-size: 0.8em;
+    padding-left: 2px;
+    vertical-align: top;
+}
+
+
+.sagepaycw-error {
+	margin-left: 140px;
+	color: #D8000C;
+}
+
+.sagepaycw-element-error input[type='text'],
+	.sagepaycw-element-error input[type='password'],
+	.sagepaycw-element-error select {
+	border-color: #D8000C;
+}
+
+.sagepaycw-card-cvc input[type='text'] {
+	max-width: 100px;
+}
+
+.sagepaycw-multi-control .sagepaycw-controls {
+	float:left;	
+}
+
+.sagepaycw-multi-control > div {
+	display: inline-block;
+	width: 100%;
+}
+
+.sagepaycw-text-field {
+	width: 80%;
+}
+
+.sagepaycw-iframe {
+	width: 100%;
+	border: none;
+}
+
+.sagepaycw-widget {
+	width: 100%;
+	border: none;
+}
+
+
+.sagepaycw-alias-hidden-new {
+	display: none;
+}
+
+.card-brand-image-box {
+	display: inline-block;
+}
+
+.card-brand-image-color.brand-is-deselected {
+	display: none;
+}
+
+.card-brand-image-grey.brand-is-selected {
+	display: none;
+}
+
+.entry-content .card-brand-image-selection img,
+	.card-brand-image-selection img {
+	width: auto;
+	height: 25px;
+	padding-right: 4px;
+	padding-bottom: 4px;
+	margin: 0 .5em 0 0;
+}
+
+.invalid-card-number, .invalid-card-number:focus, .invalid-cvc-number,
+	.invalid-cvc-number:focus, .invalid-issuer-number,
+	.invalid-issuer-number:focus {
+	border-color: #fb7f88;
+	background-image: url(../image/invalid.png);
+	background-position: 95% center;
+	background-repeat: no-repeat;
+}
+
+.valid-card-number, .valid-card-number:focus, .valid-cvc-number,
+	.valid-cvc-number:focus, .valid-issuer-number, .valid-issuer-number:focus
+	{
+	background-image: url(../image/valid.png);
+	background-position: 95% center;
+	background-repeat: no-repeat;
+}
+
+.sagepaycw-multi-control .sagepaycw-select-field select {
+	margin-right: 1em;
+}
+
+.sagepaycw-card-number .sagepaycw-multi-control select {
+	float: none;
+	margin-top: 0.2em;
+	margin-bottom: 0.2em;
+}
+
+.card-brand-image-selection {
+	margin-top: 0.5em;
+	cursor: pointer;
+}
+
+.sagepaycw-card-number .sagepaycw-html-field {
+	display: block;
+}
+
+.sagepaycw-back-to-checkout {
+	margin-top: 10px;
+	font-size: small;
+}
+
+.sagepaycw-requires-second-run {
+	display: none;
+}
+
+.sagepaycw .col2-set {
+	width: 100%;
+	margin-bottom: 24 px
+}
+
+.sagepaycw .col2-set:after, .woocommerce .col2-set:before
+	{
+	content: " ";
+	display: table;
+}
+
+.sagepaycw .col2-set :after {
+	clear: both;
+}
+
+.sagepaycw .col2-set .col-1 {
+	float: left;
+	width: 48%;
+}
+
+.sagepaycw .col2-set .col-2 {
+	float: right;
+	width: 48%;
+}
+
+.sagepaycw-external-checkout-line-items-table .head-name {
+	width: 60%;
+}
+
+.sagepaycw-external-checkout-line-items-table .head-quantity {
+	width: 10%;
+}
+
+.sagepaycw-external-checkout-line-items-table .head-total {
+	width: 30%;
+}
+
+.sagepaycw-external-checkout-line-items-table .product-quantity {
+	text-align: center;
+}
+
+.sagepaycw-external-checkout-additional {
+	width: 100%;
+	margin-bottom: 24px
+}
+
+.sagepaycw-external-checkout-terms {
+	width: 100%;
+	margin-bottom: 12px
+}
+
+.sagepaycw-external-checkout-confirm-buttons {
+	margin-bottom: 24px
+}
+
+.sagepaycw-external-checkout-account input.button {
+	margin-top: 12px
+}
+
+.cw-external-checkouts {
+	overflow: hidden;
+	margin-bottom: 12px;
+}
+
+.cw-external-checkouts .cw-external-checkout {
+	float: right;
+	margin-left: 10px;
+	margin-bottom: 1em;
+}
+
+.sagepaycw-external-checkout-customer-details {
+	margin-bottom: 24px;
+}
+
+.sagepaycw-external-checkout-billing {
+	margin-bottom: 24px;
+}
+
+.sagepaycw-external-checkout-shipping {
+	margin-bottom: 24px;
+}
+
+.sagepaycw-external-checkout-login-info-message {
+	margin-bottom: 24px;
+}
+
+.woocommerce-checkout #payment div.payment_box p:nth-last-of-type(1) {
+	margin-bottom: 0px;
+}

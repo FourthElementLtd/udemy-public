@@ -1,0 +1,43 @@
+{
+	"require": {
+		"geoip2/geoip2": "^2.10",
+		"maxmind-db/reader": "1.6.0",
+		"maxmind/web-service-common": "0.7.0",
+		"yahnis-elsts/plugin-update-checker": "5.*",
+		"nategood/httpful": "^0.2",
+		"monolog/monolog": "^1.2",
+		"freemius/wordpress-sdk": "^2.5"
+  },
+	"require-dev": {
+		"mockery/mockery": "^1.3",
+		"benmorel/weakmap-polyfill": "^0.3.0"
+  },
+	"autoload" : {
+		"classmap": [
+			"lib/",
+			"dependencies/packages"
+		]
+	},
+	"scripts": {
+		"post-install-cmd": [
+			"mozart compose",
+			"composer dump-autoload"
+		],
+		"post-update-cmd": [
+			"mozart compose",
+			"composer dump-autoload"
+		]
+	},
+	"extra": {
+		"mozart": {
+			"dep_namespace": "Aelia\\Dependencies\\",
+			"dep_directory": "/dependencies/packages/",
+			"classmap_directory": "/dependencies/classes/",
+			"classmap_prefix": "Aelia_",
+			"packages": [
+				"monolog/monolog"
+			],
+			"delete_vendor_directories": true
+		}
+	}
+}

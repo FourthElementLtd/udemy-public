@@ -1,0 +1,153 @@
+.opayo-direct-grid-container {
+    display: grid;
+    margin-top: 10pt;
+    grid-column-gap : 10pt;
+    grid-row-gap : 20pt;
+}
+
+.grid-item-opayo-direct-card-type {
+  grid-column-start: 1;
+  grid-column-end: 4;
+}
+
+.grid-item-opayo-direct-card-number {
+  grid-column-start: 1;
+  grid-column-end: 4;
+}
+
+.grid-item-opayo-direct-card-month {
+  grid-column-start: 1;
+  grid-column-end: 1;
+}
+
+.grid-item-opayo-direct-card-year {
+  grid-column-start: 2;
+  grid-column-end: 2;
+}
+
+.grid-item-opayo-direct-card-cvv {
+  grid-column-start: 3;
+  grid-column-end: 3;
+}
+
+#sagepaydirect-cc-form label {
+    display:block !important;
+    line-height: 1.5;
+}
+
+#sagepaydirect-cc-form .wc-credit-card-form-card-type,
+#sagepaydirect-cc-form .wc-credit-card-form-card-expiry-date,
+#sagepaydirect-cc-form .wc-credit-card-form-card-number,
+#sagepaydirect-cc-form .wc-credit-card-form-card-expiry,
+#sagepaydirect-cc-form .wc-credit-card-form-card-cvc {
+    font-size: 1.5em;
+    padding: 8px;
+    background-repeat: no-repeat;
+    background-position: right;
+
+    padding: .6180469716em;
+    background-color: #f2f2f2;
+    color: #43454b;
+    border: 0;
+    -webkit-appearance: none;
+    box-sizing: border-box;
+    font-weight: 400;
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.125);
+
+    line-height: 1 !important;
+
+}
+
+#sagepaydirect-cc-form .wc-credit-card-form-card-type,
+#sagepaydirect-cc-form .wc-credit-card-form-card-expiry-date {
+    box-sizing: border-box;
+    margin: 0;
+    outline: 0;
+    line-height: 1.15 !important;
+    border-color: #bbb3b9 #c7c1c6 #c7c1c6;
+}
+
+#sagepaydirect-cc-form .wc-credit-card-form-card-type {
+    display:block;
+    width:100% !important;
+}
+
+#sagepaydirect-cc-form .wc-credit-card-form-card-number {
+    display:block;
+    width:100% !important;
+}
+
+#sagepaydirect-cc-form .wc-credit-card-form-card-expiry-date {
+    display:block;
+    width:100% !important;
+}
+
+#sagepaydirect-cc-form .wc-credit-card-form-card-cvc {
+    display:block;
+    width:100% !important;
+}
+
+#sagepaydirect-cc-form .visa {
+    background-image: url(../card-visa.png);
+}
+
+#sagepaydirect-cc-form .mastercard {
+    background-image: url(../card-mastercard.png);
+}
+
+#sagepaydirect-cc-form .discover {
+    background-image: url(../card-discover.png);
+}
+
+#sagepaydirect-cc-form .amex {
+    background-image: url(../card-american-express.png);
+}
+
+#sagepaydirect-cc-form .wc-credit-card-form-card-expiry-date-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#sagepaydirect-cc-form .wc-credit-card-form-card-expiry-date-wrapper label {
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+#sagepayform-card-icons, #sagepaydirect-card-icons, #opayopi-card-icons {
+    height: 1.65em !important;
+}
+
+#sagepayform-card-icons img, #sagepaydirect-card-icons img, #opayopi-card-icons img {
+    float: right !important;
+    border: 0 !important;
+    padding: 0 !important;
+    max-height: 1.618em !important;
+}
+
+
+@media only screen and (max-width: 800px) {
+    .grid-item-opayo-direct-card-type {
+      grid-column-start: 1;
+      grid-column-end: 3;
+    }
+
+    .grid-item-opayo-direct-card-number {
+      grid-column-start: 1;
+      grid-column-end: 3;
+    }
+
+    .grid-item-opayo-direct-card-month {
+      grid-column-start: 1;
+      grid-column-end: 2;
+    }
+
+    .grid-item-opayo-direct-card-year {
+      grid-column-start: 2;
+      grid-column-end: 3;
+    }
+
+    .grid-item-opayo-direct-card-cvv {
+      grid-column-start: 1;
+      grid-column-end: 3;
+    }
+}

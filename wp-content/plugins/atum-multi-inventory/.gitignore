@@ -1,0 +1,10 @@
+# System files
+.DS_Store
+
+# Dev dependencies
+node_modules
+*.map
+.idea
+.vscode
+package-lock.json
+yarn.lock

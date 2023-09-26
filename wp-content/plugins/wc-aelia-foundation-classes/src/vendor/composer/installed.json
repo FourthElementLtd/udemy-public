@@ -1,0 +1,563 @@
+{
+    "packages": [
+        {
+            "name": "composer/ca-bundle",
+            "version": "1.3.6",
+            "version_normalized": "1.3.6.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/composer/ca-bundle.git",
+                "reference": "90d087e988ff194065333d16bc5cf649872d9cdb"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/composer/ca-bundle/zipball/90d087e988ff194065333d16bc5cf649872d9cdb",
+                "reference": "90d087e988ff194065333d16bc5cf649872d9cdb",
+                "shasum": ""
+            },
+            "require": {
+                "ext-openssl": "*",
+                "ext-pcre": "*",
+                "php": "^5.3.2 || ^7.0 || ^8.0"
+            },
+            "require-dev": {
+                "phpstan/phpstan": "^0.12.55",
+                "psr/log": "^1.0",
+                "symfony/phpunit-bridge": "^4.2 || ^5",
+                "symfony/process": "^2.5 || ^3.0 || ^4.0 || ^5.0 || ^6.0"
+            },
+            "time": "2023-06-06T12:02:59+00:00",
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-main": "1.x-dev"
+                }
+            },
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Composer\\CaBundle\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jordi Boggiano",
+                    "email": "j.boggiano@seld.be",
+                    "homepage": "http://seld.be"
+                }
+            ],
+            "description": "Lets you find a path to the system CA bundle, and includes a fallback to the Mozilla CA bundle.",
+            "keywords": [
+                "cabundle",
+                "cacert",
+                "certificate",
+                "ssl",
+                "tls"
+            ],
+            "support": {
+                "irc": "irc://irc.freenode.org/composer",
+                "issues": "https://github.com/composer/ca-bundle/issues",
+                "source": "https://github.com/composer/ca-bundle/tree/1.3.6"
+            },
+            "funding": [
+                {
+                    "url": "https://packagist.com",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/composer",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/composer/composer",
+                    "type": "tidelift"
+                }
+            ],
+            "install-path": "./ca-bundle"
+        },
+        {
+            "name": "freemius/wordpress-sdk",
+            "version": "2.5.10",
+            "version_normalized": "2.5.10.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Freemius/wordpress-sdk.git",
+                "reference": "05bac841008b705bff9636f782c96fb0a73e615b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Freemius/wordpress-sdk/zipball/05bac841008b705bff9636f782c96fb0a73e615b",
+                "reference": "05bac841008b705bff9636f782c96fb0a73e615b",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.2"
+            },
+            "require-dev": {
+                "dealerdirect/phpcodesniffer-composer-installer": "^1.0",
+                "wp-coding-standards/wpcs": "^2.3"
+            },
+            "time": "2023-07-18T06:35:08+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0-only"
+            ],
+            "description": "Freemius WordPress SDK",
+            "homepage": "https://freemius.com",
+            "keywords": [
+                "freemius",
+                "plugin",
+                "sdk",
+                "theme",
+                "wordpress",
+                "wordpress-plugin",
+                "wordpress-theme"
+            ],
+            "support": {
+                "issues": "https://github.com/Freemius/wordpress-sdk/issues",
+                "source": "https://github.com/Freemius/wordpress-sdk/tree/2.5.10"
+            },
+            "install-path": "../freemius/wordpress-sdk"
+        },
+        {
+            "name": "geoip2/geoip2",
+            "version": "v2.10.0",
+            "version_normalized": "2.10.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/maxmind/GeoIP2-php.git",
+                "reference": "419557cd21d9fe039721a83490701a58c8ce784a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/maxmind/GeoIP2-php/zipball/419557cd21d9fe039721a83490701a58c8ce784a",
+                "reference": "419557cd21d9fe039721a83490701a58c8ce784a",
+                "shasum": ""
+            },
+            "require": {
+                "ext-json": "*",
+                "maxmind-db/reader": "~1.5",
+                "maxmind/web-service-common": "~0.6",
+                "php": ">=5.6"
+            },
+            "require-dev": {
+                "friendsofphp/php-cs-fixer": "2.*",
+                "phpunit/phpunit": "5.*",
+                "squizlabs/php_codesniffer": "3.*"
+            },
+            "time": "2019-12-12T18:48:39+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "GeoIp2\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Gregory J. Oschwald",
+                    "email": "goschwald@maxmind.com",
+                    "homepage": "https://www.maxmind.com/"
+                }
+            ],
+            "description": "MaxMind GeoIP2 PHP API",
+            "homepage": "https://github.com/maxmind/GeoIP2-php",
+            "keywords": [
+                "IP",
+                "geoip",
+                "geoip2",
+                "geolocation",
+                "maxmind"
+            ],
+            "support": {
+                "issues": "https://github.com/maxmind/GeoIP2-php/issues",
+                "source": "https://github.com/maxmind/GeoIP2-php/tree/master"
+            },
+            "install-path": "../geoip2/geoip2"
+        },
+        {
+            "name": "maxmind-db/reader",
+            "version": "v1.6.0",
+            "version_normalized": "1.6.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/maxmind/MaxMind-DB-Reader-php.git",
+                "reference": "febd4920bf17c1da84cef58e56a8227dfb37fbe4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/maxmind/MaxMind-DB-Reader-php/zipball/febd4920bf17c1da84cef58e56a8227dfb37fbe4",
+                "reference": "febd4920bf17c1da84cef58e56a8227dfb37fbe4",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.6"
+            },
+            "conflict": {
+                "ext-maxminddb": "<1.6.0,>=2.0.0"
+            },
+            "require-dev": {
+                "friendsofphp/php-cs-fixer": "2.*",
+                "php-coveralls/php-coveralls": "^2.1",
+                "phpunit/phpcov": "^3.0",
+                "phpunit/phpunit": "5.*",
+                "squizlabs/php_codesniffer": "3.*"
+            },
+            "suggest": {
+                "ext-bcmath": "bcmath or gmp is required for decoding larger integers with the pure PHP decoder",
+                "ext-gmp": "bcmath or gmp is required for decoding larger integers with the pure PHP decoder",
+                "ext-maxminddb": "A C-based database decoder that provides significantly faster lookups"
+            },
+            "time": "2019-12-19T22:59:03+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "MaxMind\\Db\\": "src/MaxMind/Db"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Gregory J. Oschwald",
+                    "email": "goschwald@maxmind.com",
+                    "homepage": "https://www.maxmind.com/"
+                }
+            ],
+            "description": "MaxMind DB Reader API",
+            "homepage": "https://github.com/maxmind/MaxMind-DB-Reader-php",
+            "keywords": [
+                "database",
+                "geoip",
+                "geoip2",
+                "geolocation",
+                "maxmind"
+            ],
+            "support": {
+                "issues": "https://github.com/maxmind/MaxMind-DB-Reader-php/issues",
+                "source": "https://github.com/maxmind/MaxMind-DB-Reader-php/tree/v1.6.0"
+            },
+            "install-path": "../maxmind-db/reader"
+        },
+        {
+            "name": "maxmind/web-service-common",
+            "version": "v0.7.0",
+            "version_normalized": "0.7.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/maxmind/web-service-common-php.git",
+                "reference": "74c996c218ada5c639c8c2f076756e059f5552fc"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/maxmind/web-service-common-php/zipball/74c996c218ada5c639c8c2f076756e059f5552fc",
+                "reference": "74c996c218ada5c639c8c2f076756e059f5552fc",
+                "shasum": ""
+            },
+            "require": {
+                "composer/ca-bundle": "^1.0.3",
+                "ext-curl": "*",
+                "ext-json": "*",
+                "php": ">=5.6"
+            },
+            "require-dev": {
+                "friendsofphp/php-cs-fixer": "2.*",
+                "phpunit/phpunit": "^4.8.36 || ^5.7 || ^6.5 || ^7.0",
+                "squizlabs/php_codesniffer": "3.*"
+            },
+            "time": "2020-05-06T14:07:26+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "MaxMind\\Exception\\": "src/Exception",
+                    "MaxMind\\WebService\\": "src/WebService"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Gregory Oschwald",
+                    "email": "goschwald@maxmind.com"
+                }
+            ],
+            "description": "Internal MaxMind Web Service API",
+            "homepage": "https://github.com/maxmind/web-service-common-php",
+            "support": {
+                "issues": "https://github.com/maxmind/web-service-common-php/issues",
+                "source": "https://github.com/maxmind/web-service-common-php/tree/master"
+            },
+            "install-path": "../maxmind/web-service-common"
+        },
+        {
+            "name": "monolog/monolog",
+            "version": "1.27.1",
+            "version_normalized": "1.27.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Seldaek/monolog.git",
+                "reference": "904713c5929655dc9b97288b69cfeedad610c9a1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/904713c5929655dc9b97288b69cfeedad610c9a1",
+                "reference": "904713c5929655dc9b97288b69cfeedad610c9a1",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0",
+                "psr/log": "~1.0"
+            },
+            "provide": {
+                "psr/log-implementation": "1.0.0"
+            },
+            "require-dev": {
+                "aws/aws-sdk-php": "^2.4.9 || ^3.0",
+                "doctrine/couchdb": "~1.0@dev",
+                "graylog2/gelf-php": "~1.0",
+                "php-amqplib/php-amqplib": "~2.4",
+                "php-console/php-console": "^3.1.3",
+                "phpstan/phpstan": "^0.12.59",
+                "phpunit/phpunit": "~4.5",
+                "ruflin/elastica": ">=0.90 <3.0",
+                "sentry/sentry": "^0.13",
+                "swiftmailer/swiftmailer": "^5.3|^6.0"
+            },
+            "suggest": {
+                "aws/aws-sdk-php": "Allow sending log messages to AWS services like DynamoDB",
+                "doctrine/couchdb": "Allow sending log messages to a CouchDB server",
+                "ext-amqp": "Allow sending log messages to an AMQP server (1.0+ required)",
+                "ext-mongo": "Allow sending log messages to a MongoDB server",
+                "graylog2/gelf-php": "Allow sending log messages to a GrayLog2 server",
+                "mongodb/mongodb": "Allow sending log messages to a MongoDB server via PHP Driver",
+                "php-amqplib/php-amqplib": "Allow sending log messages to an AMQP server using php-amqplib",
+                "php-console/php-console": "Allow sending log messages to Google Chrome",
+                "rollbar/rollbar": "Allow sending log messages to Rollbar",
+                "ruflin/elastica": "Allow sending log messages to an Elastic Search server",
+                "sentry/sentry": "Allow sending log messages to a Sentry server"
+            },
+            "time": "2022-06-09T08:53:42+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Monolog\\": "src/Monolog"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jordi Boggiano",
+                    "email": "j.boggiano@seld.be",
+                    "homepage": "http://seld.be"
+                }
+            ],
+            "description": "Sends your logs to files, sockets, inboxes, databases and various web services",
+            "homepage": "http://github.com/Seldaek/monolog",
+            "keywords": [
+                "log",
+                "logging",
+                "psr-3"
+            ],
+            "support": {
+                "issues": "https://github.com/Seldaek/monolog/issues",
+                "source": "https://github.com/Seldaek/monolog/tree/1.27.1"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/Seldaek",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/monolog/monolog",
+                    "type": "tidelift"
+                }
+            ],
+            "install-path": "../monolog/monolog"
+        },
+        {
+            "name": "nategood/httpful",
+            "version": "0.2.20",
+            "version_normalized": "0.2.20.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/nategood/httpful.git",
+                "reference": "c1cd4d46a4b281229032cf39d4dd852f9887c0f6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/nategood/httpful/zipball/c1cd4d46a4b281229032cf39d4dd852f9887c0f6",
+                "reference": "c1cd4d46a4b281229032cf39d4dd852f9887c0f6",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*",
+                "php": ">=5.3"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "*"
+            },
+            "time": "2015-10-26T16:11:30+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-0": {
+                    "Httpful": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Nate Good",
+                    "email": "me@nategood.com",
+                    "homepage": "http://nategood.com"
+                }
+            ],
+            "description": "A Readable, Chainable, REST friendly, PHP HTTP Client",
+            "homepage": "http://github.com/nategood/httpful",
+            "keywords": [
+                "api",
+                "curl",
+                "http",
+                "requests",
+                "rest",
+                "restful"
+            ],
+            "support": {
+                "issues": "https://github.com/nategood/httpful/issues",
+                "source": "https://github.com/nategood/httpful/tree/v0.2.20"
+            },
+            "install-path": "../nategood/httpful"
+        },
+        {
+            "name": "psr/log",
+            "version": "1.1.4",
+            "version_normalized": "1.1.4.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-fig/log.git",
+                "reference": "d49695b909c3b7628b6289db5479a1c204601f11"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/php-fig/log/zipball/d49695b909c3b7628b6289db5479a1c204601f11",
+                "reference": "d49695b909c3b7628b6289db5479a1c204601f11",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "time": "2021-05-03T11:20:27+00:00",
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.1.x-dev"
+                }
+            },
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Psr\\Log\\": "Psr/Log/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "PHP-FIG",
+                    "homepage": "https://www.php-fig.org/"
+                }
+            ],
+            "description": "Common interface for logging libraries",
+            "homepage": "https://github.com/php-fig/log",
+            "keywords": [
+                "log",
+                "psr",
+                "psr-3"
+            ],
+            "support": {
+                "source": "https://github.com/php-fig/log/tree/1.1.4"
+            },
+            "install-path": "../psr/log"
+        },
+        {
+            "name": "yahnis-elsts/plugin-update-checker",
+            "version": "v5.1",
+            "version_normalized": "5.1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/YahnisElsts/plugin-update-checker.git",
+                "reference": "48b03e93c9c2587f9276dce00ce2b6d94c1190d2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/YahnisElsts/plugin-update-checker/zipball/48b03e93c9c2587f9276dce00ce2b6d94c1190d2",
+                "reference": "48b03e93c9c2587f9276dce00ce2b6d94c1190d2",
+                "shasum": ""
+            },
+            "require": {
+                "ext-json": "*",
+                "php": ">=5.6.20"
+            },
+            "time": "2023-05-20T11:55:43+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "files": [
+                    "load-v5p1.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Yahnis Elsts",
+                    "email": "whiteshadow@w-shadow.com",
+                    "homepage": "https://w-shadow.com/",
+                    "role": "Developer"
+                }
+            ],
+            "description": "A custom update checker for WordPress plugins and themes. Useful if you can't host your plugin in the official WP repository but still want it to support automatic updates.",
+            "homepage": "https://github.com/YahnisElsts/plugin-update-checker/",
+            "keywords": [
+                "automatic updates",
+                "plugin updates",
+                "theme updates",
+                "wordpress"
+            ],
+            "support": {
+                "issues": "https://github.com/YahnisElsts/plugin-update-checker/issues",
+                "source": "https://github.com/YahnisElsts/plugin-update-checker/tree/v5.1"
+            },
+            "install-path": "../yahnis-elsts/plugin-update-checker"
+        }
+    ],
+    "dev": false,
+    "dev-package-names": []
+}

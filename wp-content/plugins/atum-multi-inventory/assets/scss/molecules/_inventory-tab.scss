@@ -1,0 +1,467 @@
+//
+// Inventory tab
+//---------------
+
+// Hide the Inventory groups
+#inventory_product_data {
+	> .inventory-group {
+		display: none;
+	}
+	
+}
+
+.multi-inventory-fields {
+	margin: $grid-gutter-width/2 $grid-gutter-width/2;
+	
+	.main-controls {
+		display: flex;
+		align-items: center;
+		margin-bottom: 10px;
+		
+		> button {
+			margin-right: 5px;
+		}
+		
+		.btn {
+			text-transform: uppercase;
+			font-weight: 100;
+			font-size: 12px;
+		}
+		
+		.bulk-actions {
+			flex-grow: 1;
+			display: flex;
+			justify-content: flex-end;
+			
+			button {
+				margin-left: 10px;
+				height: 30px;
+			}
+			
+			.select2-container {
+				.select2-selection--single {
+					height: 30px;
+					.select2-selection__rendered {
+						line-height: 28px;
+					}
+				}
+			}
+		}
+		
+	}
+	
+	.inventory-group {
+		background-color: $light;
+		margin-bottom: 10px;
+		border-radius: 5px;
+		
+		.inventory-info {
+			background-color: $gray-200;
+			border-bottom: 1px solid $white;
+			position: relative;
+			
+			.info-fields {
+				display: flex;
+				flex-wrap: wrap;
+				padding: 10px;
+				font-size: 12px;
+				font-weight: 600;
+				max-width: calc(100% - 46px);
+				border-radius: 5px;
+			}
+			
+			.alert {
+				width: 100%;
+				margin-bottom: 0;
+			}
+			
+			.inventory-field {
+				width: 50%;
+				margin: 3px 0;
+				display: flex;
+				align-items: center;
+				
+				label {
+					float: none;
+					width: 95px;
+					min-width: 95px;
+					margin: 0;
+					display: inline-block;
+				}
+				
+				.field-label {
+					font-weight: normal;
+					
+					&.unsaved {
+						color: $danger;
+					}
+					
+					span {
+						color: $gray-600;
+					}
+				}
+				
+				.atum-tooltip {
+					display: inline-flex;
+				}
+				
+				i {
+					font-size: 18px;
+					line-height: 1.4;
+					color: darken($primary, 10%);
+					cursor: pointer;
+					
+					&:before {
+						display: block;
+						width: 24px;
+						height: 24px;
+					}
+					
+					&:hover {
+						color: $primary;
+					}
+				}
+				
+				.atum-datepicker {
+					display: inline-block;
+					width: auto;
+				}
+				
+				&.no-icon {
+					.field-label {
+						margin-left: 20px;
+					}
+				}
+				
+			}
+			
+			+ .options_group {
+				border-top: 0;
+			}
+			
+			.controls-bar {
+				width: 36px;
+				position: absolute;
+				top: 0;
+				right: 0;
+				bottom: 0;
+				background-color: $gray-500;
+				text-align: center;
+				display: flex;
+				flex-direction: column;
+				justify-content: space-evenly;
+				
+				i {
+					color: $white;
+					font-size: 17px;
+					display: block;
+					cursor: pointer;
+					transition: .2s ease-in-out;
+					
+					&.clone-inventory {
+						&:hover {
+							color: darken($primary, 15%);
+						}
+					}
+					
+					&.clear-inventory {
+						&:hover {
+							color: darken($warning, 15%);
+						}
+					}
+					
+					&.remove-inventory {
+						&:hover {
+							color: darken($danger, 15%);
+						}
+					}
+					
+				}
+			}
+			
+		}
+		
+		&.main {
+			.controls-bar {
+				.remove-inventory {
+					display: none;
+					pointer-events: none;
+				}
+			}
+		}
+		
+		.options_group {
+			border-bottom-color: $white;
+		}
+		
+		.inventory-edit {
+			display: none;
+		}
+		
+		.inventory-name {
+			margin: 0;
+			padding: 5px;
+			font-size: 16px !important;
+			color: $gray-600;
+			background-color: $gray-200;
+			border-top-right-radius: 5px;
+			border-top-left-radius: 5px;
+			cursor: default;
+			display: flex;
+			align-items: center;
+			position: relative;
+			transition: .1s ease-in-out;
+			
+			input[type=checkbox] {
+				margin: 0 4px;
+				border-color: var(--main-border-alt);
+			}
+			
+			.editable {
+				display: inline-block;
+				min-height: 18px;
+				max-width: 95%;
+				margin-right: 10px;
+				padding: 5px;
+				flex-grow: 1;
+				cursor: text;
+				
+				&:focus {
+					background-color: $white;
+					outline: 1px solid $input-focus;
+				}
+			}
+			
+			.inventory-selector {
+				border-radius: 3px;
+				background-color: transparent;
+				box-shadow: none;
+				border-color: $gray-500;
+			}
+			
+			.inventory-status {
+				font-weight: 100;
+				font-size: 14px;
+				margin: 0 4px;
+			}
+			
+			.expired {
+				color: darken($danger, 10%);
+			}
+			
+			.toggle-indicator {
+				background: none;
+				cursor: pointer;
+				padding: 3px 0 0;
+				margin-right: 5px;
+				border: none;
+				color: var(--main-border-alt);
+				
+				&:focus {
+					outline: none;
+				}
+			}
+			
+			&.collapsed {
+				border-bottom-right-radius: 5px;
+				border-bottom-left-radius: 5px;
+				
+				.toggle-indicator {
+					&:before {
+						content: "\f140" !important;
+					}
+				}
+			}
+			
+		}
+		
+		&.instock {
+			.inventory-name {
+				background-color: $green-light;
+				
+				&, a {
+					color: $green;
+				}
+			}
+		}
+		
+		&.outofstock {
+			.inventory-name {
+				background-color: $red-light;
+				
+				&, a {
+					color: $red;
+				}
+			}
+		}
+		
+		&.onbackorder {
+			.inventory-name {
+				background-color: $orange-light;
+				
+				&, a {
+					color: $orange;
+				}
+			}
+		}
+		
+		&.write-off {
+			.inventory-name {
+				background-color: $purple-light;
+				
+				&, a {
+					color: $purple;
+				}
+			}
+		}
+		
+		&.selected {
+			.inventory-name {
+				background-color: $blue-light;
+				
+				&, a {
+					color: $blue;
+				}
+			}
+		}
+		
+		&.expired {
+			.inventory-name {
+				opacity: 0.5;
+			}
+		}
+		
+		.inventory-fields {
+			border-top: 1px solid $white;
+			padding-bottom: 5px;
+		}
+		
+		.bundle_stock_msg, .composite_stock_msg {
+			display: none;
+		}
+		
+	}
+	
+	// MI UI within variations
+	.woocommerce_variations & {
+		margin: 0;
+		
+		.inventory-group {
+			
+			.inventory-info {
+				border-bottom: none;
+			}
+			
+			.options_group {
+				border-top: 1px solid $white;
+				border-bottom: 1px solid $gray-200;
+			}
+			
+			.form-field {
+				display: flex;
+				align-items: center;
+				flex-wrap: wrap;
+				padding: 5px 20px;
+				margin: $grid-gutter-width/2 0 !important;
+				
+				> label {
+					max-width: 170px;
+				}
+				
+				.woocommerce-help-tip {
+					order: 10;
+				}
+				
+				.description {
+					width: 100%;
+					text-align: right;
+					display: flex;
+					justify-content: flex-end;
+				}
+				
+				input[type=checkbox] {
+					+ .description {
+						margin-left: $grid-gutter-width/2;
+						text-align: left;
+						width: auto;
+					}
+				}
+				
+				select, .select2-container, input[type=text], input[type=number], .atum-field {
+					width: 76.1% !important;
+					max-width: 317px;
+					height: 40px;
+				}
+				
+				.atum-field {
+					max-width: 340px;
+					
+					input, .select2-container {
+						width: 83% !important;
+					}
+					
+					.select2-container {
+						height: 38px;
+					}
+				}
+				
+				&.form-row {
+					clear: none;
+					float: none;
+					width: auto;
+				}
+				
+				.input-group {
+					.woocommerce-help-tip {
+						position: relative;
+						top: 0;
+					}
+				}
+				
+				// PL integration.
+				&.show_if_variation-product-part, &.show_if_variation-raw-material {
+					display: none;
+				}
+				
+				&.sale_price_dates_fields {
+					input[type=text] {
+						width: 33% !important;
+					}
+				}
+				
+			}
+		}
+	}
+	
+	.add-inventory {
+		text-transform: uppercase;
+		font-weight: 100;
+		height: $grid-gutter-width;
+	}
+}
+
+select.atum-select2 {
+	visibility: hidden;
+}
+
+.translated-mi-product {
+	padding: $grid-gutter-width/2;
+	
+	.alert {
+		display: block;
+		
+		p {
+			padding-left: 20px;
+		}
+	}
+	
+	.woocommerce_variation & {
+		padding-left: 0;
+		
+		.alert p {
+			padding-left: $grid-gutter-width;
+		}
+		
+	}
+	
+}

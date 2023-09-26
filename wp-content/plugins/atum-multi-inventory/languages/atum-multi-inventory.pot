@@ -1,0 +1,2556 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: ATUM Multi-Inventory\n"
+"POT-Creation-Date: 2021-04-30 08:39+0200\n"
+"PO-Revision-Date: 2018-04-30 13:04+0200\n"
+"Last-Translator: Salva Machí <info@sispixels.com>\n"
+"Language-Team: Be Rebel <web@stockmanagementlabs.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: atum-multi-inventory.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#. Description of the plugin/theme
+#: atum-multi-inventory.php:111
+msgid "Create as many inventories per product as you wish!"
+msgstr ""
+
+#. translators: The ATUM version
+#: atum-multi-inventory.php:217
+#, php-format
+msgid ""
+"The Multi-Inventory add-on requires at least the %s version of ATUM. Please "
+"update it."
+msgstr ""
+
+#. translators: First one is the WP minimum version and second is the updates page URL
+#: atum-multi-inventory.php:225
+#, php-format
+msgid ""
+"The Multi-Inventory add-on requires the WordPress %1$s version or greater. "
+"Please <a href='%2$s'>update it</a>."
+msgstr ""
+
+#: atum-multi-inventory.php:232
+msgid "The Multi-Inventory requires WooCommerce to be activated."
+msgstr ""
+
+#. translators: First one is the WooCommerce minimium version and second is the updates page URL
+#: atum-multi-inventory.php:240
+#, php-format
+msgid ""
+"The Multi-Inventory add-on requires the WooCommerce %1$s version or "
+"greater. Please <a href='%2$s'>update it</a>."
+msgstr ""
+
+#. translators: The minimum required PHP version
+#: atum-multi-inventory.php:273
+#, php-format
+msgid ""
+"ATUM Multi-Inventory requires PHP version %s or greater. Please, update or "
+"contact your hosting provider."
+msgstr ""
+
+#. translators: The URL to the plugins installation page
+#: atum-multi-inventory.php:281
+#, php-format
+msgid ""
+"The Multi-Inventory add-on requires the ATUM Inventory Management for "
+"WooCommerce plugin. Please <a href='%s'>install it</a>."
+msgstr ""
+
+#. translators: The URL to the plugins page
+#: atum-multi-inventory.php:289
+#, php-format
+msgid ""
+"The Multi-Inventory add-on requires the ATUM Inventory Management for "
+"WooCommerce plugin. Please enable it from <a href='%s'>plugins page</a>."
+msgstr ""
+
+#: classes/Api/Controllers/V3/InventoriesController.php:112
+msgid "Unique identifier for the resource."
+msgstr ""
+
+#: classes/Api/Controllers/V3/InventoriesController.php:135
+msgid "Whether to bypass trash and force deletion."
+msgstr ""
+
+#: classes/Api/Controllers/V3/InventoriesController.php:193
+msgid "Unique identifier for the inventory."
+msgstr ""
+
+#: classes/Api/Controllers/V3/InventoriesController.php:199
+msgid "The product ID this inventory is linked to."
+msgstr ""
+
+#: classes/Api/Controllers/V3/InventoriesController.php:205
+msgid "The inventory name."
+msgstr ""
+
+#: classes/Api/Controllers/V3/InventoriesController.php:210
+msgid "The priority index within the list of the product inventories' list."
+msgstr ""
+
+#: classes/Api/Controllers/V3/InventoriesController.php:215
+msgid "Whether the current inventory is the main inventory."
+msgstr ""
+
+#: classes/Api/Controllers/V3/InventoriesController.php:220
+msgid "The date the inventory was created, as GMT."
+msgstr ""
+
+#: classes/Api/Controllers/V3/InventoriesController.php:225
+msgid "The LOT/BATCH number."
+msgstr ""
+
+#: classes/Api/Controllers/V3/InventoriesController.php:230
+msgid "Whether the current inventory was marked as 'write-off'."
+msgstr ""
+
+#: classes/Api/Controllers/V3/InventoriesController.php:235
+msgid ""
+"If the region restriction mode is enabled, it'll show the list of countries "
+"or shipping zones linked to the inventory."
+msgstr ""
+
+#: classes/Api/Controllers/V3/InventoriesController.php:240
+msgid "ATUM Location(s) linked to the inventory."
+msgstr ""
+
+#: classes/Api/Controllers/V3/InventoriesController.php:245
+msgid "The Best-Before-Expiry date for the inventory, as GMT."
+msgstr ""
+
+#: classes/Api/Controllers/V3/InventoriesController.php:250
+msgid ""
+"The expiry days before the BBE date when the product should go out of stock."
+msgstr ""
+
+#: classes/Api/Controllers/V3/InventoriesController.php:255
+msgid "Inventory's inbound stock."
+msgstr ""
+
+#: classes/Api/Controllers/V3/InventoriesController.php:261
+msgid "Inventory's stock on hold."
+msgstr ""
+
+#: classes/Api/Controllers/V3/InventoriesController.php:267
+msgid "Inventory units sold today."
+msgstr ""
+
+#: classes/Api/Controllers/V3/InventoriesController.php:273
+msgid "Inventory sales the last 14 days."
+msgstr ""
+
+#: classes/Api/Controllers/V3/InventoriesController.php:279
+msgid "Inventory stock set 'reserved_stock' within Inventory Logs."
+msgstr ""
+
+#: classes/Api/Controllers/V3/InventoriesController.php:285
+msgid "Inventory stock set as 'customer returns' within Inventory Logs."
+msgstr ""
+
+#: classes/Api/Controllers/V3/InventoriesController.php:291
+msgid "Stock set as 'warehouse damage' within Inventory Logs."
+msgstr ""
+
+#: classes/Api/Controllers/V3/InventoriesController.php:297
+msgid "Stock set as 'lost in post' within Inventory Logs."
+msgstr ""
+
+#: classes/Api/Controllers/V3/InventoriesController.php:303
+msgid "Stock set as 'other' within Inventory Logs."
+msgstr ""
+
+#: classes/Api/Controllers/V3/InventoriesController.php:309
+msgid "The number of days that the product is Out of stock."
+msgstr ""
+
+#: classes/Api/Controllers/V3/InventoriesController.php:315
+msgid "Product lost sales."
+msgstr ""
+
+#: classes/Api/Controllers/V3/InventoriesController.php:321
+msgid ""
+"Last date when the inventory data was calculated and saved for this "
+"product, as GMT."
+msgstr ""
+
+#: classes/Api/Controllers/V3/InventoriesController.php:326
+msgid "Meta data."
+msgstr ""
+
+#: classes/Api/Controllers/V3/InventoriesController.php:333
+msgid "Inventory's SKU."
+msgstr ""
+
+#: classes/Api/Controllers/V3/InventoriesController.php:338
+msgid "Whether the stock is being managed for the inventory."
+msgstr ""
+
+#: classes/Api/Controllers/V3/InventoriesController.php:343
+msgid "Inventory's stock amount."
+msgstr ""
+
+#: classes/Api/Controllers/V3/InventoriesController.php:348
+msgid "Whether the back orders are allowed."
+msgstr ""
+
+#: classes/Api/Controllers/V3/InventoriesController.php:353
+msgid "Inventory's stock status."
+msgstr ""
+
+#: classes/Api/Controllers/V3/InventoriesController.php:358
+msgid "Inventoy supplier's ID."
+msgstr ""
+
+#: classes/Api/Controllers/V3/InventoriesController.php:363
+msgid "Inventory supplier's SKU."
+msgstr ""
+
+#: classes/Api/Controllers/V3/InventoriesController.php:368
+msgid "Whether the inventory should be sold individually."
+msgstr ""
+
+#: classes/Api/Controllers/V3/InventoriesController.php:373
+msgid "Inventory's out of stock threshold."
+msgstr ""
+
+#: classes/Api/Controllers/V3/InventoriesController.php:378
+msgid "Inventory's purchase price."
+msgstr ""
+
+#: classes/Api/Controllers/V3/InventoriesController.php:383
+msgid "Inventory's price."
+msgstr ""
+
+#: classes/Api/Controllers/V3/InventoriesController.php:388
+msgid "Inventory's regular price."
+msgstr ""
+
+#: classes/Api/Controllers/V3/InventoriesController.php:393
+msgid "Inventory's sale price."
+msgstr ""
+
+#: classes/Api/Controllers/V3/InventoriesController.php:398
+msgid "The date when starts the sale price, as GMT."
+msgstr ""
+
+#: classes/Api/Controllers/V3/InventoriesController.php:403
+msgid "The date when ends the sale price, as GMT."
+msgstr ""
+
+#: classes/Api/Controllers/V3/InventoriesController.php:408
+msgid "The date when the inventory run out of stock, as GMT."
+msgstr ""
+
+#: classes/Api/Controllers/V3/InventoriesController.php:413
+msgid "The expired stock amount."
+msgstr ""
+
+#: classes/Api/Controllers/V3/InventoriesController.php:440
+msgid ""
+"Limit response to resources created after a given ISO8601 compliant date."
+msgstr ""
+
+#: classes/Api/Controllers/V3/InventoriesController.php:446
+msgid ""
+"Limit response to resources created before a given ISO8601 compliant date."
+msgstr ""
+
+#: classes/Api/Controllers/V3/InventoriesController.php:452
+msgid "Ensure result set excludes specific IDs."
+msgstr ""
+
+#: classes/Api/Controllers/V3/InventoriesController.php:461
+msgid "Limit result set to specific IDs."
+msgstr ""
+
+#: classes/Api/Controllers/V3/InventoriesController.php:470
+msgid "Offset the result set by a specific number of items."
+msgstr ""
+
+#: classes/Api/Controllers/V3/InventoriesController.php:476
+msgid "Order sort attribute ascending or descending."
+msgstr ""
+
+#: classes/Api/Controllers/V3/InventoriesController.php:483
+msgid "Sort collection by object attribute."
+msgstr ""
+
+#: classes/Api/Controllers/V3/InventoriesController.php:496
+msgid "Limit result set to inventories with a specific name."
+msgstr ""
+
+#: classes/Api/Controllers/V3/InventoriesController.php:501
+msgid ""
+"Exclude from result set the inventories that were marked as 'write off'."
+msgstr ""
+
+#: classes/Api/Controllers/V3/InventoriesController.php:507
+msgid "Limit result set to inventories with the specified LOT/BATCH number."
+msgstr ""
+
+#: classes/Api/Controllers/V3/InventoriesController.php:519
+msgid ""
+"If the country restriction mode is enabled, limit the result set to "
+"inventories linked to the specified country."
+msgstr ""
+
+#: classes/Api/Controllers/V3/InventoriesController.php:530
+msgid ""
+"If the shipping zone restriction mode is enabled, limit the result set to "
+"inventories linked to the specified shipping zone."
+msgstr ""
+
+#: classes/Api/Controllers/V3/InventoriesController.php:555
+msgid "Limit result set to inventories of the specified product ID."
+msgstr ""
+
+#: classes/Api/Controllers/V3/InventoriesController.php:579
+msgid "Sorry, you cannot list resources."
+msgstr ""
+
+#: classes/Api/Controllers/V3/InventoriesController.php:598
+msgid "Sorry, you are not allowed to create resources."
+msgstr ""
+
+#: classes/Api/Controllers/V3/InventoriesController.php:619
+msgid "Sorry, you cannot view this resource."
+msgstr ""
+
+#: classes/Api/Controllers/V3/InventoriesController.php:640
+msgid "Sorry, you are not allowed to edit this resource."
+msgstr ""
+
+#: classes/Api/Controllers/V3/InventoriesController.php:661
+msgid "Sorry, you are not allowed to delete this resource."
+msgstr ""
+
+#: classes/Api/Controllers/V3/InventoriesController.php:680
+msgid "Sorry, you are not allowed to batch manipulate this resource."
+msgstr ""
+
+#: classes/Api/Controllers/V3/InventoriesController.php:989
+msgid "Internal server error."
+msgstr ""
+
+#: classes/Api/Controllers/V3/InventoriesController.php:1050
+#: classes/Api/Controllers/V3/InventoriesController.php:1210
+msgid "Invalid ID."
+msgstr ""
+
+#: classes/Api/Controllers/V3/InventoriesController.php:1053
+msgid ""
+"No inventory was found with the specified ID within the specified product."
+msgstr ""
+
+#: classes/Api/Controllers/V3/InventoriesController.php:1056
+msgid "Invalid product ID."
+msgstr ""
+
+#: classes/Api/Controllers/V3/InventoriesController.php:1078
+msgid "ID is invalid."
+msgstr ""
+
+#: classes/Api/Controllers/V3/InventoriesController.php:1134
+msgid "Cannot create existing inventory."
+msgstr ""
+
+#: classes/Api/Controllers/V3/InventoriesController.php:1141
+msgid "The product ID does not match with any existing product."
+msgstr ""
+
+#: classes/Api/Controllers/V3/InventoriesController.php:1214
+msgid "The Main Inventory cannot be deleted."
+msgstr ""
+
+#: classes/Api/Controllers/V3/InventoriesController.php:1222
+msgid "The Inventories do not support trashing."
+msgstr ""
+
+#: classes/Api/Controllers/V3/InventoriesController.php:1229
+msgid "The Inventory cannot be deleted."
+msgstr ""
+
+#: classes/Api/Controllers/V3/InventoriesController.php:1552
+msgid "Inventory not found."
+msgstr ""
+
+#: classes/Api/Controllers/V3/InventoriesController.php:1565
+msgid "This product already has a Main Inventory."
+msgstr ""
+
+#: classes/Api/Extenders/InventoryOrders.php:95
+msgid ""
+"An array containing all the order item inventories linked to this order item"
+msgstr ""
+
+#: classes/Api/Extenders/InventoryOrders.php:103
+msgid "The order item inventory ID."
+msgstr ""
+
+#: classes/Api/Extenders/InventoryOrders.php:108
+msgid ""
+"Set to true to delete the order item inventory with the specified inventory "
+"ID."
+msgstr ""
+
+#: classes/Api/Extenders/InventoryOrders.php:115
+msgid "The order item ID linked to this order item inventory."
+msgstr ""
+
+#: classes/Api/Extenders/InventoryOrders.php:121
+msgid "The inventory ID linked to the order item."
+msgstr ""
+
+#: classes/Api/Extenders/InventoryOrders.php:127
+msgid "The product ID from where the inventory comes."
+msgstr ""
+
+#: classes/Api/Extenders/InventoryOrders.php:133
+msgid ""
+"The quantity of the specified inventory that is used on the order item."
+msgstr ""
+
+#: classes/Api/Extenders/InventoryOrders.php:140
+msgid ""
+"The type of order (WC Order = 1, Purchase Order = 2, Inventory Log = 3)."
+msgstr ""
+
+#: classes/Api/Extenders/InventoryOrders.php:147
+msgid "Order item inventory's subtotal."
+msgstr ""
+
+#: classes/Api/Extenders/InventoryOrders.php:153
+msgid "Order item inventory's total."
+msgstr ""
+
+#: classes/Api/Extenders/InventoryOrders.php:159
+msgid "Order item inventory's refund quantity."
+msgstr ""
+
+#: classes/Api/Extenders/InventoryOrders.php:165
+msgid "Order item inventory's refund total."
+msgstr ""
+
+#: classes/Api/Extenders/InventoryOrders.php:171
+msgid "Order item inventory's already reduced stock."
+msgstr ""
+
+#: classes/Api/Extenders/InventoryOrders.php:177
+msgid "Order item inventory's extra data."
+msgstr ""
+
+#: classes/Api/Extenders/InventoryOrders.php:399
+msgid "Missing inventory ID."
+msgstr ""
+
+#. translators: first one is the inventory ID and second one is the product ID
+#: classes/Api/Extenders/InventoryOrders.php:407
+#, php-format
+msgid ""
+"No inventory was found with ID %1$d linked to the product with ID %2$d."
+msgstr ""
+
+#: classes/Api/Extenders/InventoryOrders.php:618 classes/Inc/Helpers.php:1526
+msgid "Stock levels increased:"
+msgstr ""
+
+#. translators: the item name
+#: classes/Api/Extenders/InventoryOrders.php:619 classes/Inc/Helpers.php:1777
+#: classes/Inc/Helpers.php:1839
+msgid "Stock levels reduced:"
+msgstr ""
+
+#: classes/Api/Extenders/InventoryOrders.php:713
+#: classes/Api/Extenders/InventoryOrders.php:720
+#: classes/Api/Extenders/ProductData.php:466
+#: classes/Api/Extenders/ProductData.php:473
+#: classes/Api/MultiInventoryApi.php:89 classes/Api/MultiInventoryApi.php:96
+#: classes/Inc/Ajax.php:1000 classes/Inc/Ajax.php:1008
+#: classes/Inc/BatchTracking.php:128 classes/Inc/BatchTracking.php:135
+#: classes/Inc/GeoPrompt.php:515 classes/Inc/GeoPrompt.php:522
+#: classes/Inc/Hooks.php:2125 classes/Inc/Hooks.php:2132
+#: classes/Inc/InventoryShipping.php:264 classes/Inc/InventoryShipping.php:273
+#: classes/Inc/ListTables.php:2598 classes/Inc/ListTables.php:2605
+#: classes/Inc/MultiPrice.php:2846 classes/Inc/MultiPrice.php:2853
+#: classes/Inc/Orders.php:2510 classes/Inc/Orders.php:2517
+#: classes/Inc/ProductMetaBoxes.php:316 classes/Inc/ProductMetaBoxes.php:323
+#: classes/Inc/ProductProps.php:408 classes/Inc/ProductProps.php:415
+#: classes/Inc/ReserveStock.php:612 classes/Inc/ReserveStock.php:621
+#: classes/Inc/SelectableInventories.php:889
+#: classes/Inc/SelectableInventories.php:898 classes/Inc/Settings.php:606
+#: classes/Inc/Settings.php:613 classes/Integrations/ProductLevels.php:388
+#: classes/Integrations/ProductLevels.php:396 classes/MultiInventory.php:251
+#: classes/MultiInventory.php:258 classes/Shortcodes/InventoryInfo.php:343
+#: classes/Shortcodes/InventoryInfo.php:350
+msgid "Cheatin&#8217; huh?"
+msgstr ""
+
+#: classes/Api/Extenders/ProductData.php:112
+msgid ""
+"The array of Multi-Inventories IDs linked to the product (if the product "
+"has the Multi-Inventory enabled and it has a compatible product type)."
+msgstr ""
+
+#: classes/Api/Extenders/ProductData.php:117
+msgid "The Multi Inventory status for the product."
+msgstr ""
+
+#: classes/Api/Extenders/ProductData.php:123
+msgid "The sorting mode specified for inventory selling priority."
+msgstr ""
+
+#: classes/Api/Extenders/ProductData.php:129
+msgid "What to do when the first selling inventory runs out of stock."
+msgstr ""
+
+#: classes/Api/Extenders/ProductData.php:135
+msgid "Set the inventories as 'Out of Stock' when reaching their BBE dates."
+msgstr ""
+
+#: classes/Api/Extenders/ProductData.php:141
+msgid "Allow distinct inventories to have distinct prices."
+msgstr ""
+
+#: classes/Api/Extenders/ProductData.php:147
+msgid "Whether the selectable inventories is enabled."
+msgstr ""
+
+#: classes/Api/Extenders/ProductData.php:153
+msgid "The inventory selection mode for the frontend display."
+msgstr ""
+
+#: classes/Inc/Ajax.php:122 classes/Inc/Ajax.php:128
+msgid "Invalid data received"
+msgstr ""
+
+#: classes/Inc/Ajax.php:161
+msgid "All your inventories were updated successfully"
+msgstr ""
+
+#: classes/Inc/Ajax.php:206 classes/Inc/Ajax.php:244
+msgid "Invalid inventory ID"
+msgstr ""
+
+#: classes/Inc/Ajax.php:222
+msgid "Something failed when removing the inventory"
+msgid_plural "Something failed when removing the inventories"
+msgstr[0] ""
+msgstr[1] ""
+
+#: classes/Inc/Ajax.php:227
+msgid "Inventory removed successfully"
+msgid_plural "Inventories removed successfully"
+msgstr[0] ""
+msgstr[1] ""
+
+#: classes/Inc/Ajax.php:263
+msgid "Something failed when 'writing off' the inventory"
+msgid_plural "Something failed when 'writing off' the inventories"
+msgstr[0] ""
+msgstr[1] ""
+
+#: classes/Inc/Ajax.php:268
+msgid "The inventory was marked as 'Write Off'"
+msgid_plural "The inventories were marked as 'Write Off'"
+msgstr[0] ""
+msgstr[1] ""
+
+#: classes/Inc/Ajax.php:269
+msgid "The inventory was unmarked as 'Write Off'"
+msgid_plural "The inventories were unmarked as 'Write Off'"
+msgstr[0] ""
+msgstr[1] ""
+
+#: classes/Inc/Ajax.php:299
+msgid "You are not allowed to change this order"
+msgstr ""
+
+#. translators: the first is the inventory name and second is the item name
+#: classes/Inc/Ajax.php:351 classes/Inc/Helpers.php:964
+#, php-format
+msgid "Unable to reduce inventory &quot;%1$s&quot; stock for item %2$s."
+msgstr ""
+
+#. translators: first is the item name, second is the old stock quantity, third is the new stock quantity and fourth is the inventory name
+#: classes/Inc/Ajax.php:367
+#, php-format
+msgid "%1$s stock changed from %2$s to %3$s using inventory &quot;%4$s&quot;."
+msgstr ""
+
+#. translators: The stock's qty increased or decreased
+#: classes/Inc/Ajax.php:393
+#, php-format
+msgid "%1$s stock changed from %2$s to %3$s."
+msgstr ""
+
+#. translators: No product stock's qty changed
+#: classes/Inc/Ajax.php:413
+msgid ""
+"No products had their stock changed - they may not have stock management "
+"enabled."
+msgstr ""
+
+#: classes/Inc/Ajax.php:460 classes/Inc/Ajax.php:478
+msgid "Invalid Data"
+msgstr ""
+
+#: classes/Inc/Ajax.php:512 classes/Inc/Ajax.php:516
+msgid "Address changed successfully."
+msgstr ""
+
+#: classes/Inc/Ajax.php:533
+msgid "You are not allowed to do this"
+msgstr ""
+
+#: classes/Inc/Ajax.php:537
+msgid "Invalid data provided"
+msgstr ""
+
+#: classes/Inc/Ajax.php:575 classes/Inc/Ajax.php:582 classes/Inc/Ajax.php:689
+msgid "Invalid order"
+msgstr ""
+
+#: classes/Inc/Ajax.php:610
+msgid "Invalid product ID"
+msgstr ""
+
+#: classes/Inc/Ajax.php:617
+msgid "Error:"
+msgstr ""
+
+#. translators: %s item name.
+#: classes/Inc/Ajax.php:630
+#, php-format
+msgid "Added line items: %s"
+msgstr ""
+
+#: classes/Inc/Ajax.php:693
+msgid "Invalid items"
+msgstr ""
+
+#. translators: %1$s: item name %2$s: stock change
+#: classes/Inc/Ajax.php:742
+#, php-format
+msgid "Deleted %1$s and adjusted stock (%2$s)"
+msgstr ""
+
+#. translators: %s item name.
+#: classes/Inc/Ajax.php:753
+#, php-format
+msgid "Deleted %s"
+msgstr ""
+
+#: classes/Inc/Ajax.php:808
+msgid "Invalid data"
+msgstr ""
+
+#: classes/Inc/Ajax.php:815 classes/Inc/ListTables.php:2123
+msgid "The inventory name is required"
+msgstr ""
+
+#: classes/Inc/Ajax.php:904
+msgid "The inventory was created successfully"
+msgstr ""
+
+#: classes/Inc/Ajax.php:918 classes/Inc/Ajax.php:970
+msgid "No valid ID provided"
+msgstr ""
+
+#: classes/Inc/Ajax.php:939 views/js-templates/add-inventory-modal.php:46
+#: views/meta-boxes/product-data/inventory-info.php:54
+msgid "Select Shipping Zone(s)"
+msgstr ""
+
+#: classes/Inc/Ajax.php:948 views/js-templates/add-inventory-modal.php:53
+#: views/meta-boxes/product-data/inventory-info.php:67
+msgid "Select Country(ies)"
+msgstr ""
+
+#: classes/Inc/BatchTracking.php:68
+msgid "Search batch number..."
+msgstr ""
+
+#: classes/Inc/GeoPrompt.php:129 classes/Inc/GeoPrompt.php:340
+#: classes/Inc/Settings.php:430 classes/Widgets/UserDestinationForm.php:218
+msgid "I accept the [link]privacy policy[/link]"
+msgstr ""
+
+#: classes/Inc/GeoPrompt.php:195 classes/Widgets/UserDestinationForm.php:254
+msgid "We couldn't update your profile address, please try again"
+msgstr ""
+
+#. translators: the item name
+#: classes/Inc/Helpers.php:1008
+#, php-format
+msgid "Unable to reduce stock for item %s."
+msgstr ""
+
+#. translators: first one is the inventory name and second is the item name
+#: classes/Inc/Helpers.php:1481
+#, php-format
+msgid "Unable to restore stock for inventory %1$s of item %2$s."
+msgstr ""
+
+#. translators: the inventory name
+#: classes/Inc/Helpers.php:1495 classes/Inc/Helpers.php:1644
+#: classes/Inc/Helpers.php:1734 classes/Inc/Orders.php:1190
+#: classes/Inc/Orders.php:1231 classes/Inc/Orders.php:1612
+#, php-format
+msgid "using inventory &quot;%s&quot;"
+msgstr ""
+
+#. translators: the item name
+#: classes/Inc/Helpers.php:1509
+#, php-format
+msgid "Unable to restore stock for item %s."
+msgstr ""
+
+#. translators: first one is the inventory name and second is the item name
+#: classes/Inc/Helpers.php:1632
+#, php-format
+msgid "Unable to %1$s stock for inventory %2$s of item %3$s."
+msgstr ""
+
+#. translators: the item name
+#: classes/Inc/Helpers.php:1659
+#, php-format
+msgid "Unable to %1$s stock for item %2$s."
+msgstr ""
+
+#. translators: the action done
+#: classes/Inc/Helpers.php:1676
+#, php-format
+msgid "Stock levels %s:"
+msgstr ""
+
+#: classes/Inc/Helpers.php:2191
+msgid "Privacy Policy"
+msgstr ""
+
+#: classes/Inc/Helpers.php:2260 classes/Inc/Helpers.php:2385
+#: classes/Inc/Hooks.php:566
+#: views/meta-boxes/order-items/inventory-info.php:50
+#: views/meta-boxes/order-items/inventory-info.php:57
+#: views/meta-boxes/order-items/inventory-info.php:71
+#: views/meta-boxes/order-items/mi-management-popup.php:167
+#: views/meta-boxes/order-items/mi-management-popup.php:168
+#: views/meta-boxes/order-items/mi-management-popup.php:170
+#: views/meta-boxes/product-data/inventory-info.php:141
+#: views/meta-boxes/product-data/inventory-info.php:157
+#: views/meta-boxes/product-data/inventory-info.php:199
+msgid "None"
+msgstr ""
+
+#: classes/Inc/Hooks.php:528 classes/Inc/Hooks.php:641
+msgid "Add"
+msgstr ""
+
+#: classes/Inc/Hooks.php:529 classes/Inc/Hooks.php:645
+msgid "Are you sure?"
+msgstr ""
+
+#: classes/Inc/Hooks.php:530 classes/Inc/Hooks.php:647
+#: views/meta-boxes/product-data/inventory-group.php:455
+msgid "Cancel"
+msgstr ""
+
+#: classes/Inc/Hooks.php:531
+msgid "Yes, clear them!"
+msgstr ""
+
+#: classes/Inc/Hooks.php:532
+msgid "cloned"
+msgstr ""
+
+#: classes/Inc/Hooks.php:533
+msgid "Collapse All"
+msgstr ""
+
+#: classes/Inc/Hooks.php:536
+msgid "All the fields from this inventory will be cleared"
+msgstr ""
+
+#: classes/Inc/Hooks.php:537
+msgid "All the fields from the selected inventories will be cleared"
+msgstr ""
+
+#: classes/Inc/Hooks.php:543
+msgid "Done"
+msgstr ""
+
+#: classes/Inc/Hooks.php:544
+msgid "Error"
+msgstr ""
+
+#: classes/Inc/Hooks.php:545 views/meta-boxes/product-data/mi-panel.php:36
+msgid "Expand All"
+msgstr ""
+
+#: classes/Inc/Hooks.php:561
+msgid "Inventory Removal"
+msgstr ""
+
+#: classes/Inc/Hooks.php:562 classes/Inc/ListTables.php:809
+#: classes/Inc/ListTables.php:2067
+#: views/meta-boxes/product-data/inventory-group.php:50
+#: views/selectable-inventories/dropdown.php:35
+msgid "In Stock"
+msgstr ""
+
+#: classes/Inc/Hooks.php:563
+msgid "Invalid Name!"
+msgstr ""
+
+#: classes/Inc/Hooks.php:564
+msgid "The inventory must have a name"
+msgstr ""
+
+#: classes/Inc/Hooks.php:565
+msgid "That name is already used by another inventory, please try again"
+msgstr ""
+
+#: classes/Inc/Hooks.php:567 classes/Inc/Hooks.php:650
+#: classes/Inc/ListTables.php:2121
+msgid "OK"
+msgstr ""
+
+#: classes/Inc/Hooks.php:568 classes/Inc/ListTables.php:815
+#: classes/Inc/ListTables.php:2047
+#: views/meta-boxes/product-data/inventory-group.php:46
+msgid "Out of Stock"
+msgstr ""
+
+#: classes/Inc/Hooks.php:569
+msgid "Remove"
+msgstr ""
+
+#: classes/Inc/Hooks.php:570
+msgid "Do you want to remove or to write off this inventory?"
+msgstr ""
+
+#: classes/Inc/Hooks.php:571
+msgid "Do you want to remove or to un-write off this inventory?"
+msgstr ""
+
+#: classes/Inc/Hooks.php:572
+msgid "Yes, remove it!"
+msgstr ""
+
+#: classes/Inc/Hooks.php:573
+msgid "This inventory will be removed permanently"
+msgstr ""
+
+#: classes/Inc/Hooks.php:574
+msgid "The selected inventories will be removed permanently"
+msgstr ""
+
+#: classes/Inc/Hooks.php:575
+msgid "Please save the inventories before writing off them"
+msgstr ""
+
+#: classes/Inc/Hooks.php:576
+msgid "Please save the product to set the inventory details"
+msgstr ""
+
+#: classes/Inc/Hooks.php:577
+msgid "Save to Set"
+msgstr ""
+
+#: classes/Inc/Hooks.php:578 views/meta-boxes/product-data/mi-panel.php:35
+msgid "Select All"
+msgstr ""
+
+#: classes/Inc/Hooks.php:579
+msgid "Please, select a bulk action from the dropdown"
+msgstr ""
+
+#: classes/Inc/Hooks.php:580
+msgid "Please, select at least one inventory"
+msgstr ""
+
+#: classes/Inc/Hooks.php:581
+msgid "Set"
+msgstr ""
+
+#: classes/Inc/Hooks.php:582
+msgid "Type a name for your new Inventory"
+msgstr ""
+
+#: classes/Inc/Hooks.php:583
+msgid "Unselect All"
+msgstr ""
+
+#: classes/Inc/Hooks.php:584
+msgid "Un-write Off"
+msgstr ""
+
+#: classes/Inc/Hooks.php:585
+msgid "Write Off"
+msgstr ""
+
+#: classes/Inc/Hooks.php:640
+msgid "Multi-Inventory Management"
+msgstr ""
+
+#: classes/Inc/Hooks.php:642
+msgid ""
+"The originally deducted stock of {{originalStock}} is lower than the "
+"currently deducted stock of {{currentStock}}"
+msgstr ""
+
+#: classes/Inc/Hooks.php:643
+msgid ""
+"The currently deducted stock of {{currentStock}} is lower than the "
+"originally deducted stock of {{originalStock}}"
+msgstr ""
+
+#: classes/Inc/Hooks.php:644
+msgid "The originally deducted stock matches the currently deducted stock"
+msgstr ""
+
+#: classes/Inc/Hooks.php:646
+msgid "Continue"
+msgstr ""
+
+#: classes/Inc/Hooks.php:648
+msgid ""
+"The originally deducted stock does not match with your current settings"
+msgstr ""
+
+#: classes/Inc/Hooks.php:649
+msgid "Success"
+msgstr ""
+
+#: classes/Inc/Hooks.php:651 classes/Inc/ListTables.php:2117
+msgid "Done!"
+msgstr ""
+
+#: classes/Inc/Hooks.php:652
+msgid "Edit Used Inventories and quantities"
+msgstr ""
+
+#: classes/Inc/Hooks.php:656
+msgid ""
+"Are you sure you wish to process this refund? This action cannot be undone."
+msgstr ""
+
+#: classes/Inc/Hooks.php:657
+msgid ""
+"Please set quantities to the order item inventories before updating the "
+"stock"
+msgstr ""
+
+#: classes/Inc/Hooks.php:658
+msgid "This product has Multi-Inventory enabled"
+msgstr ""
+
+#: classes/Inc/Hooks.php:659
+msgid "Do you want to set the purchase price of this product to {{number}}?"
+msgstr ""
+
+#: classes/Inc/Hooks.php:660
+msgid "The purchase price was changed successfully"
+msgstr ""
+
+#: classes/Inc/Hooks.php:668
+msgid "The PO status couldn't be changed"
+msgstr ""
+
+#: classes/Inc/Hooks.php:669
+msgid ""
+"All the items with MI enabled within this Purchase Order, must have at "
+"least one inventory assigned. Please, fix the items marked in red before "
+"marking the PO as 'received'"
+msgstr ""
+
+#: classes/Inc/Hooks.php:673
+msgid "The Order status couldn't be changed"
+msgstr ""
+
+#: classes/Inc/Hooks.php:674
+msgid ""
+"All the items with MI enabled within this Order, should have at least one "
+"inventory assigned. Please, click 'Continue' to add the inventories "
+"automatically according to their priorities or 'Cancel' if you want to add "
+"the inventories manually."
+msgstr ""
+
+#: classes/Inc/Hooks.php:1092
+msgid "Multi Inventory"
+msgstr ""
+
+#: classes/Inc/Hooks.php:1113
+msgid "Multi-Inventory enabled"
+msgstr ""
+
+#: classes/Inc/Hooks.php:1426
+msgid "No write-off"
+msgstr ""
+
+#: classes/Inc/Hooks.php:1427
+msgid "Write-off"
+msgstr ""
+
+#. translators: first is the number of item and second is the expiry date
+#: classes/Inc/Hooks.php:1838
+#, php-format
+msgid "Expiry Date (%1$d items): %2$s"
+msgstr ""
+
+#. translators: the expiry date
+#: classes/Inc/Hooks.php:1842
+#, php-format
+msgid "Expiry Date: %s"
+msgstr ""
+
+#: classes/Inc/Hooks.php:2063
+#, php-format
+msgid "The inventory %1$s from the product %2$s is out of stock."
+msgstr ""
+
+#. translators: 1: inventory name, 2: product name, 3: items in stock
+#: classes/Inc/Hooks.php:2071
+#, php-format
+msgid ""
+"The inventory %1$s from the product %2$s is low in stock. There are %3$d "
+"left."
+msgstr ""
+
+#. translators: 1: items backordered, 2: inventory name, 3: product name, 4: Order id
+#: classes/Inc/Hooks.php:2080
+#, php-format
+msgid ""
+"%1$s units of the inventory %2$s from the product %3$s have been "
+"backordered in order #%4$s."
+msgstr ""
+
+#: classes/Inc/ListTables.php:241
+msgid "Multi-Inventory Status"
+msgstr ""
+
+#: classes/Inc/ListTables.php:247 classes/Inc/ListTables.php:1359
+#: classes/Inc/ListTables.php:2323
+#: views/meta-boxes/order-items/inventory-info.php:47
+msgid "Inventory Date"
+msgstr ""
+
+#: classes/Inc/ListTables.php:248 classes/Inc/ListTables.php:1396
+#: classes/Inc/ListTables.php:2327
+#: views/meta-boxes/order-items/inventory-info.php:54
+msgid "BBE Date"
+msgstr ""
+
+#: classes/Inc/ListTables.php:249
+#: views/meta-boxes/order-items/inventory-info.php:61
+msgid "Expiry Days"
+msgstr ""
+
+#: classes/Inc/ListTables.php:250 classes/Inc/ListTables.php:2331
+msgid "Priority"
+msgstr ""
+
+#: classes/Inc/ListTables.php:251 classes/Inc/ListTables.php:1462
+#: classes/Inc/ListTables.php:2335
+#: views/js-templates/add-inventory-modal.php:109
+msgid "LOT/Batch"
+msgstr ""
+
+#: classes/Inc/ListTables.php:254 classes/Inc/ListTables.php:2340
+#: views/meta-boxes/order-items/inventory-info.php:32
+msgid "Regions"
+msgstr ""
+
+#: classes/Inc/ListTables.php:301
+msgid "Multi-Inventory Details"
+msgstr ""
+
+#: classes/Inc/ListTables.php:369
+msgid "Inner items with Multi-Inventory enabled"
+msgstr ""
+
+#: classes/Inc/ListTables.php:429
+msgid "Click to show/hide inventories"
+msgstr ""
+
+#: classes/Inc/ListTables.php:467
+msgid "Filter by MI status"
+msgstr ""
+
+#: classes/Inc/ListTables.php:468
+msgid "MI products"
+msgstr ""
+
+#: classes/Inc/ListTables.php:469
+msgid "Non MI products"
+msgstr ""
+
+#: classes/Inc/ListTables.php:821
+msgid "On Backorder"
+msgstr ""
+
+#: classes/Inc/ListTables.php:973
+msgid "Click to edit the inventory SKU"
+msgstr ""
+
+#: classes/Inc/ListTables.php:974
+msgid "Inventory SKU"
+msgstr ""
+
+#. translators: first one is the supplier name and second is the supplier's ID
+#: classes/Inc/ListTables.php:1017
+#, php-format
+msgid "%1$s (ID: %2$d)"
+msgstr ""
+
+#: classes/Inc/ListTables.php:1059
+msgid "Click to edit the inventory supplier Sku"
+msgstr ""
+
+#: classes/Inc/ListTables.php:1060
+msgid "Inventory Supplier SKU"
+msgstr ""
+
+#: classes/Inc/ListTables.php:1087
+msgid "Show Inventory Locations"
+msgstr ""
+
+#: classes/Inc/ListTables.php:1121
+msgid "Click to edit the inventory regular price"
+msgstr ""
+
+#: classes/Inc/ListTables.php:1122
+msgid "Inventory Regular Price"
+msgstr ""
+
+#: classes/Inc/ListTables.php:1175
+msgid "Click to edit the inventory sale price"
+msgstr ""
+
+#: classes/Inc/ListTables.php:1176
+msgid "Inventory Sale Price"
+msgstr ""
+
+#: classes/Inc/ListTables.php:1181
+msgctxt "placeholder"
+msgid "Inventory Sale date from..."
+msgstr ""
+
+#: classes/Inc/ListTables.php:1190
+msgctxt "placeholder"
+msgid "Inventory Sale date to..."
+msgstr ""
+
+#: classes/Inc/ListTables.php:1242
+msgid "Click to edit the Inventory purchase price"
+msgstr ""
+
+#: classes/Inc/ListTables.php:1243
+msgid "Inventory Purchase Price"
+msgstr ""
+
+#: classes/Inc/ListTables.php:1329
+msgid "Show Inventory Regions"
+msgstr ""
+
+#: classes/Inc/ListTables.php:1358
+msgid "Click to edit the inventory date"
+msgstr ""
+
+#: classes/Inc/ListTables.php:1395
+msgid "Click to edit the BBE date"
+msgstr ""
+
+#: classes/Inc/ListTables.php:1461
+msgid "Click to edit the LOT/Batch number"
+msgstr ""
+
+#: classes/Inc/ListTables.php:1517
+msgid "Inventory stock is expired"
+msgstr ""
+
+#: classes/Inc/ListTables.php:1531
+msgid "Inventory stock is below the 'Out of Stock Threshold'"
+msgstr ""
+
+#: classes/Inc/ListTables.php:1535
+msgid ""
+"Click to edit the inventory stock quantity (it's below the 'Out of Stock "
+"Threshold')"
+msgstr ""
+
+#: classes/Inc/ListTables.php:1546 classes/Inc/ListTables.php:1561
+msgid "Inventory stock is below the WooCommerce's 'Out of Stock Threshold'"
+msgstr ""
+
+#: classes/Inc/ListTables.php:1550
+msgid ""
+"Click to edit the inventory stock quantity (it's below the WooCommerce's "
+"'Out of Stock Threshold')"
+msgstr ""
+
+#: classes/Inc/ListTables.php:1566
+msgid ""
+"Click to edit the inventory stock quantity (it's below WooCommerce's 'Out "
+"of Stock Threshold')"
+msgstr ""
+
+#: classes/Inc/ListTables.php:1576
+msgid "Click to edit the inventory stock quantity"
+msgstr ""
+
+#: classes/Inc/ListTables.php:1577
+msgid "Inventory Stock Quantity"
+msgstr ""
+
+#: classes/Inc/ListTables.php:1606 classes/Integrations/ProductLevels.php:280
+msgid "Calculated stock quantity"
+msgstr ""
+
+#: classes/Inc/ListTables.php:1659
+msgid "Click to edit the Inventory out of stock threshold"
+msgstr ""
+
+#: classes/Inc/ListTables.php:1660
+msgid "Out of Stock Threshold"
+msgstr ""
+
+#: classes/Inc/ListTables.php:2023
+msgid "In Stock (not managed by WC)"
+msgstr ""
+
+#: classes/Inc/ListTables.php:2030
+msgid "Out of Stock (not managed by WC)"
+msgstr ""
+
+#: classes/Inc/ListTables.php:2037
+msgid "On Backorder (not managed by WC)"
+msgstr ""
+
+#: classes/Inc/ListTables.php:2054
+msgid "Out of Stock (back orders allowed)"
+msgstr ""
+
+#: classes/Inc/ListTables.php:2116
+msgid "Create Inventory"
+msgstr ""
+
+#: classes/Inc/ListTables.php:2118
+msgid "Edit Inventory Locations"
+msgstr ""
+
+#: classes/Inc/ListTables.php:2119
+msgid "Inventory Locations"
+msgstr ""
+
+#: classes/Inc/ListTables.php:2120
+msgid "Inventory Regions"
+msgstr ""
+
+#: classes/Inc/ListTables.php:2124
+msgid "Regions saved succesfully"
+msgstr ""
+
+#: classes/Inc/ListTables.php:2125 views/geo-prompt/form-markup.php:76
+msgid "Save"
+msgstr ""
+
+#: classes/Inc/ListTables.php:2318
+msgid "Multi-Inventory status"
+msgstr ""
+
+#: classes/Inc/ListTables.php:2320
+msgid ""
+"The Multi-Inventory icon in this column characterises products activated "
+"for Multi-Inventory. Click the green icon to show and hide the inventories. "
+"The small number located at the top right of the icon is the number of the "
+"inventories. The black icon appears in Grouped and variable products when "
+"contains a product or a variation with Multi-Inventory activated."
+msgstr ""
+
+#: classes/Inc/ListTables.php:2324
+msgid "Shows the inventory creation date."
+msgstr ""
+
+#: classes/Inc/ListTables.php:2328
+msgid ""
+"Shows the Best Before End date for the inventory (Called as well Expiry "
+"Date or Use By Date in other countries)."
+msgstr ""
+
+#: classes/Inc/ListTables.php:2332
+msgid ""
+"Shows the inventory selling priority number with 0 (Zero) being the default "
+"inventory."
+msgstr ""
+
+#: classes/Inc/ListTables.php:2336
+msgid "Shows the LOT/Batch number for the inventory."
+msgstr ""
+
+#: classes/Inc/ListTables.php:2342
+msgid "Shows the selling region restrictions for the inventory."
+msgstr ""
+
+#: classes/Inc/ListTables.php:2361
+msgid "Add new inventory"
+msgstr ""
+
+#: classes/Inc/ListTables.php:2412
+msgid "No locations were set for this inventory"
+msgstr ""
+
+#: classes/Inc/Orders.php:311
+msgid ""
+"This item has Multi-Inventory enabled. To be able to add/remove/change "
+"inventories to/from this item, please click on the 'Edit item' button"
+msgstr ""
+
+#. translators: the product name
+#: classes/Inc/Orders.php:1256
+#, php-format
+msgid "Stock levels changed: [%s],"
+msgstr ""
+
+#. translators: the product name
+#: classes/Inc/Orders.php:1624
+#, php-format
+msgid "Stock levels increased: [%s],"
+msgstr ""
+
+#. translators: %s: product name
+#: classes/Inc/ReserveStock.php:146
+#, php-format
+msgid "&quot;%s&quot; is out of stock and cannot be purchased."
+msgstr ""
+
+#. translators: %s: product name
+#: classes/Inc/ReserveStock.php:223 classes/Inc/ReserveStock.php:289
+#: classes/Inc/ReserveStock.php:363
+#, php-format
+msgid "Not enough units of %s are available in stock to fulfil this order."
+msgstr ""
+
+#. translators: %s: product name
+#: classes/Inc/ReserveStock.php:304
+#, php-format
+msgid "Not enough units of %1$s are available in %2$s to fulfil this order."
+msgstr ""
+
+#: classes/Inc/SelectableInventories.php:220
+msgid "View cart"
+msgstr ""
+
+#. translators: 1: quantity in stock 2: current quantity
+#: classes/Inc/SelectableInventories.php:222
+#, php-format
+msgid ""
+"You cannot add that amount to the cart &mdash; we have %1$s in stock for "
+"that location and you already have %2$s in your cart."
+msgstr ""
+
+#: classes/Inc/SelectableInventories.php:581
+msgid "Add Location"
+msgstr ""
+
+#. translators: %s: Item name.
+#: classes/Inc/SelectableInventories.php:846
+#, php-format
+msgctxt "Inventory name in quotes"
+msgid "&ldquo;%s&rdquo;"
+msgstr ""
+
+#: classes/Inc/SelectableInventories.php:851
+#: classes/Inc/SelectableInventories.php:856
+#, php-format
+msgid "%s removed."
+msgstr ""
+
+#: classes/Inc/SelectableInventories.php:852
+msgid "Undo?"
+msgstr ""
+
+#: classes/Inc/Settings.php:59 classes/Inc/Settings.php:476
+#: views/meta-boxes/product-data/atum-tab-fields.php:28
+#: views/meta-boxes/product-data/mi-panel.php:28
+msgid "Multi-Inventory"
+msgstr ""
+
+#: classes/Inc/Settings.php:62
+msgid "Multi-Inventory Options"
+msgstr ""
+
+#: classes/Inc/Settings.php:63
+msgid "Geo Prompt Popup"
+msgstr ""
+
+#: classes/Inc/Settings.php:81
+msgid "[ None ]"
+msgstr ""
+
+#. translators: the WooCommerce settings page URL
+#: classes/Inc/Settings.php:104
+#, php-format
+msgid ""
+"It's recommended to enable the <a href='%s' target='_blank'>MaxMind "
+"Geolocation services</a> for better performance and more accurate results."
+msgstr ""
+
+#: classes/Inc/Settings.php:113
+msgid "Enable Multi-Inventory for all products"
+msgstr ""
+
+#: classes/Inc/Settings.php:114
+msgid ""
+"Enable multi inventory globally for all products. Products with option 'NO' "
+"or 'YES' selected at product level will not be affected."
+msgstr ""
+
+#: classes/Inc/Settings.php:127
+msgid "Region restriction mode"
+msgstr ""
+
+#: classes/Inc/Settings.php:128
+msgid ""
+"Restrict individual inventories for sale only within specific regions."
+"<ul><li><strong>No restriction:</strong> Inventories have no region "
+"restrictions, and only the Inventory Sorting Mode is in use to fulfil "
+"orders</li><li><strong>Countries:</strong> ATUM will try to geolocate the "
+"visitor's country and will use the inventories restricted to that country "
+"only</li><li><strong>Shipping Zones:</strong> Will ask the visitors for "
+"their desired delivery address to know which inventories to use for "
+"fulfilling the potential order</li>"
+msgstr ""
+
+#: classes/Inc/Settings.php:133
+msgid "No Restriction"
+msgstr ""
+
+#: classes/Inc/Settings.php:134
+msgid "Countries"
+msgstr ""
+
+#: classes/Inc/Settings.php:135
+msgid "Shipping Zones"
+msgstr ""
+
+#: classes/Inc/Settings.php:170
+msgid "Default shipping zone"
+msgstr ""
+
+#: classes/Inc/Settings.php:171
+msgid ""
+"Select a shipping zone from the drop-down that ATUM will use in cases where "
+"the system was not able to locate the customer"
+msgstr ""
+
+#: classes/Inc/Settings.php:182 classes/Inc/Settings.php:202
+msgid "Default for empty regions"
+msgstr ""
+
+#: classes/Inc/Settings.php:183
+msgid ""
+"Enable this if you want to use the default shipping zone for all your "
+"inventories with no region assigned"
+msgstr ""
+
+#: classes/Inc/Settings.php:190
+msgid "Default country"
+msgstr ""
+
+#: classes/Inc/Settings.php:191
+msgid ""
+"Select a country from the drop-down that ATUM will use in cases where the "
+"system was not able to use geolocation"
+msgstr ""
+
+#: classes/Inc/Settings.php:203
+msgid ""
+"Enable this if you want to use the default country for all your inventories "
+"with no region assigned"
+msgstr ""
+
+#: classes/Inc/Settings.php:210
+msgid "Inventory sorting mode"
+msgstr ""
+
+#: classes/Inc/Settings.php:211
+msgid ""
+"Default global setting for the inventory sorting mode.<ul><li><strong>FIFO:"
+"</strong> First added sells first</li><li><strong>LIFO:</strong> Last added "
+"sells first</li><li><strong>BBE:</strong> Shortest lifespan sells first</"
+"li><li><strong>Manual:</strong> Set your priorities manually</li>"
+msgstr ""
+
+#: classes/Inc/Settings.php:216
+#: views/meta-boxes/product-data/atum-tab-fields.php:58
+msgid "FIFO"
+msgstr ""
+
+#: classes/Inc/Settings.php:217
+#: views/meta-boxes/product-data/atum-tab-fields.php:62
+msgid "LIFO"
+msgstr ""
+
+#: classes/Inc/Settings.php:218
+#: views/meta-boxes/product-data/atum-tab-fields.php:66
+msgid "BBE/Exp."
+msgstr ""
+
+#: classes/Inc/Settings.php:219
+#: views/meta-boxes/product-data/atum-tab-fields.php:70
+msgid "Manual"
+msgstr ""
+
+#: classes/Inc/Settings.php:226
+msgid "Inventory iteration"
+msgstr ""
+
+#: classes/Inc/Settings.php:227
+msgid ""
+"What to do when the first selling inventory in the list of inventories is "
+"out of stock?"
+msgstr ""
+
+#: classes/Inc/Settings.php:232
+#: views/meta-boxes/product-data/atum-tab-fields.php:87
+msgid "Use next in priority order"
+msgstr ""
+
+#: classes/Inc/Settings.php:233
+#: views/meta-boxes/product-data/atum-tab-fields.php:91
+msgid "Show out of stock"
+msgstr ""
+
+#: classes/Inc/Settings.php:240
+msgid "Expirable inventories"
+msgstr ""
+
+#: classes/Inc/Settings.php:241
+msgid ""
+"Set the inventories as 'Out of Stock' when reaching their BBE dates. This "
+"global setting can be specified at product level too."
+msgstr ""
+
+#: classes/Inc/Settings.php:248
+msgid "Expiry dates in cart"
+msgstr ""
+
+#: classes/Inc/Settings.php:249
+msgid "Show the expiration dates for the products in cart (if any)."
+msgstr ""
+
+#: classes/Inc/Settings.php:256
+msgid "Price per inventory"
+msgstr ""
+
+#: classes/Inc/Settings.php:257
+msgid ""
+"Allow to set prices per inventory for all the products that have Multi-"
+"Inventory enabled when no specific option is set at product level."
+msgstr ""
+
+#: classes/Inc/Settings.php:264
+msgid "List tables' filter"
+msgstr ""
+
+#: classes/Inc/Settings.php:265
+msgid ""
+"Show/Hide the filter to display the MI products only on list tables "
+"(products list, Stock Central, Manufacturing Central, etc)."
+msgstr ""
+
+#: classes/Inc/Settings.php:272
+msgid "Batch tracking"
+msgstr ""
+
+#: classes/Inc/Settings.php:273
+msgid ""
+"Add search boxes to the WC Orders, Purchase Orders and Inventory Logs "
+"screens to be able to track where was used any Inventory batch number."
+msgstr ""
+
+#: classes/Inc/Settings.php:280
+msgid "Selectable inventories"
+msgstr ""
+
+#: classes/Inc/Settings.php:281
+#: views/meta-boxes/product-data/atum-tab-fields.php:167
+msgid ""
+"Enable this option to allow users to choose the inventories they want to "
+"purchase within product the page and cart."
+msgstr ""
+
+#: classes/Inc/Settings.php:294
+msgid "Inventory selection mode"
+msgstr ""
+
+#: classes/Inc/Settings.php:295
+#: views/meta-boxes/product-data/atum-tab-fields.php:188
+msgid ""
+"Select between a dropdown or a list for selecting inventories within the "
+"product page."
+msgstr ""
+
+#: classes/Inc/Settings.php:300
+#: views/meta-boxes/product-data/atum-tab-fields.php:180
+msgid "Dropdown"
+msgstr ""
+
+#: classes/Inc/Settings.php:301
+#: views/meta-boxes/product-data/atum-tab-fields.php:184
+msgid "List"
+msgstr ""
+
+#: classes/Inc/Settings.php:308
+msgid "Use geo prompt"
+msgstr ""
+
+#: classes/Inc/Settings.php:309
+msgid ""
+"Configure and use a Prompt to ask for required information to work with "
+"restriction zone modes"
+msgstr ""
+
+#: classes/Inc/Settings.php:320
+msgid "Required fields"
+msgstr ""
+
+#: classes/Inc/Settings.php:321
+msgid ""
+"What information do you need to know to work for your region restriction "
+"mode? (Choose one at least or the popup will not be shown)"
+msgstr ""
+
+#: classes/Inc/Settings.php:331
+#: views/widgets/user-destination-form-settings.php:25
+msgid "Country/State"
+msgstr ""
+
+#: classes/Inc/Settings.php:332
+#: views/widgets/user-destination-form-settings.php:30
+msgid "Postal Code"
+msgstr ""
+
+#: classes/Inc/Settings.php:339
+msgid "Popup title"
+msgstr ""
+
+#: classes/Inc/Settings.php:340
+msgid "Set the popup title. You can use [br] to insert a line break"
+msgstr ""
+
+#: classes/Inc/Settings.php:342 classes/Widgets/UserDestinationForm.php:214
+msgid "Hello!"
+msgstr ""
+
+#: classes/Inc/Settings.php:347
+msgid "Popup subtitle"
+msgstr ""
+
+#: classes/Inc/Settings.php:348
+msgid "Set the popup subtitle. You can use [br] to insert a line break"
+msgstr ""
+
+#: classes/Inc/Settings.php:350 classes/Widgets/UserDestinationForm.php:215
+msgid "Select your region, please"
+msgstr ""
+
+#: classes/Inc/Settings.php:355
+msgid "Popup text"
+msgstr ""
+
+#: classes/Inc/Settings.php:356
+msgid ""
+"Set the popup description text. You can use the tag [country] to display "
+"the user's geolocalized country on this message"
+msgstr ""
+
+#: classes/Inc/Settings.php:360 classes/Widgets/UserDestinationForm.php:216
+msgid ""
+"We have detected your location and we set your nearest region to [country]. "
+"If your shipping address is not within this zone, please select one below."
+msgstr ""
+
+#: classes/Inc/Settings.php:365
+msgid "Border radius"
+msgstr ""
+
+#: classes/Inc/Settings.php:366
+msgid "Select a border radius (in pixels) for the popup corners"
+msgstr ""
+
+#: classes/Inc/Settings.php:378
+msgid "Background color"
+msgstr ""
+
+#: classes/Inc/Settings.php:379
+msgid "Select a background color for this popup"
+msgstr ""
+
+#: classes/Inc/Settings.php:386
+msgid "Accent color"
+msgstr ""
+
+#: classes/Inc/Settings.php:387
+msgid "Select an accent color for this popup"
+msgstr ""
+
+#: classes/Inc/Settings.php:394
+msgid "Font color"
+msgstr ""
+
+#: classes/Inc/Settings.php:395
+msgid "Select a font color for this popup"
+msgstr ""
+
+#: classes/Inc/Settings.php:402
+msgid "Exclusion pages"
+msgstr ""
+
+#. translators: the anchor tag with the URL
+#: classes/Inc/Settings.php:404
+#, php-format
+msgid ""
+"Write one regular expression per line compatible with PHP and all those "
+"pages' URLs matching the patterns won't show the Geoprompt.<br>Please, note "
+"that the pattern should match the REQUEST_URI part, not the full URL."
+"<br>You can use this site for building regular expressions: %s"
+msgstr ""
+
+#: classes/Inc/Settings.php:418
+#: views/widgets/user-destination-form-settings.php:59
+msgid "We have detected that you set a Privacy Page in WooCommerce settings."
+msgstr ""
+
+#: classes/Inc/Settings.php:421
+#: views/widgets/user-destination-form-settings.php:62
+msgid ""
+"Please write here the form's privacy text. If you set the tags [link] and [/"
+"link] around a word, only this will be a link to your privacy page. If not, "
+"the whole text will be a link"
+msgstr ""
+
+#: classes/Inc/Settings.php:422
+#: views/widgets/user-destination-form-settings.php:63
+msgid "Leave blank to not add the confirmation checkbox"
+msgstr ""
+
+#: classes/Inc/Settings.php:427 classes/Inc/Settings.php:453
+msgid "Privacy link text"
+msgstr ""
+
+#: classes/Inc/Settings.php:439
+msgid "Privacy page URL"
+msgstr ""
+
+#: classes/Inc/Settings.php:440
+#: views/widgets/user-destination-form-settings.php:72
+msgid ""
+"Enter the URL to your privacy page. Please note that the Geo Prompt PopUp "
+"won't show in this page"
+msgstr ""
+
+#: classes/Inc/Settings.php:454
+msgid ""
+"We have detected that you didn't set a Privacy Page in WooCommerce settings."
+"<br>If you want to add the Privacy checkbox to Geo Prompt, you must <a "
+"href='/wp-admin/admin.php?page=wc-"
+"settings&tab=account#wp_page_for_privacy_policy'>configure it</a>."
+msgstr ""
+
+#: classes/Inc/Settings.php:469 classes/Inc/Settings.php:487
+#: classes/Inc/Settings.php:507
+msgid "Update Now!"
+msgstr ""
+
+#: classes/Inc/Settings.php:483
+msgid "Migrate from Zones to Countries"
+msgstr ""
+
+#: classes/Inc/Settings.php:484
+msgid ""
+"If you had the Multi-Inventory restriction mode set to 'Shipping Zones' and "
+"decided to change it later to 'Countries', this tool will help you to "
+"migrate the regions set for all the inventories."
+msgstr ""
+
+#: classes/Inc/Settings.php:494
+msgid "Switch from Countries to Countries"
+msgstr ""
+
+#: classes/Inc/Settings.php:495
+msgid ""
+"Using this tool, you'll can switch from one (or multiple) country(ies) to "
+"another."
+msgstr ""
+
+#: classes/Inc/Settings.php:503
+msgid "Migrate from Countries to Zones"
+msgstr ""
+
+#: classes/Inc/Settings.php:504
+msgid ""
+"If you had the Multi-Inventory restriction mode set to 'Countries' and "
+"decided to change it later to 'Shipping Zones', this tool will help you to "
+"migrate the regions set for all the inventories."
+msgstr ""
+
+#: classes/Inc/Settings.php:514
+msgid "Switch from Zones to Zones"
+msgstr ""
+
+#: classes/Inc/Settings.php:515
+msgid ""
+"Using this tool, you'll can switch from one (or multiple) shipping zone(s) "
+"to another."
+msgstr ""
+
+#: classes/Inc/Settings.php:586
+msgid "All the fields are required."
+msgstr ""
+
+#: classes/Inc/Upgrade.php:958
+msgid "Removed Inventory"
+msgstr ""
+
+#: classes/Integrations/Wpml.php:264
+msgid "Multi Inventories can not be edited within translations"
+msgstr ""
+
+#: classes/Integrations/Wpml.php:267
+msgid "You must edit original product instead."
+msgstr ""
+
+#. translators: first one is the inventory name and second the stock quantity
+#: classes/Models/Inventory.php:854
+#, php-format
+msgid ""
+"The stock has not been updated because the value has changed since editing. "
+"Inventory %1$s has %2$d units in stock."
+msgstr ""
+
+#. translators: the inventory name
+#: classes/Models/Inventory.php:874
+#, php-format
+msgid ""
+"The sale price of the Inventory %s can't be higher than its regular price "
+"and was adjusted accordingly."
+msgstr ""
+
+#: classes/Models/Inventory.php:2328
+msgid "Invalid property"
+msgstr ""
+
+#: classes/Models/MainInventory.php:43
+msgid "Main Inventory"
+msgstr ""
+
+#: classes/Shortcodes/InventoryInfo.php:114
+msgid "This product has no inventory info available."
+msgstr ""
+
+#: classes/Widgets/UserDestinationForm.php:42
+msgid ""
+"Displays a form to ask users for their shipping destination. Used by ATUM "
+"Multi-Inventory add-on when the 'Region Restriction Mode' is set to "
+"'Shipping Zones'."
+msgstr ""
+
+#: classes/Widgets/UserDestinationForm.php:47
+msgid "(ATUM) User Destination Form"
+msgstr ""
+
+#: classes/Widgets/UserDestinationForm.php:103
+msgid "Your destination preference was saved. Thank You!"
+msgstr ""
+
+#: views/geo-prompt/form-markup.php:43
+msgid "Select your country"
+msgstr ""
+
+#: views/geo-prompt/form-markup.php:44
+msgid "Required"
+msgstr ""
+
+#: views/geo-prompt/form-markup.php:48
+msgid "Country..."
+msgstr ""
+
+#: views/geo-prompt/form-markup.php:60
+msgid "Add your postal code"
+msgstr ""
+
+#: views/geo-prompt/form-markup.php:64
+msgid "Postal Code..."
+msgstr ""
+
+#: views/geo-prompt/form-markup.php:78
+msgid "All fields are required!"
+msgstr ""
+
+#: views/js-templates/add-inventory-modal.php:20
+msgid "Create a new inventory for this product."
+msgstr ""
+
+#: views/js-templates/add-inventory-modal.php:27
+#: views/meta-boxes/order-items/inventory-info.php:28
+msgid "Inventory Details"
+msgstr ""
+
+#: views/js-templates/add-inventory-modal.php:30
+msgid "Name"
+msgstr ""
+
+#: views/js-templates/add-inventory-modal.php:31
+msgid "Type the inventory name"
+msgstr ""
+
+#: views/js-templates/add-inventory-modal.php:37
+#: views/meta-boxes/order-items/mi-management-popup.php:66
+msgid "Region"
+msgstr ""
+
+#: views/js-templates/add-inventory-modal.php:41
+msgid "Select Region..."
+msgstr ""
+
+#: views/js-templates/add-inventory-modal.php:70
+#: views/meta-boxes/order-items/mi-management-popup.php:71
+#: views/selectable-inventories/dropdown.php:51
+msgid "Location"
+msgstr ""
+
+#. translators: link to the edit terms page
+#. translators: link to the ATUM locations taxonomy page
+#: views/js-templates/add-inventory-modal.php:82
+#: views/meta-boxes/product-data/inventory-info.php:103
+#, php-format
+msgid ""
+"You must create <a href='%s'>location terms</a> before assigning them here."
+msgstr ""
+
+#: views/js-templates/add-inventory-modal.php:88
+msgid "Select location..."
+msgstr ""
+
+#: views/js-templates/add-inventory-modal.php:99
+msgid "BBE date"
+msgstr ""
+
+#: views/js-templates/add-inventory-modal.php:103
+msgid "Pick a BBE date"
+msgstr ""
+
+#: views/js-templates/add-inventory-modal.php:110
+msgid "Type the LOT/Batch number"
+msgstr ""
+
+#: views/js-templates/add-inventory-modal.php:115
+msgid "Stock Details"
+msgstr ""
+
+#: views/js-templates/add-inventory-modal.php:118
+#: views/meta-boxes/product-data/inventory-group.php:91
+msgid "SKU"
+msgstr ""
+
+#: views/js-templates/add-inventory-modal.php:119
+msgid "Type the SKU"
+msgstr ""
+
+#: views/js-templates/add-inventory-modal.php:123
+#: views/meta-boxes/product-data/inventory-group.php:121
+msgid "Manage stock?"
+msgstr ""
+
+#: views/js-templates/add-inventory-modal.php:126
+#: views/meta-boxes/product-data/atum-tab-fields.php:37
+#: views/meta-boxes/product-data/atum-tab-fields.php:108
+#: views/meta-boxes/product-data/atum-tab-fields.php:137
+#: views/meta-boxes/product-data/atum-tab-fields.php:159
+msgid "Yes"
+msgstr ""
+
+#: views/js-templates/add-inventory-modal.php:127
+#: views/meta-boxes/product-data/atum-tab-fields.php:41
+#: views/meta-boxes/product-data/atum-tab-fields.php:112
+#: views/meta-boxes/product-data/atum-tab-fields.php:141
+#: views/meta-boxes/product-data/atum-tab-fields.php:163
+msgid "No"
+msgstr ""
+
+#: views/js-templates/add-inventory-modal.php:132
+#: views/meta-boxes/product-data/inventory-group.php:184
+msgid "Stock quantity"
+msgstr ""
+
+#: views/js-templates/add-inventory-modal.php:137
+#: views/meta-boxes/product-data/inventory-group.php:217
+msgid "Allow backorders?"
+msgstr ""
+
+#: views/js-templates/add-inventory-modal.php:140
+msgid "Do not allow"
+msgstr ""
+
+#: views/js-templates/add-inventory-modal.php:141
+msgid "Allow, but notify customer"
+msgstr ""
+
+#: views/js-templates/add-inventory-modal.php:142
+msgid "Allow"
+msgstr ""
+
+#: views/js-templates/add-inventory-modal.php:147
+#: views/meta-boxes/product-data/inventory-group.php:257
+msgid "Stock status"
+msgstr ""
+
+#: views/js-templates/add-inventory-modal.php:150
+msgid "In stock"
+msgstr ""
+
+#: views/js-templates/add-inventory-modal.php:151
+msgid "Out of stock"
+msgstr ""
+
+#: views/js-templates/add-inventory-modal.php:152
+#: views/meta-boxes/product-data/inventory-group.php:48
+msgid "On backorder"
+msgstr ""
+
+#: views/js-templates/add-inventory-modal.php:158
+msgid "Out of stock threshold"
+msgstr ""
+
+#: views/js-templates/add-inventory-modal.php:164
+#: views/meta-boxes/order-items/mi-management-popup.php:75
+msgid "Supplier"
+msgstr ""
+
+#: views/js-templates/add-inventory-modal.php:170
+msgid "Supplier's SKU"
+msgstr ""
+
+#: views/js-templates/add-inventory-modal.php:171
+msgid "Type the supplier's SKU"
+msgstr ""
+
+#: views/meta-boxes/order-items/inventory-info.php:33
+msgid "Regions:"
+msgstr ""
+
+#: views/meta-boxes/order-items/inventory-info.php:40
+msgid "Locations"
+msgstr ""
+
+#: views/meta-boxes/order-items/inventory-info.php:41
+msgid "Locations:"
+msgstr ""
+
+#: views/meta-boxes/order-items/inventory-info.php:48
+#: views/meta-boxes/product-data/inventory-info.php:130
+#: views/shortcodes/inventory-info.php:32
+msgid "Inventory Date:"
+msgstr ""
+
+#: views/meta-boxes/order-items/inventory-info.php:55
+#: views/meta-boxes/product-data/inventory-info.php:145
+#: views/shortcodes/inventory-info.php:45
+msgid "BBE Date:"
+msgstr ""
+
+#: views/meta-boxes/order-items/inventory-info.php:62
+#: views/meta-boxes/product-data/inventory-info.php:161
+msgid "Expiry Days:"
+msgstr ""
+
+#: views/meta-boxes/order-items/inventory-info.php:68
+msgid "LOT/Batch number"
+msgstr ""
+
+#: views/meta-boxes/order-items/inventory-info.php:69
+#: views/meta-boxes/product-data/inventory-info.php:186
+msgid "LOT/Batch:"
+msgstr ""
+
+#: views/meta-boxes/order-items/inventory.php:82 views/reports/mi-sku.php:32
+msgid "Supplier SKU:"
+msgstr ""
+
+#: views/meta-boxes/order-items/inventory.php:87
+msgid "Set purchase price"
+msgstr ""
+
+#: views/meta-boxes/order-items/inventory.php:94
+msgid "Stock Available:"
+msgstr ""
+
+#: views/meta-boxes/order-items/inventory.php:100
+msgid ""
+"The order you are editing has not been deducted from the Available Stock "
+"yet. Deduction happens after the status changes to processing or completed."
+msgstr ""
+
+#: views/meta-boxes/order-items/inventory.php:102
+msgid ""
+"The PO you are editing has not been added to the Available Stock yet. The "
+"addition happens after the status changes to received."
+msgstr ""
+
+#. translators: %s: discount amount
+#: views/meta-boxes/order-items/inventory.php:146
+#, php-format
+msgid "%s discount"
+msgstr ""
+
+#: views/meta-boxes/order-items/inventory.php:159
+msgid "Pre-discount:"
+msgstr ""
+
+#: views/meta-boxes/order-items/inventory.php:164
+msgid "Total:"
+msgstr ""
+
+#: views/meta-boxes/order-items/inventory.php:165
+msgid "Discounts"
+msgstr ""
+
+#: views/meta-boxes/order-items/inventory.php:176
+msgid "Expand/Collapse info"
+msgstr ""
+
+#: views/meta-boxes/order-items/inventory.php:179
+msgid "Delete"
+msgstr ""
+
+#: views/meta-boxes/order-items/mi-management-popup.php:41
+msgid "NOTE: Select the inventories you want to add to the order."
+msgstr ""
+
+#: views/meta-boxes/order-items/mi-management-popup.php:61
+msgid "Stock Name"
+msgstr ""
+
+#: views/meta-boxes/order-items/mi-management-popup.php:78
+msgid "Cost"
+msgstr ""
+
+#: views/meta-boxes/order-items/mi-management-popup.php:83
+msgid "Discounted"
+msgstr ""
+
+#: views/meta-boxes/order-items/mi-management-popup.php:88
+msgid "Stock Available"
+msgstr ""
+
+#. translators: the inventory expiration date
+#: views/meta-boxes/order-items/mi-management-popup.php:119
+#, php-format
+msgid "This inventory expired on %s"
+msgstr ""
+
+#. translators: Link to the plugin's help page
+#: views/meta-boxes/order-items/mi-management-popup.php:187
+#, php-format
+msgid ""
+"Need help? <a href=\"%s\" target=\"_blank\">Read the documentation here.</a>"
+msgstr ""
+
+#: views/meta-boxes/order-items/mi-panel.php:44
+msgid "ADD INVENTORY"
+msgstr ""
+
+#: views/meta-boxes/product-data/atum-tab-fields.php:25
+msgid "Multi-Inventory Settings"
+msgstr ""
+
+#: views/meta-boxes/product-data/atum-tab-fields.php:33
+#: views/meta-boxes/product-data/atum-tab-fields.php:54
+#: views/meta-boxes/product-data/atum-tab-fields.php:83
+#: views/meta-boxes/product-data/atum-tab-fields.php:104
+#: views/meta-boxes/product-data/atum-tab-fields.php:133
+#: views/meta-boxes/product-data/atum-tab-fields.php:155
+#: views/meta-boxes/product-data/atum-tab-fields.php:176
+msgid "Global"
+msgstr ""
+
+#: views/meta-boxes/product-data/atum-tab-fields.php:45
+msgid ""
+"Enable/Disable the multi-inventory at product level. This will override the "
+"global setting."
+msgstr ""
+
+#: views/meta-boxes/product-data/atum-tab-fields.php:49
+msgid "Sorting Mode"
+msgstr ""
+
+#: views/meta-boxes/product-data/atum-tab-fields.php:74
+msgid ""
+"Default global setting for the inventory sorting mode.<ul><li>FIFO: First "
+"added sells first</li><li>LIFO: Last added sells first</li><li>BBE: "
+"Shortest lifespan sells first</li><li>Manual: Set your priorities manually</"
+"li>"
+msgstr ""
+
+#: views/meta-boxes/product-data/atum-tab-fields.php:78
+msgid "Inventory Iteration"
+msgstr ""
+
+#: views/meta-boxes/product-data/atum-tab-fields.php:95
+msgid "What to do when the first selling inventory is out of stock?"
+msgstr ""
+
+#: views/meta-boxes/product-data/atum-tab-fields.php:99
+msgid "Expirable Inventories"
+msgstr ""
+
+#: views/meta-boxes/product-data/atum-tab-fields.php:116
+msgid ""
+"Set the inventories as 'Out of Stock' when reaching their BBE dates (if set)"
+msgstr ""
+
+#: views/meta-boxes/product-data/atum-tab-fields.php:128
+msgid "Price per Inventory"
+msgstr ""
+
+#: views/meta-boxes/product-data/atum-tab-fields.php:145
+msgid "Allow distinct inventories to have distinct prices"
+msgstr ""
+
+#: views/meta-boxes/product-data/atum-tab-fields.php:150
+msgid "Selectable Inventories"
+msgstr ""
+
+#: views/meta-boxes/product-data/atum-tab-fields.php:171
+msgid "Inventory Selection Mode"
+msgstr ""
+
+#: views/meta-boxes/product-data/inventory-group.php:39
+msgid "Click to edit name"
+msgstr ""
+
+#: views/meta-boxes/product-data/inventory-group.php:44
+msgid "Write-Off"
+msgstr ""
+
+#: views/meta-boxes/product-data/inventory-group.php:63
+msgid "This is the Main inventory"
+msgstr ""
+
+#: views/meta-boxes/product-data/inventory-group.php:67
+msgid "This inventory has expired"
+msgstr ""
+
+#: views/meta-boxes/product-data/inventory-group.php:91
+msgid "Stock Keeping Unit"
+msgstr ""
+
+#: views/meta-boxes/product-data/inventory-group.php:93
+msgid ""
+"SKU refers to a Stock-keeping unit, a unique identifier for each distinct "
+"product and service that can be purchased."
+msgstr ""
+
+#: views/meta-boxes/product-data/inventory-group.php:122
+msgid "Enable stock management at inventory level"
+msgstr ""
+
+#: views/meta-boxes/product-data/inventory-group.php:127
+msgid "The WC's Manage stock was disabled due to inventory expiration"
+msgstr ""
+
+#: views/meta-boxes/product-data/inventory-group.php:152
+msgid "Expired stock"
+msgstr ""
+
+#: views/meta-boxes/product-data/inventory-group.php:154
+msgid "Expired stock. This is the expired stock amount for this inventory."
+msgstr ""
+
+#: views/meta-boxes/product-data/inventory-group.php:186
+msgid ""
+"Stock quantity. If this is a variable product this value will be used to "
+"control stock for all variations, unless you define stock at variation "
+"level."
+msgstr ""
+
+#: views/meta-boxes/product-data/inventory-group.php:220
+msgid ""
+"If managing stock, this controls whether or not backorders are allowed. If "
+"enabled, stock quantity can go below 0."
+msgstr ""
+
+#: views/meta-boxes/product-data/inventory-group.php:260
+msgid ""
+"Controls whether or not the product is listed as \"in stock\" or \"out of "
+"stock\" on the frontend."
+msgstr ""
+
+#: views/meta-boxes/product-data/inventory-group.php:292
+msgid "Sold individually"
+msgstr ""
+
+#: views/meta-boxes/product-data/inventory-group.php:293
+msgid ""
+"Enable this to only allow one of this item to be bought in a single order"
+msgstr ""
+
+#: views/meta-boxes/product-data/inventory-group.php:378
+msgid "Regular price"
+msgstr ""
+
+#: views/meta-boxes/product-data/inventory-group.php:399
+msgid "Sale price"
+msgstr ""
+
+#: views/meta-boxes/product-data/inventory-group.php:400
+msgid "Schedule"
+msgstr ""
+
+#: views/meta-boxes/product-data/inventory-group.php:443
+msgid "Sale price dates"
+msgstr ""
+
+#: views/meta-boxes/product-data/inventory-group.php:446
+msgctxt "placeholder"
+msgid "From&hellip;"
+msgstr ""
+
+#: views/meta-boxes/product-data/inventory-group.php:451
+msgctxt "placeholder"
+msgid "To&hellip;"
+msgstr ""
+
+#: views/meta-boxes/product-data/inventory-group.php:455
+msgid "The sale will end at the beginning of the set date."
+msgstr ""
+
+#: views/meta-boxes/product-data/inventory-group.php:483
+msgid "No shipping class"
+msgstr ""
+
+#: views/meta-boxes/product-data/inventory-group.php:493
+msgid "Shipping class"
+msgstr ""
+
+#: views/meta-boxes/product-data/inventory-group.php:506
+msgid ""
+"Shipping classes can be used by certain shipping methods to charge an extra "
+"costs when using specific inventories."
+msgstr ""
+
+#: views/meta-boxes/product-data/inventory-info.php:27
+#: views/shortcodes/inventory-info.php:58
+#, fuzzy
+msgid "Region:"
+msgstr ""
+"#-#-#-#-#  17extracted.pot (PACKAGE VERSION)  #-#-#-#-#\n"
+"#-#-#-#-#  18extracted.pot (PACKAGE VERSION)  #-#-#-#-#\n"
+
+#: views/meta-boxes/product-data/inventory-info.php:29
+msgid "Edit Region"
+msgstr ""
+
+#. translators: the link to WC shipping zones setup
+#: views/meta-boxes/product-data/inventory-info.php:47
+#, php-format
+msgid ""
+"You have to create <a href='%s'>shipping zones</a> before assigning regions "
+"here."
+msgstr ""
+
+#: views/meta-boxes/product-data/inventory-info.php:84
+#: views/shortcodes/inventory-info.php:71
+#, fuzzy
+msgid "Location:"
+msgstr ""
+"#-#-#-#-#  17extracted.pot (PACKAGE VERSION)  #-#-#-#-#\n"
+"#-#-#-#-#  18extracted.pot (PACKAGE VERSION)  #-#-#-#-#\n"
+
+#: views/meta-boxes/product-data/inventory-info.php:86
+msgid "Edit Location"
+msgstr ""
+
+#: views/meta-boxes/product-data/inventory-info.php:114
+msgid "Select Location(s)"
+msgstr ""
+
+#: views/meta-boxes/product-data/inventory-info.php:137
+msgid "Edit Inventory Date"
+msgstr ""
+
+#: views/meta-boxes/product-data/inventory-info.php:152
+msgid "Edit BBE Date (GMT)"
+msgstr ""
+
+#: views/meta-boxes/product-data/inventory-info.php:163
+msgid ""
+"Set the product as Out of Stock the specified number of days before the BBE "
+"date"
+msgstr ""
+
+#: views/meta-boxes/product-data/inventory-info.php:178
+msgid "Priority:"
+msgstr ""
+
+#: views/meta-boxes/product-data/inventory-info.php:188
+msgid "Edit LOT/Batch number"
+msgstr ""
+
+#: views/meta-boxes/product-data/inventory-info.php:205
+msgid "Clone Inventory"
+msgstr ""
+
+#: views/meta-boxes/product-data/inventory-info.php:206
+msgid "Clear Inventory"
+msgstr ""
+
+#: views/meta-boxes/product-data/inventory-info.php:207
+msgid "Remove/Write Off Inventory"
+msgstr ""
+
+#: views/meta-boxes/product-data/mi-panel.php:42
+msgid "Bulk Actions"
+msgstr ""
+
+#: views/meta-boxes/product-data/mi-panel.php:43
+msgid "Clone Selected"
+msgstr ""
+
+#: views/meta-boxes/product-data/mi-panel.php:44
+msgid "Clear Selected"
+msgstr ""
+
+#: views/meta-boxes/product-data/mi-panel.php:45
+msgid "Write Off Selected"
+msgstr ""
+
+#: views/meta-boxes/product-data/mi-panel.php:46
+msgid "Un-write Off Selected"
+msgstr ""
+
+#: views/meta-boxes/product-data/mi-panel.php:47
+msgid "Remove Selected"
+msgstr ""
+
+#: views/meta-boxes/product-data/mi-panel.php:50
+msgid "Apply"
+msgstr ""
+
+#: views/meta-boxes/product-data/mi-panel.php:73
+msgid "Add New Inventory"
+msgstr ""
+
+#: views/reports/mi-sku.php:25
+msgid "SKU:"
+msgstr ""
+
+#: views/selectable-inventories/list.php:26
+msgid "Select Location:"
+msgstr ""
+
+#. translators: the number of items in stock
+#: views/selectable-inventories/list.php:67
+#, php-format
+msgid "%s in stock"
+msgstr ""
+
+#: views/shortcodes/inventory-info.php:85
+msgid "LOT/Batch number:"
+msgstr ""
+
+#: views/tools/region-switcher.php:19
+msgid "Switch from..."
+msgstr ""
+
+#: views/tools/region-switcher.php:28
+msgid "Switch to..."
+msgstr ""
+
+#: views/widgets/user-destination-form-settings.php:16
+msgid "This widget only works with the 'Shipping Zones' restriction mode."
+msgstr ""
+
+#: views/widgets/user-destination-form-settings.php:21
+msgid "Required Fields"
+msgstr ""
+
+#: views/widgets/user-destination-form-settings.php:34
+msgid ""
+"What information do you need to know to work with region restriction mode? "
+"(Choose one at least to show the form)"
+msgstr ""
+
+#: views/widgets/user-destination-form-settings.php:37
+msgid "Title"
+msgstr ""
+
+#: views/widgets/user-destination-form-settings.php:39
+msgid "Set the widget title. You can use [br] to insert a line break"
+msgstr ""
+
+#: views/widgets/user-destination-form-settings.php:42
+msgid "Subtitle"
+msgstr ""
+
+#: views/widgets/user-destination-form-settings.php:44
+msgid "Set the widget subtitle. You can use [br] to insert a line break"
+msgstr ""
+
+#: views/widgets/user-destination-form-settings.php:47
+msgid "Text"
+msgstr ""
+
+#: views/widgets/user-destination-form-settings.php:49
+msgid ""
+"Set the widget description text. You can use the tag [country] to display "
+"the user's geolocalized country on this message"
+msgstr ""
+
+#: views/widgets/user-destination-form-settings.php:52
+msgid "Privacy Link Text"
+msgstr ""
+
+#: views/widgets/user-destination-form-settings.php:70
+msgid "Privacy Page URL"
+msgstr ""
+
+#: views/widgets/user-destination-form-settings.php:79
+msgid "Show only once"
+msgstr ""
+
+#: views/widgets/user-destination-form-settings.php:81
+msgid ""
+"Hide the widget once the visitor entered his/her destination for the first "
+"time"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "ATUM Multi-Inventory"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://www.stockmanagementlabs.com/addons/atum-multi-inventory"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Stock Management Labs™"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://www.stockmanagementlabs.com/"
+msgstr ""

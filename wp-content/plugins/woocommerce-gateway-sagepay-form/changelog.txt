@@ -1,0 +1,917 @@
+*** Opayo Form / Direct / Pi Changelog **
+2022.10.18 - version 5.9.1
+ * Opayo Pi - Noscript for 3D Secure
+ * OPAYO Pi - Updated Order Review page 
+
+2022.10.13 - version 5.9.0
+ * Opayo Pi - Initial subscriptions support
+ * Opayo Pi - Pre-orders support
+ * Opayo Pi - Deferred support
+ * Opayo Pi - Fix order total
+ * Opayo Pi - $_REQUEST for 3D Secure
+ * Opayo Pi - Only load checkout scripts on checkout
+ * Opayo Pi - Remove Epoch time check, service is no more
+ * Opayo Direct - Don't update order meta for failed captures
+ * Opayo Direct - Fix default basket option
+ * Opayo Direct - Send Order ID in transaction data in Reference field
+ * Opayo Direct - Fix bug when you use the Customer Order Pay URL to complete a payment at a later date, rather than using the normal checkout. Thanks to Matt Jones
+ * Opayo Form - Fix AcctInfoXML
+ * Opayo Form - Change decryption method
+ * General - Fix for special characters in XML basket
+
+2022.04.26 - version 5.8.1
+ * Version bump
+
+2022.04.18 - version 5.8.0
+ * General - Plugin version number in System Status report
+ * General - Server date & time in System Status report
+ * General - icanhazdate in System Status Report
+ * Opayo Form - Initial WC Blocks release
+ * Opayo Form - Conditionally add CustomerXML 
+ * Opayo Form - Conditionally add AcctInfoXML 
+ * Opayo Form - Conditionally add MerchantRiskIndicatorXML
+ * Opayo Pi - Fix missing cardIdentifier error
+ * Opayo Pi - Rework error handling
+ * Opayo Pi - Handle expired session
+ * Opayo Pi - Fix session expiration check
+ * Opayo Pi - Fix issue when more than one payment method is available
+ * Opayo Pi - Fix deprecated jQuery
+ * Opayo Direct - return not exit during 3DS
+ * Opayo Direct - Undefined array key "StatusDetail"
+ * Opayo Reporting - Add meta box to subscription 
+
+2022.02.08 - version 5.7.4
+ * General - WC 6.2
+ * General - Update readme file
+ * Opayo Direct - Fix field length for BrowserLanguage
+ * Opayo Direct - make sure expiry date can be added as 02/22, 02/2022, 02 2022, 2 2022
+ * Opayo Direct - Allow for £0 initial subscription order that don't use Free Trials
+ * Opayo Direct - Always log wp_remote_post errors
+ * Opayo Direct - remove some exit() from 3D Secure process
+ * Opayo Direct - add additional order notes for 3D Secure failures
+ * Opayo Direct - Use $_REQUEST not $_POST for 3D Secure process to allow for 3D Secure form variations
+ * Opayo Direct - Check settings for empty values.
+ * Opayo Direct - Fix add payment method not sending amount maybe
+ * Opayo Direct - Make sure new token is not deleted from subscription when changing payment method
+
+2021.12.24 - version 5.7.3
+ * Opayo Direct - Fix customer XML for no previous orders
+
+2021.12.22 - version 5.7.2
+ * Opayo Direct - Fix broken Voids
+
+2021.12.22 - version 5.7.1
+ * Remove developer debugging code
+
+2021.12.22 - version 5.7.0
+ * Opayo Direct - Add CustomerXML to request
+ * Opayo Direct - Add AcctInfoXML to request
+ * Opayo Direct - Add MerchantRiskIndicatorXML to request
+ * Opayo Direct - Fix change payment method when not using tokens
+
+2021.12.13 - version 5.6.7
+ * Allow for subscription renewal re-attempts if renewal fails because it needs a token
+ * Checkout CSS tweak
+ * Opayo Pi - Filter for transaction description field
+ * PayPal SVG logo
+ * Opayo Reporting - option to set order statuses that can be changed to Fraud Status
+ * Opayo Direct - Fix Call to undefined method Sagepay_Direct_Subcription_Renewals::get_allowgiftaid()
+
+2021.11.10 - version 5.6.6
+ * Card icon CSS
+
+2021.11.08 - version 5.6.5
+ * Fix relative link to card icons
+ * Update card icons
+ * Update Checkout SagePay link
+ * Strip HTML from basket
+ * Remove version 5.5.3
+ * Clean up basket code, remove pre WC version 3 code
+ * Opayo Direct - improve failure order notes
+ * Opayo Direct - additional order notes during transaction
+ * Opayo Direct - fix missing description
+ * Opayo Direct - fix missing card icons
+ * Opayo Direct - Add option to change checkout button text
+ * Opayo Pi - Fix admin spelling mistake
+ * Opayo Pi - Add option to change checkout button text
+
+2021.11.03 - version 5.6.4
+ * Opayo Direct - Fix PHP Parse error: syntax error, unexpected '->' in refunds
+
+2021.11.03 - version 5.6.3
+ * Opayo Direct - Fix 'This payment method is invalid, please try a different payment method.'
+
+2021.11.01 - version 5.6.2
+ * Remove subscription dev code
+
+2021.11.01 - version 5.6.1
+ * Version bump
+
+2021.11.01 - version 5.6.0
+ * Opayo Direct - rewrite
+ * Opayo Pi - refactor
+ * Opayo Pi - Token support with WooCommerce checkout form
+ * Opayo Direct - Remove iFrame 3D Secure option temporarily
+ * Opayo Direct - Protocol 4.00 only
+ * Include version 5.5.3 for easy roll back if necessary
+
+2021.10.13 - version 5.5.4
+ * Opayo Pi - CSS class for payment method description
+ * Opayo Direct - add_post_meta not update_post_meta for 3D Secure return
+ * Opayo Direct - verify subscription renewal data array before sending
+ * WC 5.8
+
+2021.09.30 - version 5.5.3
+ * Version bump
+
+2021.09.27 - version 5.5.2
+ * Opayo Reporting - Optionally prevent Opayo Reporting from changing an updated order back to fraud-screen
+ * Opayo Form - remove option 2 and 3 for 3D Secure settings, revert to 0.
+ * Opayo Direct - additional 3D Secure checks
+ * Opayo Direct - fix for missing transaction data from New Order email.
+
+2021.09.21 - version 5.5.1
+ * Opayo Pi - change load priority for Opayo checkout script
+ * Opayo Pi - checkout form setting added to System Status output
+ * Opayo Pi - validate sessionKey expiry date
+ * Opayo Pi - fix sessionKey validation
+
+2021.09.20 - version 5.5.0
+ * Opayo Reporting - check for valid settings before loading reporting files
+ * Opayo Direct - trim field lengths
+ * Opayo Direct - PHP Notice: Trying to access array offset on value of type bool
+ * Opayo Pi - Ensure scripts are only loaded if Pi is enabled
+ * Opayo Pi - Optional Drop In checkout form
+
+2021.09.13 - version 5.4.2
+ * Opayo Direct - clean up 'payment complete'
+
+2021.09.08 - version 5.4.1
+ * All payment methods - mask passwords.
+ * Opayo Direct - Force ApplyAVSCV2 = 2 if no CVV for existing tokens.
+ * Opayo Direct - Add transaction data for failed release attempts
+ * Opayo Direct - Payment status check for all failed Opayo status
+ * Opayo Reporting - Add XML check to System Status
+ * Opayo Reporting - Make sure a new report is generated when editing the order for orders that are not complete or where a report does not exist.
+ * Opayo Reporting - Validate the API details if there is an error and show result in metabox
+ * Opayo Reporting - Add metabox to WooCommerce Subscriptions.
+ * Opayo Pi - Fix Transaction Type
+
+2021.07.26 - version 5.4.0
+ * Opayo Pi - additional transaction verification.
+ * Opayo Pi - redirect fails to checkout page, not order pay page.
+ * Opayo Pi - set unsuccessful orders to failed.
+ * Opayo Reporting - human readable warning on error in metabox
+ * Opayo Reporting - Add reporting to System Status
+ * Opayo Reporting - Add admin notice nag to setup Opayo Reporting
+ * Opayo Direct - Store Opayo response on failed orders for Opayo Reporting
+ * Opayo Direct - set order status to failed for failed transactions
+ * Opayo Form - Redirect failed orders to checkout page
+ * Opayo Form - Store Opayo response on failed orders for Opayo Reporting
+
+2021.07.20 - version 5.3.1
+ * Opayo Pi - Fix PHP Warning: Undefined array key "SERVER_ADDR" in WP CLI
+ * Refactor Opayo Reporting
+ * Opayo Reporting - Update order status to refunded if order is fully refunded in MySagePay
+ * Opayo Reporting - Update for third man API changes
+
+2021.07.04 - version 5.3.0
+ * Opayo Form - Refunds (requires Opayo Reporting credentials)
+ * Opayo Form - Voids (requires Opayo Reporting credentials)
+
+2021.06.29 - version 5.2.2
+ * Opayo Reporting - Make sure reporting only checks Opayo payment methods
+ * Opayo Reporting - Make sure automated schedule is updated if settings change
+ * Opayo Pi - clean up logging
+ * Opayo Pi - clean up order total
+ * Fix system status output
+
+2021.06.25 - version 5.2.1
+ * version bump
+
+2021.06.24 - version 5.2.0
+ * Opayo Pi - Additional 3DS 2.0 fields
+ * Opayo Direct - filter for "Gift Aid" label 
+ * Opayo Direct - filter for "Save to Account" label
+
+2021.06.07 - version 5.1.2
+ * Opayo Pi - Add a fallback IP Address if there is no IPV4 address available for the customer. Opayo does not support IPV6 addresses at this time.
+ * Fix reporting options not saving
+ * Remove temporary Direct order notes
+ * Add plugin version to order notes
+ * Make sure redirect_paid_orders only activates on Direct payments.
+
+2021.05.17 - version 5.1.1
+ * Version bump
+
+2021.05.10 - version 5.1.0
+ * Rename to Opayo Payment Suite
+ * 3D Secure for Opayo Direct changes to mitigate 5036 errors
+ * Remove PayPal from Opayo Pi card types notice
+ * WC 5.3
+
+2021.05.07 - version 5.0.1
+ * Check Opayo Direct orders for order status before sending for 3D Secure
+ * Opayo Form Protocol 4.00
+ * Use payment_complete for Authenticated/Authorised orders
+
+2021.05.04 - version 5.0.0
+ * Initial release of Opayo Pi. Supports payments and refunds. More features coming soon.
+
+2021.04.28 - version 4.10.2
+ * Check payment status before processing response from Opayo
+ * Method to append utm_nooverride
+
+2021.04.28 - version 4.10.1
+ * version bump
+
+2021.04.10 - version 4.10.0
+ * Move System Status additions to separate class
+ * Change SagePay to Opayo in System Status additions
+ * Update Opayo Direct checkout form and CSS to grid layout
+ * Fix payment method change fatal error occasionally
+ * WC 5.2.0
+ * Fix virtual orders not auto-completing
+ * Filter to hide customer message during 3D Secure process woocommerce_opayo_threeds_show_customer_message
+ * Filter for customer message during 3D Secure process woocommerce_opayo_threeds_customer_message
+ * 'BillingAgreement' => 0 for Opayo Form
+ * Optionally choose Opayo Direct card form template.
+
+2021.03.29 - version 4.9.0
+ * Remove Formally SagePay from plugin title
+ * Remove CVV setting from Opayo Direct settings
+ * Remove check for CVV setting
+ * Fix maybe_render_subscription_payment_method
+ * Update credit card template to use dropdowns for expiry date.
+ * Update checkout.css
+ * Allow sites to bypass AVS/CV2 checks for renewals (woocommerce_sagepay_direct_applyavscvv_for_renewals)
+ * 3D Secure in iFrames option
+ * Add version number to checkout CSS
+ * Customer messages during 3D Secure process, especially if JS is disabled.
+ * Save order after successful payment
+ * Custom needs_payment $this->opayo_needs_payment($order)
+ * Fix missing Transaction ID
+ * Bulk order action to capture authorised payment
+ * Fix action_scheduler for Opayo Reporting
+ * Fix Void Payment
+ * PHP 8 fixes
+ * Rework subscription renewals
+ * Soft declines
+ * Opayo Form : Don't rely on VendorTXCode for order details
+
+2021.02.04 - version 4.8.6
+ * Fix Undefined variable: return_url 
+ * Remove Require CVV for Token Payments option
+ * Change payment method messages for Chrome.
+ * Make sure cancelled PayPal transactions return to checkout
+ * Filter to allow sites to remove the CVV box from the checkout form for token payments
+
+2021.01.24 - version 4.8.5
+ * Make sure Change Payment Method use 3D Secure.
+ * Make sure Change Payment Method updates VPSProtocol and subsequent renewals use new VPSProtocol
+
+2021.01.13 - version 4.8.4
+ * Add filter to set order status for failed orders.
+ * Make sure free trial payments go through 3D Secure process
+
+2021.01.07 - version 4.8.2
+ * Make sure Protocol 4 transactions can be renewed if token is not created during initial transaction
+ * Add filters for reporting update_order_status
+   opayo_reporting_update_order_status_on_cancel
+   opayo_reporting_update_order_status_on_t3maction_hold
+   opayo_reporting_update_order_status_on_t3maction_reject
+ * Remove unnecessary void action
+ * new filter to force save cards - opayo_direct_force_saved_card
+
+2020.12.24 - version 4.8.1
+ * Remove Pi reference.
+
+2020.12.23 - version 4.8.0
+ * Opayo Reporting. Thanks to Geoff@Clubnet for his invaluable assistance!
+ * Opayo Reporting docs : https://docs.woocommerce.com/document/opayo-reporting/
+
+2020.12.14 - version 4.7.16
+ * Update credit-card-form.js
+ * Make sure clear_cart is only called for Direct payments made at the checkout.
+
+2020.11.29 - version 4.7.15
+ * Fix for Protocol 4 subscription renewals "StatusDetail=3373 : The ThreeDSExemptionIndicator field is missing"
+ * Extend checks column to subscription renewals if renewed using Protocol 4.00
+ * Make sure _sage_result is not updated in subscription parent order by renewal order
+ * Copy token to renewal orders if available
+ * Make sure existing token is stored in subscription order in Protocol 4
+ * Prevent refreshing/back button from sending PARes twice maybe.
+
+2020.11.16 - version 4.7.13
+ * Only retrieve order instance once in Opayo Direct 3D Secure
+ * Add option for negative discount values in the basket.
+ * Remove need for / in expiry date to allow for JavaScript issues from other plugins
+
+2020.11.11 - version 4.7.12
+ * Make sure errors update order status to pending
+
+2020.11.10 - version 4.7.11
+ * Make sure cart widget is cleared
+ * Extra logging
+
+2020.11.06 - version 4.7.10
+ * WC 4.7
+
+2020.11.01 - version 4.7.9
+ * Make sure all fields required are completed for noscript
+
+2020.10.29 - version 4.7.8
+ * Filter to allow sanitized card details to be stored with the order meta
+ * Make sure checkout error messages are retained during checkout account creation.
+
+2020.10.23 - version 4.7.7
+ * Improve colorDepth check
+ * Test Ip Address, revert to Protocol 3.00 for customers using IPv6 IP Addresses - 
+	IP Address is a required field for Protocol 4.00
+	Opayo does not support IPv6 on Protocol 4.00
+
+2020.10.22 - version 4.7.6
+ * Version bump
+
+2020.10.22 - version 4.7.5
+ * Fallback for missing session 
+
+2020.10.22 - version 4.7.4
+ * Additional 3D Secure validation
+
+2020.10.22 - version 4.7.3
+ * Version bump
+
+2020.10.22 - version 4.7.2
+ * Fix for invalid MD error for cards not in 3D Secure scheme when using certain browsers
+
+2020.10.22 - version 4.7.1
+ * Fix for browsers that return incorrect colorDepth values. See https://support.google.com/chrome/thread/53600062?hl=en for more information
+
+2020.10.15 - version 4.7.0
+ * Notices for Protocol 4.00
+ * Update for Protocol 4.00
+ * Update for 3D Secure 2.0, now available for Live transactions
+ * Reset vpsprotocol Opayo Direct option to 3.00 for Live sites
+ * Void payments order action
+
+2020.10.15 - version 4.6.11
+ * WC 4.6.0
+ * No Script message for 3D Secure
+
+2020.10.14 - version 4.6.10
+ * Add check for mb_convert_encoding
+ * Fix PayPal
+ * Refactor 3D Secure
+
+2020.10.08 - version 4.6.9
+ * Remove IP Address check for Opayo Direct
+
+2020.10.07 - version 4.6.8
+ * Improve IP Address check for Opayo Direct
+
+2020.10.07 - version 4.6.7
+ * Fix missing error in Chrome browser when 3D Secure fails
+ * Change URLs for success and fail
+ * Fallback redirect to payment success
+ * Bypass WC Checkout errors, use own system because Chrome :/
+
+2020.09.24 - version 4.6.6
+ * More tweaks for Chrome :/
+
+2020.09.22 - version 4.6.5
+ * Check 3D Secure status
+ * Make sure order status and order notes update for failed 3D Secure
+
+2020.09.17 - version 4.6.4
+ * Change admin labels to Opayo for Form
+ * Remove developer debugging code.
+
+2020.09.14 - version 4.6.3
+ * Change admin labels to Opayo
+ * Fix change payment method
+ * Fix XML basket deprecated function WC_Order_Item_Product::offsetSet
+
+2020.09.07 - version 4.6.2
+ * Fix logging
+
+2020.09.06 - version 4.6.1
+ * Opayo logo for checkout form
+
+2020.09.01 - version 4.6.0
+ * WC 4.4.0 compatibility 
+ * Sessions for 3D Secure
+
+2020.08.18 - version 4.5.5
+ * Fix names and address fields for Opayo Direct.
+
+2020.08.12 - version 4.5.4
+ * Fallback redirect for 'order cannot be paid for'
+ * html entities for opayo address args
+
+2020.08.04 - version 4.5.3
+ * Redirect to checkout for SagePay Direct transaction fails
+ * Update customer and admin error message for failed SagePay Direct transactions
+ * Remove unnecessary check during 3D Secure process
+ * Make sure transaction values are added to order meta for authenticate captures
+ * Rename plugin title to Opayo
+
+2020.07.24 - version 4.5.2
+ * Fix card not saving if there are no other cards saved for customer
+
+2020.07.13 - version 4.5.1
+ * Fixes for SagePay Direct 3D Secure
+
+2020.07.07 - version 4.5.0
+ * Fixes for SagePay Direct 3D Secure
+ * Direct - Remove 3D Secure files
+ * Cancel Subscriptions at PayPal on Payment Method Change.
+ * Make Cipher Method check case sensitive.
+ * Check $parent_id is object in maybe_render_subscription_payment_method
+ * New security checks meta box
+ * Add server IP address to System Status
+ * Switch to wc_get_template
+ * Remove deprecated functions
+ * Fix magic value check
+ * Improve ascii character check
+ * Opaco rebrand admin notice
+ * Optionally add utm_nooverride to 3D Secure URLs
+
+2020.05.06 - version 4.4.2
+ * clean up Form XMLs
+ * Maybe remove shipping line from standard basket line
+
+2020.05.05 - version 4.4.1
+ * Make sure Pay Later is SALE not AUTHENTICATE for Pre Orders
+ * Add filters for SagePay Direct URLs
+ * Make sure existing tokens save for Change Payment Method
+ * Update payment method name when switching subscription from another payment method, eg PayPal
+
+2020.04.15 - version 4.4.0
+ * Add GiftAid to SagePay Direct
+ * Remove 3D Secure Method settings, default to non-iFrame method (SameSite cookie)
+ * Filter just in case someone really wants to use the iFrame :/
+ * Add gift aid option for SagePay Direct.
+ * Move SagePay Direct CC form to a template file.
+
+2020.03.20 - version 4.3.1
+ * Fix fatal error for refunds.
+ * Tweaks for 3D Secure checks
+
+2020.03.13 - version 4.3.0
+ * Store transaction details for renewals and refunds
+ * WC 4.0.0 support
+ * Make sure "pay" button in My Account is hidden for authorised orders
+ * Check wc_add_notice is callable for non-standard payments
+ * Fix change payment method
+
+2019.12.19 - version 4.2.4
+ * Check wc_empty_cart is callable for non-standard payments
+ * Add translations (pot) file
+
+2019.12.09 - version 4.2.3
+ * Improve order notes for failed transactions
+ * Use $order->get_checkout_order_received_url() for OK
+
+2019.11.28 - version 4.2.2
+ * SagePay Direct - clean up "add new payment method" if tokens are not enabled
+
+2019.11.27 - version 4.2.1
+ * Revert to WooCommerce jQuery Payment
+ * Fix PayPal payment issue for SagePay Direct
+ * Make sure card details are not saved unless the option is ticked
+
+2019.11.22 - version 4.2.0
+ * Check payment status of renewal order before sending payment request.
+ * Override default WC template for "order pay" for iFrame 3D Secure.
+ * Tokens for renewals (again) 
+ * Remove deprecate subscriptions function "process_subscription_payments_on_order"
+ * Remove deprecate subscriptions function "process_subscription_payment_failure_on_order"
+ * Rework SagePay Direct
+ * Fix 3D Secure form showing twice
+
+2019.09.18 - version 4.1.2
+ * Tidy CVV field for token payments
+ * Remove legacy code for $this->get_return_url( $order )
+ * Update tokenisation scripts
+
+2019.09.13 - version 4.1.1
+ * Fix Direct card validation checks
+ * Additional test for correct order for SagePay Form
+
+2019.09.02 - version 4.1.0
+ * Clean up Apply3DSecure, set to 0 if settings show 2 or 3 (see docs) for Protocol 4
+ * Remove Protocol 4 for live transactions - see docs.
+
+2019.08.30 - version 4.0.3
+ * Remove template override for now.
+
+2019.08.30 - version 4.0.2
+ * Remove unused GiftAid line from request (that doesn't cause an issue in testing but does when live, sigh)
+
+2019.08.30 - version 4.0.1
+ * Make sure Pi is disabled
+
+2019.08.29 - version 4.0.0
+ * 3D Secure 2.0 support for SagePay Direct
+ * Add filters to allow surcharge settings to show for SagePay Form
+ * Fix totals display in WooCommerce emails when surcharges are added
+ * Remove some legacy woocommerce functions
+ * Code tidy for SagePay Direct
+ * Add basket to non-token renewal payments
+ * Fix orders going to failed after successful payment.
+ * Logging for subscription renewals
+ * Set DEFERRED payments to 'authorised' order status
+ * Check PayPal order status
+ * Send correct order_id for failed subscription renewals
+ * Remove tokens from Subscription renewals - token payments require 3D Secure.
+ * Make sure token transactions follow AVS/CVV rules
+
+2019.06.13 - version 3.14.0
+ * Add payment fail message to basket and order notes for SagePay Form
+ * Update order status to cancelled for payment failures.
+
+2019.06.11 - version 3.13.8
+ * Force empty city field for countries that don't use city
+ * Additional System Status checks : which SagePay methods are active.
+
+2019.05.30 - version 3.13.7
+ * Fix check for PayPal/CVV
+ * Force non-XML basket for PayPal transactions
+
+2019.05.23 - version 3.13.6
+ * Clear session variables if 3D Secure fails
+ * Limit field lengths for variables sent to Sage to avoid 5080 error
+
+2019.04.118 - version 3.13.5
+ * WooCommerce 3.6 fixes
+
+2019.04.12 - version 3.13.4
+ * Unload WooCommerce query.payment and use custom version to ensure card expiry numbers are 00 / 00 and not 00 / 0000
+
+2019.04.09 - version 3.13.3
+ * Remove html_entity_decode on SagePay Form failure URL
+ * Fix Uncaught Error: Wrong parameters for Exception
+ * Rework 3D Secure checks, add additional redirect if order does not to be paid
+
+2019.03.14 - version 3.13.2
+ * Add Authorised to needs_payment
+
+2019.03.13 - version 3.13.1
+ * fix woocommerce_sagepaydirect_credit_card_form_fields filter
+
+2019.02.28 - version 3.13.0
+ * Add authorised order status to wc_order_is_editable
+ * Allow basket options to be removed
+ * Check if pre-order requires payment now
+ * Add CVV option for token payments.
+ * Add 3D Secure option for token payments.
+
+2019.11.12 - version 3.12.4
+ * WC 3.5 notice
+
+2019.09.25 - version 3.12.3
+ * Update SSL check for SagePay Direct.
+
+2018.09.11 - version 3.12.2
+ * Set orders to fail where necessary, missed 2
+
+2018.09.10 - version 3.12.1
+ * PayPal as card option for Form
+ * Set orders to fail where necessary
+ * Update logging
+ * Tweak JS for non-iframe 3D Secure form
+
+2018.08.23 - version 3.12.0
+ * Improve transaction meta storage.
+ * Remove WC_Gateway_Sagepay_Direct_Update_Notice
+ * Replace is_ssl check with is_secure
+ * WC 3.4 compatibility
+ * Add "Diners Club" (uses DC)
+ * Fix PHP Fatal error:  Uncaught Error: Call to a member function empty_cart() on null
+
+2018.05.10 - version 3.11.2
+ * re-order $order_key_array array to cope with custom VendorTXCode prefixes.
+ * PayPal Logo for SagePay Form/Direct
+ * Fix PayPal transactions in Direct.
+
+2018.03.02 - version 3.11.0
+ * Fix PHP Fatal error:  Uncaught Error: Call to a member function empty_cart() on null
+ * Add support for PayPal with SagePay Direct
+
+2018.02.14 - version 3.10.3
+ * _sageresult for SagePay Form transactions - contains all the returned information from Sage
+
+2018.01.22 - version 3.10.2
+ * Additional 3D Secure error checks
+ * SagePay Form decrypt update
+
+2017.12.06 - version 3.10.1
+ * Add mcrypt/openSSL notes to the WooCommerce System Status
+ * Add php_max_input_vars message to the WooCommerce System Status
+ * openssl_encrypt and mCrypt "is_enabled" check
+ * tidy up file structure
+ * Fix & in XML baskets
+
+2017.11.12 - version 3.10.0
+ * Make sure cart is emptied
+ * Fix shipping address.
+ * Remove unnecessary “optional” token option.
+ * Make sure $this->vendortxcodeprefix is clean
+ * Add openssl support for SagePay Form.
+ * Add fraud screening check to SagePay Form
+ * Fix Direct dropdown if option has not been set in admin.
+ * Format the values sent in colon delimited basket.
+ * Add sanitised card details to SagePay Direct order notes.
+ * Set credit card fields to type="tel" for mobile checkout.
+
+2017.08.17 - version 3.9.1
+ * Update Woo Plugin Header
+ * Fix URLs for non standard installations
+ * Improve checkout error messages
+ * Redirect to checkout for card/address failures
+ * Make sure failed refunds return false
+ * Fix SagePay Direct Transaction details showing in emails when unchecked
+ * Add Authorised order status
+
+2017.07.05 - version 3.9.0
+ * Allow non-iFrame 3D Secure
+
+2017.06.26 - version 3.8.1
+ * Fix shipping calculations in baskets
+ * Fix Undefined Constant meta_output 
+
+2017.06.23 - version 3.8.0
+ * do_action added after $order->payment_complete();
+
+2017.05.25 - version 3.7.6
+ * Leave http/https in Success URL
+ * Add filter to Success URL
+ * Remove simulate option.
+ * Fix array to string conversion error when using coupons
+ * WooCommerce 3.1 fixes
+
+2017.05.04 - version 3.7.5
+ * Fix Uncaught Error: Call to undefined method WC_Order::get_shipping_total() 
+
+2017.05.02 - version 3.7.4
+ * Fix Fatal error: Call to undefined function apply_filter()
+ 
+2017.05.01 - version 3.7.3
+ * Fix - US state not sent correctly in Form/Direct
+ * Fix - add 'en-dash' in 'unwanted' array
+ * Improvement - Filter for meta data in basket. 
+ * Fix - order_shipping was called incorrectly
+
+2017.04.07 - version 3.7.2
+ * Fix - make sure delivery address information is always set even if shipping is not needed.
+ * General - remove references to Protocol 3.00
+
+2017.04.06 - version 3.7.1
+ * Fix mcrypt check for SagePay form
+
+2017.03.28 - version 3.7.0
+ * WooCommerce 3.0 compatibility
+ * Improvements to inline docs
+ * Optional additional SagePay info included in Admin new order email for Direct transactions.
+ * Remove “simulate” from SagePay Form
+ * Check for mcrypt and disable SagePay Form if not available
+
+2017.02.20 - version 3.5.1
+ * Remove line breaks
+
+2017.02.20 - version 3.5.0
+ * Option to send basket and choose format used
+
+2017.02.17 - version 3.4.1
+ * Fix for invalid basket
+
+2017.01.31 - version 3.4.0
+ * General - Change to XML for basket
+ * Add fraud screening check to SagePay Direct
+ * Add checks column to display Address, Postcode, CV2 and 3D Secure status
+
+2016.12.01 - version 3.3.9
+ * General - FORM - prevent orders from being updated more than once.
+
+2016.11.28 - version 3.3.8
+ * General - DIRECT - make card types translatable and add filter (wc_sagepaydirect_cardtypes)
+ * General - DIRECT - add Credit to Visa and MasterCard Card Type labels 
+
+2016.11.21 - version 3.3.7
+ * General - SagePay Form Set AUTHENTICATE and DEFERRED to processing 
+
+2016.10.31 - version 3.3.6
+ * Enhancement - filter arguments sent to Sage
+ * General - improve 3d secure checks
+ * Fix - Sage won't accept IP6 so reject anything over 15 characters.
+ * Fix - mb_convert_encoding
+
+2016.09.29 - version 3.3.5
+ * Enhancement - Add VendorTXCode prefix setting
+
+2016.07.16 - Version 3.3.4
+ * Fix - Non-static method WC_Sagepay_Common_Functions::build_vendortxcode()
+ * General - Add test card information to SagePay Form
+
+2016.07.02 - Version 3.3.3
+ * Fix - PHP7 Fatal Error
+
+2016.06.30 - Version 3.3.2
+ * Maintenance - tweak checkout.css
+ * Enhancement - replace VendorTXCode code with a common function build_vendortxcode
+ * Fix - re-add order->id in VendorTXCode, using $order->get_order_number() - causes issue from Sequential Order Numbers.
+ * Fix - stop saving cards unnecessarily 
+ * Fix - for £0 orders in SagePay Direct
+
+2016.06.22 - Version 3.3.0
+ * Enhancement - Tokens for SagePay Direct (requires WC 2.6)
+ * Maintenance - Move Form admin fields to separate file
+ * Fix - Update SagePay Form accepted card types.
+ * Maintenance - Combine Subscriptions and Pre-Orders into separate class 
+
+2016.05.11 - version 3.2.3
+ * Fix - version number bump
+
+2016.05.08 - version 3.2.2
+ * Fix - 3d Secure form exit
+
+2016.05.03 - version 3.2.1
+ * Maintenance - Add drop down to SagePay Direct for Credit Card Type, no more Bin List, unfortunately it’s too unreliable :(
+ * Maintenance - Limit basket to 7500 characters. Remove basket if length exceeds that.
+ * Enhancement - Allow credit card form fields to be filtered - ‘woocommerce_sagepaydirect_credit_card_form_fields’
+
+2016.04.26 - version 3.2.0
+ * Fix - only load sagepay-form-admin-notice-class.php in admin
+ * Maintenance - Use WC shipping address - SagePay Direct
+ * Maintenance - use WC()->session instead of $_SESSION
+ * Maintenance - Add default postcode option for Elavon users
+ * Maintenance - Add line break option
+ * Maintenance - Remove discount from basket if discount is 0
+ * Enhancement - Commenize functions.
+
+2016-03-18 - version 3.1.11
+ * Maintenance - Fix “trying to get property of none object”
+
+2016.02.29 - version 3.1.10
+ * Enhancement - Form mcrypt warning notice 
+ * Enhancement - Add $order to VendorTXCode filter
+ * Maintenance - Rename SagePay Form class file
+ * Maintenance - Use WC shipping address
+
+2016.02.08 - version 3.1.9
+ * Additional BIN checking for SagePay Direct.
+ * Allow VendorTXCode to be filtered.
+
+2015.12.11 - version 3.1.8
+ * Fix - URL for loading gif
+
+2015.11.27 - version 3.1.7
+ * Fix - Direct HTTPS admin notice showing when Direct is not enabled.
+
+2015.11.12 - version 3.1.6
+ * Fix - billing address fields should not be included in shipping address if billing and shipping are different.
+
+2015.11.04 - version 3.1.5
+ * Fix - Fatal error: Can't use function return value in write context
+
+2015.11.02 - version 3.1.4
+ * remove SSL notice from front end
+ * add check for WordPressHTTPS
+ * Make SSL name dismissible
+
+2015.10.04 - version 3.1.3
+ * Subscriptions 2.0
+
+2015.09.01 - version 3.1.2
+ * Fix - refunds
+ * Fix - Maestro card checking
+ * Fix - Undefined index: protocol
+ * General - No more 2.23
+
+2015.08.17 - version 3.1.1
+ * Interim fix for unwanted characters in SagePay Direct basket
+
+2015.07.26 - version 3.1.0
+ * Enhancement - Add basket to Direct
+ * Enhancement - improve SagePay Form error message, add info to System Status
+ * Enhancement - Add filters to shipping info
+ * Fix - deprecated function notice.
+ * Fix SagePay Direct $$
+ * WC 2.4 Compatibility
+
+2015.07.05 - version 3.0.3
+ * Fix - backwards compatibility with older versions of PHP
+ * Fix - missing CC image
+ * Enhancement - Improve delivery address checking
+
+2015.06.19 - version 3.0.2
+ * Fix - Image paths
+
+2015.06.17 - version 3.0.1
+ * Fix - Windows hosting path
+
+2015.06.14 - version 3.0.0
+ * Enhancement - SagePay Direct
+
+2015.03.11 - version 2.2.6
+ * SSL paths
+
+2015.02.24 - version 2.2.5
+ * Fix path to cc images
+
+2015.02.19 - version 2.2.4
+ * WC 2.3 compatibility
+
+2015.01.18 - version 2.2.3
+ * fix headers already sent message
+ * remove unnecessary nag notice code
+ * fix discount in My SagePay 
+
+2015.01.13 - version 2.2.1
+ * Proper logging
+ * Rearrange settings
+
+2014.12.21 - version 2.2.0
+ * Add “What is SagePay link
+ * Add SagePay Logo
+ * Add Protocol 3 nag notice - 2.23 is no longer supported after July 2015.
+
+2014.10.19 - version 2.1.8
+ * Add transaction ID to payment_complete for WC 2.2
+ * Add additional checks and die message if return fails
+ * Make V3 the default protocol in settings
+
+2014.05.29 - version 2.1.7
+ * remove spaces from TX Code if they exist
+
+2014.03.31 - version 2.1.6
+ * Allow $order->get_cancel_order_url() to be filtered
+
+2014.03.24 - version 2.1.5
+ * PayPal logo added to card types
+ * html_entity_decode( $order->get_cancel_order_url() )
+
+2014.03.09 - version 2.1.4
+ * check for shipping value in basket XML
+
+2014.02.07 - version 2.1.3
+ * modify success URL
+
+2014.01.18 - version 2.1.2
+ * Fix WC Deprecated function message (add_inline_js)
+ * Use proper checkout page redirect 
+
+2013.12.14 - Version 2.1.1
+ * WC 2.1 support
+ * use get_woocommerce_currency()
+
+2013.11.05 - Version 2.1.0
+ * Add Protocol 3 support
+ * Add surcharge XML / Settings / Add surcharge vhtml_entity_decode( $order->get_cancel_order_url() )alue to order
+ * Add Test and Simulate Encryption Password fields.
+ * Fix sagepay info in order notes 
+
+2013.10.16 - Version 2.0.5
+ * Remove debugging code causing some checkouts to not auto transfer to Sage
+
+2013.10.15 - Version 2.0.4
+ * Fix parse error
+
+2013.10.02 - Version 2.0.3
+ * Remove all the non-english things
+ * Add proper localization
+ * Add credit card chooser for Admin, image shown to customer reflects choice made in settings
+
+2013.06.06 - Version 2.0.2
+ * Added Sage return values to order notes
+
+2013.03.19 - Version 2.0.1
+ * Add Discount / Coupon to order information sent to SagePay
+
+2013.02.25 - Version 2.0.0
+ * Fix incorrect order status for deferred and registered payments
+ * Delivery State fix
+
+2012.12.05 - version 1.3.0
+ * Cleaned up code
+ * WC 2.0 Compat
+
+2012.12.05 - version 1.2.1
+ * Updater
+
+2012.05.30 - version 1.2
+ * Changes to allow integration with Sage 50 Accounts
+
+2012.01.26 - version 1.1.1
+ * WC 1.4 compatibility
+
+2011.12.01 - version 1.1
+ * Added Woo Updater
+ * Changed item price code to work better with WC 1.3
+
+2011.11.07 - version 1.0.1
+ * Fixed shipping address when not set
+
+2011.10.06 - version 1.0
+ * First Release

@@ -1,0 +1,7 @@
+{
+   "name": "Mailchimp for WordPress Premium",
+   "version": "4.8.21",
+   "author": "ibericode",
+   "requires": "4.5",
+   "tested": "5.9"
+}

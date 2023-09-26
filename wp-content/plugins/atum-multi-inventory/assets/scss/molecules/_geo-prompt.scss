@@ -1,0 +1,27 @@
+//
+// Geo Prompt
+//-------------
+
+.featherlight {
+	.geo-wrapper {
+		padding: $grid-gutter-width $grid-gutter-width 40px;
+		width: 350px;
+		text-align: left;
+		letter-spacing: normal;
+		font-style: normal;
+		font-weight: normal;
+		font-stretch: normal;
+		font-size: 15px;
+		line-height: 1.5;
+		
+		form {
+			
+			input[type=text] {
+				height: 30px;
+				background-color: transparent;
+				box-shadow: none;
+			}
+			
+		}
+	}
+}
